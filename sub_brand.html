@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sub_brand.css">
+      <!--[if lte IE 9]>
+    <script src="./js/dist/html5shiv.min.js"></script>
+    <script src="./js/dist/ie9.min.js"></script>
+    <script src="./js/dist/PIE.js"></script> 
+    <script src="./js/dist/responsive.min.js"></script>
+    <![endif]-->
+    
+    <script src="./js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="./js/jquery/jquery-ui.min.js"></script>
+    <title>어퓨</title>
+    <style type="text/css"></style>
+     <script type="text/javascript">
+         $(function(){
+            $('#bs_box').children('.brandstory_menubar').find('li').eq(0).on('click',function(){
+               $('#brandstory_box').find('img').attr('src','./img/article/sub_brand/brandstory_bi.png');  
+             });
+             
+            $('#bs_box').children('.brandstory_menubar').find('li').eq(1).on('click',function(){
+               $('#brandstory_box').find('img').attr('src','./img/article/sub_brand/brandstory_mark.png');
+             });
+            $('#bs_box').children('.brandstory_menubar').find('li').eq(2).on('click',function(){
+              $('#brandstory_box').find('img').attr('src','./img/article/sub_brand/brandstory_slogan.png');
+             });
+            $('#bs_box').children('.brandstory_menubar').find('li').eq(3).on('click',function(){
+              $('#brandstory_box').find('img').attr('src','./img/article/sub_brand/brandstory_si_concept.png');
+             });
+         });
+    </script>
+</head>
+
+<body>
+  <div id="wrap">
+  <div id="header_bgbox">
+   <div class="box" id="headerWrap">
+       <h1 class="me_link"><a href="layout.html"><span>어퓨</span></a></h1>
+            <h2>어퓨 전체 메뉴영역</h2>
+            <div id="sitemap">
+                <h3>어퓨 전체확인요소</h3>
+                <ul class="me_link">
+                    <li class="site01"><a href="#" title="로그인">로그인</a></li>
+                    <li class="site02"><a href="#" title="회원가입">회원가입</a></li>
+                    <li class="site03"><a href="#" title="장바구니">장바구니</a></li>
+                </ul>
+            </div><!--//#sitemap-->
+            <div id="gnb">
+            <h3>어퓨 종합네비게이션 메뉴</h3>
+            <ul class="me_link">
+                <li class="gnb_01"><a href="#"><span>브랜드</span></a></li>
+                <li class="gnb_02"><a href="#"><span>쇼핑</span></a></li>
+                <li class="gnb_03"><a href="#"><span>이벤트</span></a></li>
+                <li class="gnb_04"><a href="#"><span>커뮤니티</span></a></li>
+                <li class="gnb_05"><a href="#"><span>고객센터</span></a></li>
+            </ul>
+            </div><!--//#gnb-->
+            
+   </div><!--//#headerWrap-->
+   </div>
+  
+   <div id="article_bg">
+   <div class="box" id="articleWrap">
+     <h2>어퓨 본문영역</h2>
+     <div id="sub_head">
+         <h3>서브메뉴영역</h3>
+         <div id="brand_maintitle"><span class="me_hidden">브랜드</span></div>
+         <div id="brand_submenu"><span class="me_hidden">메뉴전체보기</span></div>
+     </div>
+     
+      <div id="brand" class="item">
+          <h3>브랜드 소개</h3>
+          <div class="brand_title"></div>
+          <div id="brand_title_image">
+              <ul>
+                  <li class="brand_apieu1"><span class="me_hidden">어퓨매장이미지_1</span></li>
+                  <li class="brand_apieu2"><span class="me_hidden">어퓨매장이미지_2</span></li>
+                  <li class="brand_apieu3"><span class="me_hidden">어퓨매장이미지_3</span></li>
+                
+              </ul>
+          </div>
+      </div><!--//#brand-->
+      <div id="story" class="item">
+         <h3>브랜드 스토리영역</h3>
+         <div class="brandstory_title">   
+          </div>
+          <div id="bs_box">
+              <div class="brandstory_menubar">
+                             <ul class="me_link">
+                             <li class="bs_bi"><a href="javascript:void(0);"><span>bs_bi</span></a></li>
+                             <li class="bs_mark"><a href="javascript:void(0);"><span>bs_mark</span></a></li>
+                             <li class="bs_slogan"><a href="javascript:void(0);"><span>bs_slogan</span></a></li>
+                             <li class="bs_si"><a href="javascript:void(0);"><span>bs_si</span></a></li>
+                             </ul>
+                         </div>
+                  <div id="brandstory_box">
+                        <img src="./img/article/sub_brand/brandstory_bi.png" alt="어퓨 브랜드스토리 이미지입니다." />
+                       
+                  </div>
+          </div>
+      </div><!--//#story-->
+      <div id="etc"  class="item">
+          <div id="membership_store">
+        <h3>멤버쉽카드와 매장 영역</h3>
+            <div id="store_box">
+        <h4><span class="me_hidden">플래그쉽 스토어</span></h4>
+            <div class="store"><span class="me_hidden">플래그쉽스토어 바로가기</span></div>
+            <div id="store_formbox">
+                <form action="" method="get" role="search">
+                 <fieldset class="store1">
+                      <legend><span class="me_hidden">지역으로 찾기</span></legend>
+                     <ul>
+                         <li>
+                            <select name="" id="store_city">
+                                  <option> -- 지역선택 -- </option>
+                                  <option value="서울">서울</option>
+                                  <option value="경기도">경기도</option>
+                                  <option value="경상도">경상도</option>
+                                  <option value="전라도">전라도</option>
+                                  <option value="충청도">충청도</option>
+                                  <option value="강원도">강원도</option>
+                                  <option value="제주도">제주도</option>
+                              </select>
+                        </li>
+                         <li><button type="button"><span class="me_hidden">검색</span></button></li>
+                     </ul>
+                     
+                  </fieldset>
+                  <fieldset class="store2">
+                      <legend><span class="me_hidden">키워드로 찾기</span></legend>
+                      <input type="search" name="searchBox" id="searchBox" value="" />
+                      <label for="searchBox" class="me_hidden">키워드를 검색하세요.</label>
+                      <button type="button"><span class="me_hidden">검색</span></button>
+                  </fieldset>
+                 </form> 
+                 </div>
+            </div>
+            <div id="membership_box">
+        <h4><span class="me_hidden">멤버쉽</span></h4>
+            <div class="membership_card">
+            <button class="btn_01"></button>
+            </div>
+            </div>
+          </div><!--//#membership_store-->
+      </div> <!--//#etc-->
+   </div><!--//#articleWrap-->
+   </div>
+   <div id="footerWrap_box">
+       <div class="box" id="footerWrap">
+          <h2>어퓨 정보란</h2>
+           <ul>
+               <li class="sns">
+                  <h3><span class="me_hidden">어퓨 SNS</span></h3>
+                   <ul class="me_link">
+                       <li class ="kakao"><a href="#"><span>카카오</span></a></li>
+                       <li class ="twitter"><a href="#"><span>트위터</span></a></li>
+                       <li class ="facebook"><a href="#"><span>페이스북</span></a></li>
+                       <li class ="instagram"><a href="#"><span>인스타</span></a></li>
+                   </ul>
+               </li>
+               <li class="footer_box">
+                    <h3><span>어퓨 푸터 로고</span></h3>
+                    <div id="addBox">
+                        <ul>
+                            <li>
+                            <address>
+                            <p>
+                            주소 : 서울 특별시 금천구 가산디지털 1로 119 sk트윈테크타워 A동 3층
+                            </p>
+                            <p>
+                            대표 : 서영필 / 사업자등록번호 :  119 - 81 - 34685
+                            </p>
+                            <p>
+                            통신판매 신고번호 : 제2002-00018호 /  개인정보 보호책임자 : 이광열
+                            </p>
+                            <p>
+                            문의전화 : 080 - 080 - 4936 / FAX : 02 - 6292-6894
+                            </p>
+                            메일 : cs@beautynet.co.kr  /  webmaster@beautynet.co.kr
+                            </address>
+                            </li>
+                            <li>
+                                COPYRIGHT(C) ABLIC&amp;C, ALL RIGHT RESERVED.
+                            </li>
+                        </ul>
+                    </div>
+               </li>
+           </ul>
+       </div>
+   </div>
+   </div><!--//#wrap-->
+</body>
+</html>

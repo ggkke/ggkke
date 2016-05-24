@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+      <!--[if lte IE 9]>
+    <script src="./js/dist/html5shiv.min.js"></script>
+    <script src="./js/dist/ie9.min.js"></script>
+    <script src="./js/dist/PIE.js"></script> 
+    <script src="./js/dist/responsive.min.js"></script>
+    <![endif]-->
+    
+    <script src="./js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="./js/jquery/jquery-ui.min.js"></script>
+    <title>어퓨</title>
+    <style type="text/css"></style>
+     <script type="text/javascript">
+         $(function(){
+             var btn_01 =  $('#btn_box').find('.btn_01');
+             var btn_02 =  $('#btn_box').find('.btn_02');
+             var banner = $('.banner_box').children('ul');
+       
+            btn_01.on('click',function(){
+             banner.animate({'margin-left':'0'},500);   
+             });
+             
+         
+            btn_02.on('click',function(){
+            banner.animate({'margin-left':'-200%'},500); 
+            });
+              
+            $('.banner_box').children('#indicator_box').find('li').eq(1).on('click',function(){
+               /* $('.banner_box').children('#indicator_box').find('li').eq(1).css('background-color','#fac');*/
+               $('.banner_box_page').children('li').find('img').attr('src',"./img/banner/banner_1.png");
+             }); 
+             $('.banner_box').children('#indicator_box').find('li').eq(2).on('click',function(){
+                $('.banner_box_page').children('li').find('img').attr('src',"./img/banner/banner_2.png");
+             }); 
+             $('.banner_box').children('#indicator_box').find('li').eq(3).on('click',function(){
+                $('.banner_box_page').children('li').find('img').attr('src',"./img/banner/banner_3.png");
+             }); 
+             $('.banner_box').children('#indicator_box').find('li').eq(4).on('click',function(){
+                $('.banner_box_page').children('li').find('img').attr('src',"./img/banner/banner_4.png");
+             }); 
+// div 요소를 <h2>New heading</h2> 요소로 변경한다.
+    });
+    </script>
+</head>
+
+<body>
+  <div id="wrap">
+  <div id="header_bgbox">
+   <div class="box" id="headerWrap">
+       <h1 class="me_link"><a href="layout.html"><span>어퓨</span></a></h1>
+       <h2>어퓨 전체 메뉴영역</h2> 
+          <div id="menu"><span class="me_hidden">메뉴</span></div>
+           <div id="sitemap">
+                <h3>어퓨 전체확인요소</h3>
+                   <ul class="me_link">
+                        <li class="site01"><a href="#" title="로그인">로그인</a></li>
+                        <li class="site02"><a href="#" title="회원가입">회원가입</a></li>
+                        <li class="site03"><a href="#" title="장바구니">장바구니</a></li>
+                    </ul>
+            </div><!--//#sitemap-->
+            <div id="gnb">
+                <h3>어퓨 종합네비게이션 메뉴</h3>
+                    <ul class="me_link">
+                        <li class="gnb_01"><a href="./sub_brand.html"><span>브랜드</span></a></li>
+                        <li class="gnb_02"><a href="#"><span>쇼핑</span></a></li>
+                        <li class="gnb_03"><a href="#"><span>이벤트</span></a></li>
+                        <li class="gnb_04"><a href="#"><span>커뮤니티</span></a></li>
+                        <li class="gnb_05"><a href="#"><span>고객센터</span></a></li>
+                    </ul>
+            </div><!--//#gnb-->
+    </div><!--//#header_bgbox-->
+   </div><!--//#header_bgbox-->
+   <div class="box" id="bannerWrap">
+     <h2>어퓨 배너영역</h2>
+         <div class="banner_box">
+              <div id="btn_box">
+                 <h3>어퓨배너 버튼</h3>
+                  <button class="btn_01"></button>
+                  <button class="btn_02"></button>
+              </div> 
+                <ol id="indicator_box">
+                       <li class="stop_wrap"><button type="button"><span class="me_hidden">stop</span></button></li>
+                        <li class="indicator_1"></li>
+                        <li class="indicator_2"></li>
+                        <li class="indicator_3"></li>
+                        <li class="indicator_4"></li>
+                </ol><!--indicator-->
+                <ul class="banner_box_page">
+                   <li class="banner_01 page"><img src="./img/banner/banner_1.png" alt="첫번째 배너입니다" /></li>
+                   <li class="banner_02 page"><img src="./img/banner/banner_2.png" alt="두번째 배너입니다" /></li>
+                   <li class="banner_03 page"><img src="./img/banner/banner_3.png" alt="세번째 배너입니다" /></li>
+                   <li class="banner_04 page"><img src="./img/banner/banner_4.png" alt="네번째 배너입니다" /></li>
+                </ul>
+          </div>
+   </div><!--#bannerWrap-->
+   
+   <div id="article_bg">
+   <div class="box" id="articleWrap">
+     <h2>어퓨 본문영역</h2>
+     
+      <div id="best_item" class="item">
+          <h3>어퓨 베스트 아이템영역</h3>
+              <div class="bestitem_title"></div>
+              <div id="best_item_image">
+                  <ul>
+                      <li class="best_01"><a href="#"><span>상품1</span></a></li>
+                      <li class="best_02"><a href="#"><span>상품2</span></a></li>
+                      <li class="best_03"><a href="#"><span>상품3</span></a></li>
+                  </ul>
+              </div>
+      </div><!--//#best_item-->
+      <div id="movie" class="item">
+         <h3>어퓨 movie 영역</h3>
+         <div class="movie_title">   
+          </div>
+          <div id="movie_bg">
+              <div id="movie_box">
+                  <ul>
+                      <li class="movie_box_img"></li>
+                      <li class="movie_box_content">
+                          <ul>
+                              <li class="movie_con_txt">
+                                   <h4><span class="me_hidden">movie 영역 제목</span></h4>
+                                   <button class="movie_btn"></button>
+                              </li>
+                              <li class="movie_con_img"></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div><!--//#movie-->
+      
+      <div id="etc"  class="item">
+         <ul>
+              <li id="news">
+                  <h3>news영역</h3>
+                   <div id="news_title">
+               
+                   </div><!--//.item_title-->
+                   <div id="news_content">
+                      <ul>
+                      <li class="news_image"></li>
+                      <li class="news_txt">
+                          <ul>
+                              <li>공지사항1</li>
+                              <li>공지사항2</li>
+                              <li>공지사항3</li>
+                              <li>공지사항4</li>
+                              <li>공지사항5</li>
+                          </ul>
+                      </li>
+                      </ul>
+                   </div><!--//#news_content-->
+
+              </li><!--//#news-->
+              <li id="membership_store">
+                  <h3>멤버쉽카드와 매장 영역</h3>
+                    <ul>
+                      <li class="membership_card">
+                        <button class="btn_01"></button>
+                      </li>
+                      <li class="store">
+                        <button class="btn_02"></button>
+                      </li>
+              </ul>
+              </li><!--//#membership_store-->
+          </ul>
+      </div> <!--//#etc-->
+   </div><!--//#articleWrap-->
+   </div>
+   <div id="footerWrap_box">
+       <div class="box" id="footerWrap">
+          <h2>어퓨 정보란</h2>
+           <ul>
+               <li class="sns">
+                  <h3><span class="me_hidden">어퓨 SNS</span></h3>
+                      <ul class="me_link">
+                           <li class ="kakao"><a href="#"><span>카카오</span></a></li>
+                           <li class ="twitter"><a href="#"><span>트위터</span></a></li>
+                           <li class ="facebook"><a href="#"><span>페이스북</span></a></li>
+                           <li class ="instagram"><a href="#"><span>인스타</span></a></li>
+                       </ul>  
+               </li>
+               <li class="footer_box">
+                    <h3><span class="me_hidden">어퓨 푸터 로고</span></h3>
+                        <div id="addBox">
+                            <ul>
+                                <li>
+                                <address>
+                                <p>
+                                주소 : 서울 특별시 금천구 가산디지털 1로 119 sk트윈테크타워 A동 3층
+                                </p>
+                                <p>
+                                대표 : 서영필 / 사업자등록번호 :  119 - 81 - 34685
+                                </p>
+                                <p>
+                                통신판매 신고번호 : 제2002-00018호 /  개인정보 보호책임자 : 이광열
+                                </p>
+                                <p>
+                                문의전화 : 080 - 080 - 4936 / FAX : 02 - 6292-6894
+                                </p>
+                                메일 : cs@beautynet.co.kr  /  webmaster@beautynet.co.kr
+                                </address>
+                                </li>
+                                <li>
+                                    COPYRIGHT(C) ABLIC&amp;C, ALL RIGHT RESERVED.
+                                </li>
+                            </ul>
+                        </div><!--#addBox-->
+               </li><!--.footer_box-->
+           </ul>
+       </div>
+   </div>
+   </div><!--//#wrap-->
+</body>
+</html>
