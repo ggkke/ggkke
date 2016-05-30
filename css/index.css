@@ -132,8 +132,8 @@ html { height: 100%; }
 
 @media screen and (max-width: 480px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
   .item { margin: 1.5625rem 0; }
-  html { height: 100%; }
-  #wrap { width: 100%; height: auto; }
+  html { height: 100%; overflow-x: hidden; }
+  #wrap { width: 100%; height: auto; overflow: hidden; }
   #wrap > div { margin: 0 auto; }
   * { transition: all 0.5s ease-out; }
   /*---------header--------------*/
@@ -167,10 +167,10 @@ html { height: 100%; }
   /*---------banner--------------*/
   #bannerWrap { width: 100%; height: 62vw; min-height: 100%; min-width: 100%; overflow: hidden; position: relative; background-color: #e8c28d; }
   #bannerWrap > .banner_box { width: 100%; height: 100%; }
-  #bannerWrap > .banner_box > div { width: 60rem; height: 9.375rem; position: absolute; top: 60%; margin-top: 0.625rem; z-index: 100; left: 43%; margin-left: -43.66vw; }
-  #bannerWrap > .banner_box > div > button { width: 3.75rem; height: 6.375rem; background-color: transparent; }
-  #bannerWrap > .banner_box > div > .btn_01 { background-image: url("../img/banner/banner_left.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 38%; }
-  #bannerWrap > .banner_box > div > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 38%; }
+  #bannerWrap > .banner_box > #btn_box { width: 200px; height: 9.375rem; position: absolute; top: 60%; margin-top: 0.625rem; z-index: 100; left: 42%; margin-left: -43.66vw; }
+  #bannerWrap > .banner_box > #btn_box > button { width: 3.75rem; height: 6.375rem; background-color: transparent; }
+  #bannerWrap > .banner_box > #btn_box > .btn_01 { background-image: url("../img/banner/banner_left.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 38%; }
+  #bannerWrap > .banner_box > #btn_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 38%; }
   #bannerWrap > .banner_box > ol { width: 7.5rem; height: 1.25rem; position: absolute; bottom: 0.225rem; left: 32%; z-index: 20; float: left; }
   #bannerWrap > .banner_box > ol > li { width: 0.9375rem; height: 0.9375rem; float: left; margin-right: 0.3125rem; }
   #bannerWrap > .banner_box > ol > .stop_wrap { width: 1.25rem; height: 1.25rem; background-image: url("../img/banner/index_banner_ctr_bt_stop.png"); background-repeat: no-repeat; cursor: pointer; }
@@ -207,7 +207,7 @@ html { height: 100%; }
   #article_bg #articleWrap > #movie > #movie_bg > #movie_box ul > .movie_box_content > ul > .movie_con_txt > h4 { width: 35vw; height: 7.875vw; background-image: url(../img/article/index_movie_txt.png); background-repeat: no-repeat; background-size: 100%; }
   #article_bg #articleWrap > #movie > #movie_bg > #movie_box ul > .movie_box_content > ul > .movie_con_txt > button { width: 28vw; height: 5.5vw; background-image: url(../img/article/index_movie_btn.png); background-repeat: no-repeat; background-size: 100%; cursor: pointer; margin-left: 8vw; }
   #article_bg #articleWrap > #movie > #movie_bg > #movie_box ul > .movie_box_content > ul > .movie_con_img { display: none; }
-  #article_bg #articleWrap > #etc { width: 100%; height: 125vw; margin-left: -1.5rem; }
+  #article_bg #articleWrap > #etc { width: 80%; height: 125vw; margin-left: -1.5rem; }
   #article_bg #articleWrap > #etc > ul { width: 100%; height: 100%; }
   #article_bg #articleWrap > #etc > ul > li { width: 100%; height: 50%; }
   #article_bg #articleWrap > #etc > ul > #news { width: 100%; height: 40%; }
@@ -220,26 +220,27 @@ html { height: 100%; }
   #article_bg #articleWrap > #etc > ul > #news > #news_content > ul > .news_txt > ul { width: 100%; height: 100%; margin-left: 2rem; }
   #article_bg #articleWrap > #etc > ul > #news > #news_content > ul > .news_txt > ul > li { list-style: disc; line-height: 2rem; font-size: 0.825rem; }
   #article_bg #articleWrap > #etc > ul > #news > #news_content > ul > .news_txt > ul > li:last-child { display: none; }
-  #article_bg #articleWrap > #etc > ul > #membership_store { width: 100%; height: 50%; position: relative; margin-left: 10vw; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul { width: 100%; height: 50%; }
+  #article_bg #articleWrap > #etc > ul > #membership_store { width: 100%; height: 50%; position: relative; background-position: center; left: 11.2%; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul { width: 180px; height: 50%; }
   #article_bg #articleWrap > #etc > ul > #membership_store > ul > li { width: 100%; height: 50%; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > li > a { width: inherit; height: inherit; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card { height: 100%; background-image: url(../img/article/tab/membership_tab_off.png); background-repeat: no-repeat; background-size: 100%; background-position: center; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card > button { width: 16vw; height: 2.91666vw; cursor: pointer; box-shadow: .0625rem 0 .125rem; margin-top: 22vw; margin-left: 18vw; background-image: url(../img/article/button_1.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > li > a { width: 100%; height: 100%; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card { width: 100%; height: 100%; background-image: url(../img/article/tab/membership_tab_off.png); background-repeat: no-repeat; background-size: 100%; background-position: center; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card > button { width: 16vw; height: 2.91666vw; cursor: pointer; box-shadow: .0625rem 0 .125rem; margin-top: 22vw; margin-left: 60px; background-image: url(../img/article/button_1.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
   #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card:hover { background-image: url(../img/article/tab/membership_tab_on.png); background-repeat: no-repeat; transition: .5s ease-in-out; background-position: center; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store { height: 100%; background-image: url(../img/article/tab/store_tab_off.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store > button { width: 16vw; height: 2.91666vw; cursor: pointer; box-shadow: .0625rem 0 .125rem; margin-top: 22vw; margin-left: 18vw; background-image: url(../img/article/button_2.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store { width: 100%; height: 100%; background-image: url(../img/article/tab/store_tab_off.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store > button { width: 16vw; height: 2.91666vw; cursor: pointer; box-shadow: .0625rem 0 .125rem; margin-top: 22vw; margin-left: 60px; background-image: url(../img/article/button_2.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
   #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store:hover { background-image: url(../img/article/tab/store_tab_on.png); background-repeat: no-repeat; background-position: center; transition: .5s ease-in-out; }
-  #article_bg #articleWrap #top_box { width: 100%; height: 50px; background-color: #eee; border-top: 1px solid #aaa; margin-bottom: 10px; }
+  #article_bg #articleWrap #top_box { width: calc(100% - 30px); height: 50px; background-color: #eee; border-top: 1px solid #aaa; margin-bottom: 10px; padding-left: 30px; }
   #article_bg #articleWrap #top_box .top_btn { width: 100px; height: 27px; background-image: url(../img/article/top.png); background-repeat: no-repeat; background-size: 60%; margin: 0 auto; margin-top: 18px; }
+  #article_bg #articleWrap #top_box .top_btn > .top_btn > a { width: 100%; height: 100%; cursor: pointer; }
   /*---------footer--------------*/
-  #footerWrap_box { width: 100%; height: 15rem; background-color: #e8c28d; overflow: hidden; }
+  #footerWrap_box { width: 100%; height: 12rem; background-color: #e8c28d; overflow: hidden; }
   #footerWrap_box > #footerWrap { width: calc(100% - 2rem); height: 100%; background-color: #e8c28d; margin: 0 auto; }
   #footerWrap_box > #footerWrap > ul { width: 100%; height: 100%; }
-  #footerWrap_box > #footerWrap > ul > .sns { width: 100%; height: 5rem; }
-  #footerWrap_box > #footerWrap > ul > .sns > h3 { width: 10vw; height: 1.875rem; background-image: url(../img/footer/sns.png); background-repeat: no-repeat; background-size: contain; margin-left: 12vw; margin-top: 1.425rem; }
+  #footerWrap_box > #footerWrap > ul > .sns { width: 100%; height: 60px; }
+  #footerWrap_box > #footerWrap > ul > .sns > h3 { width: 10vw; height: 20px; background-image: url(../img/footer/sns.png); background-repeat: no-repeat; background-size: contain; margin-left: 12vw; margin-top: 1.425rem; }
   #footerWrap_box > #footerWrap > ul > .sns > ul { width: 100%; height: 100%; min-height: 5rem; margin-right: 1rem; background-color: rgba(200, 200, 200, 0.1); box-shadow: .03125rem .03125rem .125rem; }
-  #footerWrap_box > #footerWrap > ul > .sns > ul > li { width: 25%; height: 100%; float: left; margin-right: 0.0375rem; margin-top: 0.625rem; }
+  #footerWrap_box > #footerWrap > ul > .sns > ul > li { width: 25%; height: 50%; float: left; margin-right: 0.0375rem; margin-top: 0.625rem; }
   #footerWrap_box > #footerWrap > ul > .sns > ul > .kakao { width: 2.875rem; height: 2.75rem; background-image: url("../img/footer/icon_kakao.png"); background-repeat: no-repeat; background-size: 70%; }
   #footerWrap_box > #footerWrap > ul > .sns > ul > .kakao:hover { background-image: url(../img/footer/icon_kakao_on.png); background-size: 70%; transition: .4s ease-in-out; }
   #footerWrap_box > #footerWrap > ul > .sns > ul > .twitter { width: 2.875rem; height: 2.75rem; background-image: url("../img/footer/icon_tw.png"); background-repeat: no-repeat; background-size: 70%; }
