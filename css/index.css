@@ -10,11 +10,21 @@ html { height: 100%; }
 
 * { transition: all 0.5s ease-out; }
 
+#menu > .menuclose_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; top: 0; cursor: pointer; background-color: transparent; }
+
 /*---------header--------------*/
 #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: hidden; }
 #header_bgbox > #headerWrap { width: 59.25rem; height: calc(100% - 1rem); padding: 1rem .375rem 0; margin: 0 auto; background-color: rgba(253, 208, 158, 0); }
 #header_bgbox > #headerWrap > h1 { width: 7.25rem; height: 2.975rem; float: left; margin-left: 1.875rem; }
 #header_bgbox > #headerWrap > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/header/header_logo.png"); background-repeat: no-repeat; background-position: left; }
+#header_bgbox > #headerWrap > #menu { width: auto; height: auto; float: right; margin-right: 7%; position: relative; }
+#header_bgbox > #headerWrap > #menu > .menu_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/menu.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; top: 0; cursor: pointer; background-color: transparent; }
+#header_bgbox > #headerWrap > #menu > dl { width: 96.5vw; height: 0; margin-left: -81vw; position: absolute; z-index: 60; overflow: hidden; top: 166%; }
+#header_bgbox > #headerWrap > #menu > dl > dt { width: 100%; height: 10vw; background-color: #ccc; text-align: center; line-height: 3rem; font-size: 1rem; font-weight: bold; color: #f1f1f1; border: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
+#header_bgbox > #headerWrap > #menu > dl > dt:hover { background-color: #ccc; }
+#header_bgbox > #headerWrap > #menu > dl > dd { width: 100%; height: 0; background-color: #595959; /*transition: height .5s;*/ overflow: hidden; cursor: pointer; }
+#header_bgbox > #headerWrap > #menu > dl > dd > ul > li { text-align: center; line-height: 3rem; font-size: 1rem; font-weight: bold; color: #f1f1f1; border: 1px solid #fff; }
+#header_bgbox > #headerWrap > #menu > dl > dd > ul > li:hover { background-color: #ffe; color: #595959; }
 #header_bgbox > #headerWrap > #sitemap { width: 14.125rem; height: 0.9375rem; float: right; margin-bottom: 0.73rem; }
 #header_bgbox > #headerWrap > #sitemap > ul { width: 100%; height: 100%; margin-left: 1.875rem; }
 #header_bgbox > #headerWrap > #sitemap > ul > li { height: 45%; float: left; margin-top: -0.625rem; margin-left: 0.1875rem; border-right: 0.0625px solid #ccc; padding: 0.3125rem 0.5rem; }
@@ -136,12 +146,20 @@ html { height: 100%; }
   #wrap { width: 100%; height: auto; overflow: hidden; }
   #wrap > div { margin: 0 auto; }
   * { transition: all 0.5s ease-out; }
+  #menu > .menuclose_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; top: 0; cursor: pointer; background-color: transparent; }
   /*---------header--------------*/
-  #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: hidden; }
+  #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: visible; }
   #header_bgbox > #headerWrap { width: 100%; height: calc(100% - 1rem); padding: 1rem .375rem 0; margin: 0 auto; background-color: rgba(253, 208, 158, 0); }
-  #header_bgbox > #headerWrap > h1 { width: 7.25rem; height: 2.975rem; float: left; margin-left: 30%; }
+  #header_bgbox > #headerWrap > h1 { width: 7.25rem; height: 2.975rem; float: left; margin-left: 34%; }
   #header_bgbox > #headerWrap > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/header/header_logo.png"); background-repeat: no-repeat; background-position: left; }
-  #header_bgbox > #headerWrap > #menu { width: 48px; height: 46px; background-image: url(../img/header/menu.png); background-repeat: no-repeat; background-size: 80%; float: right; margin-right: 5%; margin-top: 0.325rem; }
+  #header_bgbox > #headerWrap > #menu { width: auto; height: auto; float: right; margin-right: 7%; position: relative; }
+  #header_bgbox > #headerWrap > #menu > .menu_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/menu.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; top: 0; cursor: pointer; background-color: transparent; }
+  #header_bgbox > #headerWrap > #menu > dl { width: 96.5vw; height: 0; margin-left: -81vw; position: absolute; z-index: 60; overflow: hidden; top: 166%; }
+  #header_bgbox > #headerWrap > #menu > dl > dt { width: 100%; height: 10vw; background-color: #ccc; text-align: center; line-height: 3rem; font-size: 1rem; font-weight: bold; color: #f1f1f1; border: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
+  #header_bgbox > #headerWrap > #menu > dl > dt:hover { background-color: #ccc; }
+  #header_bgbox > #headerWrap > #menu > dl > dd { width: 100%; height: 0; background-color: #595959; /*transition: height .5s;*/ overflow: hidden; cursor: pointer; }
+  #header_bgbox > #headerWrap > #menu > dl > dd > ul > li { text-align: center; line-height: 3rem; font-size: 1rem; font-weight: bold; color: #f1f1f1; border: 1px solid #fff; }
+  #header_bgbox > #headerWrap > #menu > dl > dd > ul > li:hover { background-color: #ffe; color: #595959; }
   #header_bgbox > #headerWrap > #sitemap { display: none; width: 14.125rem; height: 0.9375rem; float: right; margin-bottom: 0.73rem; }
   #header_bgbox > #headerWrap > #sitemap > ul { width: 100%; height: 100%; margin-left: 1vw; }
   #header_bgbox > #headerWrap > #sitemap > ul > li { height: 45%; float: left; margin-top: -0.625rem; margin-left: 0.1875rem; border-right: 0.0625px solid #ccc; padding: 0.3125rem 0.5rem; }
@@ -167,7 +185,7 @@ html { height: 100%; }
   /*---------banner--------------*/
   #bannerWrap { width: 100%; height: 62vw; min-height: 100%; min-width: 100%; overflow: hidden; position: relative; background-color: #e8c28d; }
   #bannerWrap > .banner_box { width: 100%; height: 100%; }
-  #bannerWrap > .banner_box > #btn_box { width: 200px; height: 9.375rem; position: absolute; top: 60%; margin-top: 0.625rem; z-index: 100; left: 42%; margin-left: -43.66vw; }
+  #bannerWrap > .banner_box > #btn_box { width: 200px; height: 9.375rem; position: absolute; top: 60%; margin-top: 0.625rem; z-index: 10; left: 42%; margin-left: -43.66vw; }
   #bannerWrap > .banner_box > #btn_box > button { width: 3.75rem; height: 6.375rem; background-color: transparent; }
   #bannerWrap > .banner_box > #btn_box > .btn_01 { background-image: url("../img/banner/banner_left.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 38%; }
   #bannerWrap > .banner_box > #btn_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 38%; }
@@ -261,12 +279,20 @@ html { height: 100%; }
   #wrap { width: 100%; height: auto; }
   #wrap > div { margin: 0 auto; }
   * { transition: all 0.5s ease-out; }
+  #menu > .menuclose_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; top: 0; cursor: pointer; background-color: transparent; }
   /*---------header--------------*/
-  #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: hidden; }
+  #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: visible; }
   #header_bgbox > #headerWrap { width: 100%; height: calc(100% - 1rem); padding: 1rem .375rem 0; margin: 0 auto; background-color: rgba(253, 208, 158, 0); }
   #header_bgbox > #headerWrap > h1 { width: 7.25rem; height: 2.975rem; float: left; margin-left: 37%; }
   #header_bgbox > #headerWrap > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/header/header_logo.png"); background-repeat: no-repeat; background-position: left; }
-  #header_bgbox > #headerWrap > #menu { width: 48px; height: 46px; background-image: url(../img/header/menu.png); background-repeat: no-repeat; background-size: 90%; float: right; margin-right: 10%; margin-top: 0.325rem; }
+  #header_bgbox > #headerWrap > #menu { width: auto; height: auto; float: right; margin-right: 7%; position: relative; }
+  #header_bgbox > #headerWrap > #menu > .menu_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/menu.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; top: 0; cursor: pointer; background-color: transparent; }
+  #header_bgbox > #headerWrap > #menu > dl { width: 96.5vw; height: 0; margin-left: -81vw; position: absolute; z-index: 60; overflow: hidden; top: 166%; }
+  #header_bgbox > #headerWrap > #menu > dl > dt { width: 100%; height: 10vw; background-color: #ccc; text-align: center; line-height: 3rem; font-size: 1rem; font-weight: bold; color: #f1f1f1; border: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
+  #header_bgbox > #headerWrap > #menu > dl > dt:hover { background-color: #ccc; }
+  #header_bgbox > #headerWrap > #menu > dl > dd { width: 100%; height: 0; background-color: #595959; /*transition: height .5s;*/ overflow: hidden; cursor: pointer; }
+  #header_bgbox > #headerWrap > #menu > dl > dd > ul > li { text-align: center; line-height: 3rem; font-size: 1rem; font-weight: bold; color: #f1f1f1; border: 1px solid #fff; }
+  #header_bgbox > #headerWrap > #menu > dl > dd > ul > li:hover { background-color: #ffe; color: #595959; }
   #header_bgbox > #headerWrap > #sitemap { display: none; width: 14.125rem; height: 0.9375rem; float: right; margin-bottom: 0.73rem; }
   #header_bgbox > #headerWrap > #sitemap > ul { width: 100%; height: 100%; margin-left: 1vw; }
   #header_bgbox > #headerWrap > #sitemap > ul > li { height: 45%; float: left; margin-top: -0.625rem; margin-left: 0.1875rem; border-right: 0.0625px solid #ccc; padding: 0.3125rem 0.5rem; }
@@ -385,12 +411,20 @@ html { height: 100%; }
   #wrap { width: 100%; height: auto; }
   #wrap > div { margin: 0 auto; }
   * { transition: all 0.5s ease-out; }
+  #menu > .menuclose_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; top: 0; cursor: pointer; background-color: transparent; }
   /*---------header--------------*/
-  #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: hidden; }
+  #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: visible; }
   #header_bgbox > #headerWrap { width: 100%; height: calc(100% - 1rem); padding: 1rem .375rem 0; margin: 0 auto; background-color: rgba(253, 208, 158, 0); }
   #header_bgbox > #headerWrap > h1 { width: 7.25rem; height: 2.975rem; float: left; margin-left: 45%; }
   #header_bgbox > #headerWrap > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/header/header_logo.png"); background-repeat: no-repeat; background-position: left; }
-  #header_bgbox > #headerWrap > #menu { width: 48px; height: 46px; background-image: url(../img/header/menu.png); background-repeat: no-repeat; background-size: 90%; float: right; margin-right: 10%; margin-top: 0.325rem; }
+  #header_bgbox > #headerWrap > #menu { width: auto; height: auto; float: right; margin-right: 7%; position: relative; }
+  #header_bgbox > #headerWrap > #menu > .menu_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/menu.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; top: 0; cursor: pointer; background-color: transparent; }
+  #header_bgbox > #headerWrap > #menu > dl { width: 96.5vw; height: 0; margin-left: -81vw; position: absolute; z-index: 60; overflow: hidden; top: 166%; }
+  #header_bgbox > #headerWrap > #menu > dl > dt { width: 100%; height: 10vw; background-color: #ccc; text-align: center; line-height: 3rem; font-size: 1rem; font-weight: bold; color: #f1f1f1; border: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
+  #header_bgbox > #headerWrap > #menu > dl > dt:hover { background-color: #ccc; }
+  #header_bgbox > #headerWrap > #menu > dl > dd { width: 100%; height: 0; background-color: #595959; /*transition: height .5s;*/ overflow: hidden; cursor: pointer; }
+  #header_bgbox > #headerWrap > #menu > dl > dd > ul > li { text-align: center; line-height: 3rem; font-size: 1rem; font-weight: bold; color: #f1f1f1; border: 1px solid #fff; }
+  #header_bgbox > #headerWrap > #menu > dl > dd > ul > li:hover { background-color: #ffe; color: #595959; }
   #header_bgbox > #headerWrap > #sitemap { display: none; width: 14.125rem; height: 0.9375rem; float: right; margin-bottom: 0.73rem; }
   #header_bgbox > #headerWrap > #sitemap > ul { width: 100%; height: 100%; margin-left: 1vw; }
   #header_bgbox > #headerWrap > #sitemap > ul > li { height: 45%; float: left; margin-top: -0.625rem; margin-left: 0.1875rem; border-right: 0.0625px solid #ccc; padding: 0.3125rem 0.5rem; }
@@ -507,12 +541,20 @@ html { height: 100%; }
   #wrap { width: 100%; height: auto; }
   #wrap > div { margin: 0 auto; }
   * { transition: all 0.5s ease-out; }
+  #menu > .menuclose_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; top: 0; cursor: pointer; background-color: transparent; }
   /*---------header--------------*/
-  #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: hidden; }
+  #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: visible; }
   #header_bgbox > #headerWrap { width: 100%; height: calc(100% - 1rem); padding: 1rem .375rem 0; margin: 0 auto; background-color: rgba(253, 208, 158, 0); }
   #header_bgbox > #headerWrap > h1 { width: 7.25rem; height: 2.975rem; float: left; margin-left: 45%; }
   #header_bgbox > #headerWrap > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/header/header_logo.png"); background-repeat: no-repeat; background-position: left; }
-  #header_bgbox > #headerWrap > #menu { width: 48px; height: 46px; background-image: url(../img/header/menu.png); background-repeat: no-repeat; background-size: 90%; float: right; margin-right: 10%; margin-top: 0.325rem; }
+  #header_bgbox > #headerWrap > #menu { width: auto; height: auto; float: right; margin-right: 7%; position: relative; }
+  #header_bgbox > #headerWrap > #menu > .menu_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/menu.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; top: 0; cursor: pointer; background-color: transparent; }
+  #header_bgbox > #headerWrap > #menu > dl { width: 96.5vw; height: 0; margin-left: -81vw; position: absolute; z-index: 60; overflow: hidden; top: 166%; }
+  #header_bgbox > #headerWrap > #menu > dl > dt { width: 100%; height: 10vw; background-color: #ccc; text-align: center; line-height: 3rem; font-size: 1rem; font-weight: bold; color: #f1f1f1; border: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
+  #header_bgbox > #headerWrap > #menu > dl > dt:hover { background-color: #ccc; }
+  #header_bgbox > #headerWrap > #menu > dl > dd { width: 100%; height: 0; background-color: #595959; /*transition: height .5s;*/ overflow: hidden; cursor: pointer; }
+  #header_bgbox > #headerWrap > #menu > dl > dd > ul > li { text-align: center; line-height: 3rem; font-size: 1rem; font-weight: bold; color: #f1f1f1; border: 1px solid #fff; }
+  #header_bgbox > #headerWrap > #menu > dl > dd > ul > li:hover { background-color: #ffe; color: #595959; }
   #header_bgbox > #headerWrap > #sitemap { display: none; width: 14.125rem; height: 0.9375rem; float: right; margin-bottom: 0.73rem; }
   #header_bgbox > #headerWrap > #sitemap > ul { width: 100%; height: 100%; margin-left: 1vw; }
   #header_bgbox > #headerWrap > #sitemap > ul > li { height: 45%; float: left; margin-top: -0.625rem; margin-left: 0.1875rem; border-right: 0.0625px solid #ccc; padding: 0.3125rem 0.5rem; }
@@ -628,11 +670,13 @@ html { height: 100%; }
   #wrap { width: 100%; height: auto; }
   #wrap > div { margin: 0 auto; }
   * { transition: all 0.5s ease-out; }
+  #menu > .menuclose_btn { display: none; }
   /*---------header--------------*/
   #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: hidden; }
   #header_bgbox > #headerWrap { width: 59.25rem; height: calc(100% - 1rem); padding: 1rem .375rem 0; margin: 0 auto; background-color: rgba(253, 208, 158, 0); }
   #header_bgbox > #headerWrap > h1 { width: 7.25rem; height: 2.975rem; float: left; margin-left: 1.875rem; }
   #header_bgbox > #headerWrap > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/header/header_logo.png"); background-repeat: no-repeat; background-position: left; }
+  #header_bgbox > #headerWrap > #menu { display: none; }
   #header_bgbox > #headerWrap > #sitemap { width: 14.125rem; height: 0.9375rem; float: right; margin-bottom: 0.73rem; }
   #header_bgbox > #headerWrap > #sitemap > ul { width: 100%; height: 100%; margin-left: 1.875rem; }
   #header_bgbox > #headerWrap > #sitemap > ul > li { height: 45%; float: left; margin-top: -0.625rem; margin-left: 0.1875rem; border-right: 0.0625px solid #ccc; padding: 0.3125rem 0.5rem; }
