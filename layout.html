@@ -17,41 +17,19 @@
     <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
     <script src="./js/jquery/jquery-ui.min.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/indicator_indexbanner.js"></script>
+    <script src="./js/index_banner.js"></script>
+    <script src="./js/top_btn.js"></script>
+    <script src="./js/popupmovie.js"></script>
     <title>어퓨</title>
     <style type="text/css"></style>
      <script type="text/javascript">
          $(function(){
-             var btn_01 =  $('#btn_box').find('.btn_01');
-             var btn_02 =  $('#btn_box').find('.btn_02');
-             var banner = $('.banner_box').children('ul');
-       
-            btn_01.on('click',function(){
-             banner.animate({'margin-left':'0'},500);   
-             });
-             
-         
-            btn_02.on('click',function(){
-            banner.animate({'margin-left':'-200%'},500); 
-            });
-              
-            $('.banner_box').children('#indicator_box').find('li').eq(1).on('click',function(){
-               /* $('.banner_box').children('#indicator_box').find('li').eq(1).css('background-color','#fac');*/
-               $('.banner_box_page').children('li').find('img').attr('src',"./img/banner/banner_1.png");
-             }); 
-             $('.banner_box').children('#indicator_box').find('li').eq(2).on('click',function(){
-                $('.banner_box_page').children('li').find('img').attr('src',"./img/banner/banner_2.png");
-             }); 
-             $('.banner_box').children('#indicator_box').find('li').eq(3).on('click',function(){
-                $('.banner_box_page').children('li').find('img').attr('src',"./img/banner/banner_3.png");
-             }); 
-             $('.banner_box').children('#indicator_box').find('li').eq(4).on('click',function(){
-                $('.banner_box_page').children('li').find('img').attr('src',"./img/banner/banner_4.png");
-                 
                 menu();
-               
-                 
-             }); 
-// div 요소를 <h2>New heading</h2> 요소로 변경한다.
+           indicator_banner($('#indicator_box'),$('.banner_box_page'));
+                index_banner();
+                top_btn();
+                popupmovie();
     });
     </script>
 </head>
@@ -63,8 +41,8 @@
        <h1 class="me_link"><a href="layout.html"><span>어퓨</span></a></h1>
        <h2>어퓨 전체 메뉴영역</h2> 
           <div id="menu">
-          <button class="menu_btn"><span class="me_hidden">메뉴</span>
-           <button class="menuclose_btn"><span class="me_hidden">닫기기</span>
+          <button class="menu_btn"><span class="me_hidden">메뉴</span> </button>
+           <button class="menuclose_btn"><span class="me_hidden">닫기</span>
           </button>
            <dl>
 	            <dt>Brand</dt>
@@ -117,14 +95,15 @@
    </div><!--//#header_bgbox-->
    <div class="box" id="bannerWrap">
      <h2>어퓨 배너영역</h2>
-         <div class="banner_box">
-              <div id="btn_box">
-                 <h3>어퓨배너 버튼</h3>
-                  <button class="btn_01"></button>
-                  <button class="btn_02"></button>
-              </div> 
+       <div class="banner_box">
+              <!--<div id="btn_box">
+                 <h3>어퓨배너 버튼</h3>-->
+                  <button class="btn_01"><span class="me_hidden">left_btn</span></button>
+                  <button class="btn_02"><span class="me_hidden">right_btn</span></button>
+                  <button class="stop_wrap"><span class="me_hidden">stop</span></button>
+              <!--</div> -->
                 <ol id="indicator_box">
-                       <li class="stop_wrap"><button type="button"><span class="me_hidden">stop</span></button></li>
+                       
                         <li class="indicator_1"></li>
                         <li class="indicator_2"></li>
                         <li class="indicator_3"></li>
@@ -132,11 +111,11 @@
                 </ol><!--indicator-->
                 <ul class="banner_box_page">
                    <li class="banner_01 page"><img src="./img/banner/banner_1.png" alt="첫번째 배너입니다" /></li>
-                   <li class="banner_02 page"><img src="./img/banner//banner_2.png" alt="두번째 배너입니다" /></li>
+                   <li class="banner_02 page"><img src="./img/banner/banner_2.png" alt="두번째 배너입니다" /></li>
                    <li class="banner_03 page"><img src="./img/banner/banner_3.png" alt="세번째 배너입니다" /></li>
                    <li class="banner_04 page"><img src="./img/banner/banner_4.png" alt="네번째 배너입니다" /></li>
                 </ul>
-          </div>
+   </div>
    </div><!--#bannerWrap-->
    
    <div id="article_bg">
@@ -174,6 +153,13 @@
                   </ul>
               </div>
           </div>
+          <div class="popup1">
+            <div class="popupBox">
+              <!--  <img src="#" alt="" />-->
+                <iframe src="https://www.youtube.com/embed/OK4Kvu78Jso" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <button class="close" aria-label="팝업닫기">X</button>
+        </div>
       </div><!--//#movie-->
       
       <div id="etc"  class="item">
@@ -214,7 +200,7 @@
       </div> <!--//#etc-->
       <div id="top_box">
       <div class="top_btn">
-          <a href="#"><span class="me_link">TOP Button</span></a>
+          <a href="#" roll="button"><span class="me_link">TOP Button</span></a>
       </div>
       </div>
    </div><!--//#articleWrap-->
