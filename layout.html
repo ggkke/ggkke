@@ -17,19 +17,108 @@
     <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
     <script src="./js/jquery/jquery-ui.min.js"></script>
     <script src="./js/menu.js"></script>
-    <script src="./js/indicator_indexbanner.js"></script>
-    <script src="./js/index_banner.js"></script>
+    <!--<script src="./js/indicator_indexbanner.js"></script>
+    <script src="./js/index_banner.js"></script>-->
     <script src="./js/top_btn.js"></script>
     <script src="./js/popupmovie.js"></script>
     <title>어퓨</title>
-    <style type="text/css"></style>
+    <style type="text/css">
+
+    
+    </style>
      <script type="text/javascript">
          $(function(){
                 menu();
-           indicator_banner($('#indicator_box'),$('.banner_box_page'));
-                index_banner();
+           /*indicator_banner($('#indicator_box'),$('.banner_box_page'));
+                index_banner();*/
                 top_btn();
                 popupmovie();
+             
+         var banner = $('.banner_box_page'),
+          banLi = banner.find('li'),
+          banLiFirst = banner.find('li').first(),
+          banLiWid = parseInt(banLi.width()),
+          banLihei = banner.find('li').height(),
+          
+          ind = $('#indicator_box'),
+          indLi = ind.find('li'),
+          indLiFirst = ind.find('li').first(),
+          l_btn = $('.btn_01'),
+          r_btn = $('.btn_02'),
+          
+          
+          slideTime = 2000, //1초 : 배너움직이는 시간
+          settingTime = 2100; //1.1초 : 슬라이드가 작동되게 하는 시간(버튼)
+      
+      
+      // 인디게이터 크기 활성화
+      indLiFirst.addClass('indWidth');
+      
+      // 인디게이터 위치 맞게 변경
+//      var bannerMarginCut = Math.abs( parseInt(banner.css('margin-left') ) ) / banLiWid;
+//      console.log(bannerMarginCut);
+//      indLi.eq(bannerMarginCut - 1).addClass('indWidth');
+//      var inTest = indLi.eq(-bannerMarginCut + 1);
+      
+      // 첫번째 이미지 보이기
+        banLi.last().clone().prependTo('.banner_box_page'); //banLi 배너 내부의 li(하나의 배너부분)
+        indLi.last().clone().prependTo('#indicator_box'); //indLi 인디케이트의 하나
+      
+      // 인디게이터 표시 및 위치 이동
+      indLi.on('click', function(){
+       var $this = $(this),
+           index = $this.index(),
+           indexPlus = index - 1,
+           banLi = banner.find('li'),
+           banLiWid = banner.find('li').width();
+           
+          $this.addClass('indWidth').siblings().removeClass('indWidth');
+          banner.stop().animate({'margin-left':-banLiWid*index},slideTime,function(){
+        });
+      });
+      
+      // slidebtn 버튼클릭
+      l_btn.on('click', function(){
+          var bannerML = parseInt(banner.css('margin-left'));
+          if(bannerML == -banLiWid){
+            banner.stop().delay(200).animate({'margin-left':"+="+banLiWid},slideTime, function(){
+              banner.css({'margin-left':-banLiWid*4})
+            });
+            $('#indicator_box li').last().addClass('indWidth').siblings().removeClass('indWidth');
+          }else{
+            banner.stop().delay(200).animate({'margin-left':"+="+banLiWid},slideTime)
+            var bannerMarginCut = Math.abs( parseInt($('.banner_box_page').css('margin-left') ) ) / $('.banner_box_page').find('li').width();
+             $('#indicator_box li').eq(bannerMarginCut-1).addClass('indWidth').siblings().removeClass('indWidth');
+            console.log(bannerMarginCut);
+          };
+        });
+      var rightBtn = function(){
+        r_btn.on('click', function(){
+            var bannerML = parseInt(banner.css('margin-left'));
+            if(bannerML <= -banLiWid*4){
+              banner.css({'margin-left':0}).stop().delay(200).animate({'margin-left':"-="+banLiWid},slideTime);
+            }else{
+              banner.stop().delay(200).animate({'margin-left':"-="+banLiWid},slideTime)
+            };
+          var bannerMarginCut = Math.abs( parseInt($('.banner_box_page').css('margin-left') ) ) / $('.banner_box_page').find('li').width();
+           $('#indicator_box li').eq(bannerMarginCut+1).addClass('indWidth').siblings().removeClass('indWidth');
+          console.log(bannerMarginCut);
+        });
+      }
+      rightBtn();
+      
+      
+      indLi = ind.find('li').eq(0);
+      indLi.first().css({'display':'none'});
+   
+    // 자동움직임
+       var timer;
+      // 일정한 시간간격을 두고 움직이는기능 : setInterval
+      //function startBtn(){ settingTime = setInterval('$(".btn_02").click()', 6000) };
+     // setInterval 취소시키는 기능: clearInterval
+      //function stopBtn(){	clearInterval( settingTime )};
+      //startBtn();
+      //$('.banner_box').on({mouseenter:stopBtn ,mouseleave:startBtn});
     });
     </script>
 </head>
@@ -100,7 +189,7 @@
                  <h3>어퓨배너 버튼</h3>-->
                   <button class="btn_01"><span class="me_hidden">left_btn</span></button>
                   <button class="btn_02"><span class="me_hidden">right_btn</span></button>
-                  <button class="stop_wrap"><span class="me_hidden">stop</span></button>
+                  
               <!--</div> -->
                 <ol id="indicator_box">
                        
