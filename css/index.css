@@ -41,21 +41,20 @@
   #header_bgbox > #headerWrap > #gnb > ul .gnb_05 { width: 8.5rem; height: 1.5rem; }
   #header_bgbox > #headerWrap > #gnb > ul .gnb_05 > a { width: 8.25rem; height: 1.5rem; background-position: -0.3125rem -4.5625rem; }
   /*---------banner--------------*/
-  #bannerWrap { width: 100%; height: 70vw; overflow: hidden; background-color: #e8c28d; }
+  #bannerWrap { width: 100%; height: 54rem; overflow: hidden; background-color: #e8c28d; }
   #bannerWrap > .banner_box { width: 100%; height: 100%; overflow: hidden; position: relative; }
-  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; top: 60vw; left: 15vw; }
+  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; bottom: 2vw; left: 25vw; }
   #bannerWrap > .banner_box > .btn_01 { background-image: url("../img/banner/banner_left.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 2px; }
-  #bannerWrap > .banner_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 35px; }
-  #bannerWrap > .banner_box > .stop_wrap { width: 2rem; height: 2rem; background-image: url("../img/banner/index_banner_ctr_bt_stop.png"); background-repeat: no-repeat; cursor: pointer; float: left; margin-left: 11.5vw; margin-top: 2.5vw; }
-  #bannerWrap > .banner_box > ol { width: 7.5rem; height: 1.25rem; position: absolute; top: 63.5vw; left: 34%; z-index: 20; float: left; }
+  #bannerWrap > .banner_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 3%; }
+  #bannerWrap > .banner_box > ol { width: 10rem; height: 1.25rem; position: absolute; bottom: 3.525rem; left: 32%; z-index: 20; float: left; }
   #bannerWrap > .banner_box > ol > li { width: 0.9375rem; height: 0.9375rem; float: left; margin-right: 0.3125rem; }
+  #bannerWrap > .banner_box > ol > li > .indWidth { width: 1.2rem; background-color: #e8c28d; box-shadow: 2px 2px 2px #515151; }
   #bannerWrap > .banner_box > ol > .indicator_1 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_2 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_3 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_4 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
-  #bannerWrap > .banner_box > ol > .indicator_1:hover, #bannerWrap > .banner_box > ol .indicator_2:hover, #bannerWrap > .banner_box > ol .indicator_3:hover, #bannerWrap > .banner_box > ol .indicator_4:hover { background-color: #e8c28d; }
-  #bannerWrap > .banner_box > ul { width: 400%; height: 100%; margin-left: -100%; }
-  #bannerWrap > .banner_box > ul > li { width: calc(100% / 4); height: 100%; float: left; }
+  #bannerWrap > .banner_box > ul { width: 500%; height: 100%; margin-left: -100%; }
+  #bannerWrap > .banner_box > ul > li { width: calc(100% / 5); height: 100%; float: left; }
   #bannerWrap > .banner_box > ul > li > img { height: 100%; width: 100%; }
   /*---------article--------------*/
   #article_bg { width: 100%; height: auto; background-image: url(../img/article/bg.png); }
@@ -144,7 +143,7 @@
   /*---------header--------------*/
   #header_bgbox { width: 100%; height: 5.555rem; background-color: rgba(253, 208, 158, 0.4); overflow: visible; }
   #header_bgbox > #headerWrap { width: 100%; height: calc(100% - 1rem); padding: 1rem .375rem 0; margin: 0 auto; background-color: rgba(253, 208, 158, 0); position: relative; }
-  #header_bgbox > #headerWrap > h1 { width: 7.25rem; height: 2.975rem; float: left; margin-left: 34%; }
+  #header_bgbox > #headerWrap > h1 { width: 7.25rem; height: 2.975rem; float: left; margin-left: 32vw; }
   #header_bgbox > #headerWrap > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/header/header_logo.png"); background-repeat: no-repeat; background-position: left; }
   #header_bgbox > #headerWrap > #menu { width: 100%; height: auto; }
   #header_bgbox > #headerWrap > #menu > .menu_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/menu.png); background-repeat: no-repeat; background-size: 80%; float: right; top: 7.5vw; right: 3vw; cursor: pointer; background-color: transparent; position: absolute; }
@@ -179,19 +178,18 @@
   /*---------banner--------------*/
   #bannerWrap { width: 100%; height: 62vw; min-height: 100%; min-width: 100%; background-color: #e8c28d; }
   #bannerWrap > .banner_box { width: 100%; height: 100%; overflow: hidden; position: relative; }
-  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; top: 45vw; left: 4vw; }
-  #bannerWrap > .banner_box > .btn_01 { background-image: url("../img/banner/banner_left.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 2px; }
-  #bannerWrap > .banner_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 35px; }
-  #bannerWrap > .banner_box > .stop_wrap { width: 1.5rem; height: 1.5rem; background-image: url("../img/banner/index_banner_ctr_bt_stop.png"); background-repeat: no-repeat; cursor: pointer; float: left; margin-left: 25vw; margin-top: 8vw; }
+  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; bottom: 0; left: 12vw; }
+  #bannerWrap > .banner_box > .btn_01 { background-image: url("../img/banner/banner_left.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 60%; margin-left: 2px; }
+  #bannerWrap > .banner_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 60%; margin-left: 35px; }
   #bannerWrap > .banner_box > ol { width: 7.5rem; height: 1.25rem; position: absolute; top: 54vw; left: 38%; z-index: 20; float: left; }
   #bannerWrap > .banner_box > ol > li { width: 0.9375rem; height: 0.9375rem; float: left; margin-right: 0.3125rem; }
+  #bannerWrap > .banner_box > ol > li > .indWidth { width: 1.2rem; background-color: #e8c28d; box-shadow: 2px 2px 2px #515151; }
   #bannerWrap > .banner_box > ol > .indicator_1 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_2 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_3 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_4 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
-  #bannerWrap > .banner_box > ol > .indicator_1:hover, #bannerWrap > .banner_box > ol .indicator_2:hover, #bannerWrap > .banner_box > ol .indicator_3:hover, #bannerWrap > .banner_box > ol .indicator_4:hover { background-color: #e8c28d; }
-  #bannerWrap > .banner_box > ul { width: 400%; height: 100%; margin-left: -100%; }
-  #bannerWrap > .banner_box > ul > li { width: calc(100% / 4); height: 100%; float: left; }
+  #bannerWrap > .banner_box > ul { width: 500%; height: 100%; margin-left: -100%; }
+  #bannerWrap > .banner_box > ul > li { width: calc(100% / 5); height: 100%; float: left; }
   #bannerWrap > .banner_box > ul > li > img { height: 100%; width: 100%; }
   /*---------article--------------*/
   #article_bg { width: 100%; height: auto; background-image: url(../img/article/bg.png); }
@@ -316,19 +314,18 @@
   /*---------banner--------------*/
   #bannerWrap { width: 100%; height: 70vw; overflow: hidden; background-color: #e8c28d; }
   #bannerWrap > .banner_box { width: 100%; height: 100%; overflow: hidden; position: relative; }
-  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; top: 60vw; left: 15vw; }
+  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; bottom: 0.5vw; left: 18vw; }
   #bannerWrap > .banner_box > .btn_01 { background-image: url("../img/banner/banner_left.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 2px; }
-  #bannerWrap > .banner_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 35px; }
-  #bannerWrap > .banner_box > .stop_wrap { width: 2rem; height: 2rem; background-image: url("../img/banner/index_banner_ctr_bt_stop.png"); background-repeat: no-repeat; cursor: pointer; float: left; margin-left: 11.5vw; margin-top: 2.5vw; background-size: 100%; }
+  #bannerWrap > .banner_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 40px; }
   #bannerWrap > .banner_box > ol { width: 7.5rem; height: 1.25rem; position: absolute; top: 63.5vw; left: 34%; z-index: 20; float: left; }
   #bannerWrap > .banner_box > ol > li { width: 0.9375rem; height: 0.9375rem; float: left; margin-right: 0.3125rem; }
+  #bannerWrap > .banner_box > ol > li > .indWidth { width: 1.2rem; background-color: #e8c28d; box-shadow: 2px 2px 2px #515151; }
   #bannerWrap > .banner_box > ol > .indicator_1 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_2 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_3 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_4 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
-  #bannerWrap > .banner_box > ol > .indicator_1:hover, #bannerWrap > .banner_box > ol .indicator_2:hover, #bannerWrap > .banner_box > ol .indicator_3:hover, #bannerWrap > .banner_box > ol .indicator_4:hover { background-color: #e8c28d; }
-  #bannerWrap > .banner_box > ul { width: 400%; height: 100%; margin-left: -100%; }
-  #bannerWrap > .banner_box > ul > li { width: calc(100% / 4); height: 100%; float: left; }
+  #bannerWrap > .banner_box > ul { width: 500%; height: 100%; margin-left: -100%; }
+  #bannerWrap > .banner_box > ul > li { width: calc(100% / 5); height: 100%; float: left; }
   #bannerWrap > .banner_box > ul > li > img { height: 100%; width: 100%; }
   /*---------article--------------*/
   #article_bg { width: 100%; height: auto; background-image: url(../img/article/bg.png); }
@@ -373,15 +370,15 @@
   #article_bg #articleWrap > #etc > ul > #news > #news_content > ul > .news_txt > ul { width: 100%; height: 100%; margin-left: 2rem; }
   #article_bg #articleWrap > #etc > ul > #news > #news_content > ul > .news_txt > ul > li { list-style: disc; line-height: 2rem; font-size: 0.825rem; }
   #article_bg #articleWrap > #etc > ul > #news > #news_content > ul > .news_txt > ul > li:last-child { display: none; }
-  #article_bg #articleWrap > #etc > ul > #membership_store { width: 100%; height: 100%; position: relative; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul { width: 100%; height: 100%; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > li { width: 48%; height: 100%; float: left; }
+  #article_bg #articleWrap > #etc > ul > #membership_store { width: 100%; height: 100%; margin-left: 22vw; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul { width: 50%; height: 100%; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > li { width: 100%; height: 100%; float: left; }
   #article_bg #articleWrap > #etc > ul > #membership_store > ul > li > a { width: inherit; height: inherit; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card { height: 100%; background-image: url(../img/article/tab/membership_tab_off.png); background-repeat: no-repeat; background-size: 80%; background-position: center; margin-left: 0.2rem; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card > button { width: 13.5166vw; height: 2.91666vw; cursor: pointer; box-shadow: .0625rem 0 .125rem; margin-top: 10vw; margin-left: 15vw; background-image: url(../img/article/button_1.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card { height: 40vw; background-image: url(../img/article/tab/membership_tab_off.png); background-repeat: no-repeat; background-size: 100%; background-position: center; margin-left: 0.2rem; position: relative; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card > button { width: 13.5166vw; height: 2.91666vw; cursor: pointer; box-shadow: .0625rem 0 .125rem; bottom: 60px; left: 50px; background-image: url(../img/article/button_1.png); background-repeat: no-repeat; background-position: center; background-size: 100%; position: absolute; }
   #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card:hover { background-image: url(../img/article/tab/membership_tab_on.png); background-repeat: no-repeat; transition: .5s ease-in-out; background-position: center; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store { height: 100%; background-image: url(../img/article/tab/store_tab_off.png); background-repeat: no-repeat; background-position: center; background-size: 80%; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store > button { width: 13.5166vw; height: 2.91666vw; cursor: pointer; box-shadow: .0625rem 0 .125rem; margin-top: 10vw; margin-left: 15vw; background-image: url(../img/article/button_2.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store { height: 40vw; background-image: url(../img/article/tab/store_tab_off.png); background-repeat: no-repeat; background-position: center; background-size: 100%; position: relative; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store > button { width: 13.5166vw; height: 2.91666vw; cursor: pointer; box-shadow: .0625rem 0 .125rem; background-image: url(../img/article/button_2.png); background-repeat: no-repeat; background-position: center; background-size: 100%; bottom: 60px; left: 50px; position: absolute; }
   #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store:hover { background-image: url(../img/article/tab/store_tab_on.png); background-repeat: no-repeat; background-position: center; transition: .5s ease-in-out; }
   #article_bg #articleWrap #top_box { width: 100%; height: 50px; background-color: #eee; border-top: 1px solid #aaa; margin-bottom: 10px; }
   #article_bg #articleWrap #top_box .top_btn { width: 100px; height: 27px; background-image: url(../img/article/top.png); background-repeat: no-repeat; background-size: 60%; margin: 0 auto; margin-top: 18px; }
@@ -452,20 +449,18 @@
   /*---------banner--------------*/
   #bannerWrap { width: 100%; height: 62vw; min-height: 100%; min-width: 100%; overflow: hidden; background-color: #e8c28d; }
   #bannerWrap > .banner_box { width: 100%; height: 100%; overflow: hidden; position: relative; }
-  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; top: 54vw; left: 15vw; }
+  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; bottom: 0.5vw; left: 18vw; }
   #bannerWrap > .banner_box > .btn_01 { background-image: url("../img/banner/banner_left.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 2px; }
   #bannerWrap > .banner_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 6%; }
-  #bannerWrap > .banner_box > .stop_wrap { width: 2rem; height: 2rem; background-image: url("../img/banner/index_banner_ctr_bt_stop.png"); background-repeat: no-repeat; cursor: pointer; float: left; margin-left: 11vw; margin-top: 2.5vw; }
   #bannerWrap > .banner_box > ol { width: 7.5rem; height: 1.25rem; position: absolute; bottom: 1.225rem; left: 32%; z-index: 20; float: left; }
   #bannerWrap > .banner_box > ol > li { width: 0.9375rem; height: 0.9375rem; float: left; margin-right: 0.3125rem; }
-  #bannerWrap > .banner_box > ol > .stop_wrap { width: 1.25rem; height: 1.25rem; background-image: url("../img/banner/index_banner_ctr_bt_stop.png"); background-repeat: no-repeat; cursor: pointer; }
+  #bannerWrap > .banner_box > ol > li > .indWidth { width: 1.2rem; background-color: #e8c28d; box-shadow: 2px 2px 2px #515151; }
   #bannerWrap > .banner_box > ol > .indicator_1 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_2 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_3 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_4 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
-  #bannerWrap > .banner_box > ol > .indicator_1:hover, #bannerWrap > .banner_box > ol .indicator_2:hover, #bannerWrap > .banner_box > ol .indicator_3:hover, #bannerWrap > .banner_box > ol .indicator_4:hover { background-color: #e8c28d; }
-  #bannerWrap > .banner_box > ul { width: 400%; height: 100%; margin-left: -100%; }
-  #bannerWrap > .banner_box > ul > li { width: calc(100% / 4); height: 100%; float: left; }
+  #bannerWrap > .banner_box > ul { width: 500%; height: 100%; margin-left: -100%; }
+  #bannerWrap > .banner_box > ul > li { width: calc(100% / 5); height: 100%; float: left; }
   #bannerWrap > .banner_box > ul > li > img { height: 62vw; width: 100%; }
   /*---------article--------------*/
   #article_bg { width: 100%; height: auto; background-image: url(../img/article/bg.png); }
@@ -587,20 +582,18 @@
   /*---------banner--------------*/
   #bannerWrap { width: 100%; height: 62vw; min-height: 100%; min-width: 100%; overflow: hidden; background-color: #e8c28d; }
   #bannerWrap > .banner_box { width: 100%; height: 100%; overflow: hidden; position: relative; }
-  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; top: 55.5vw; left: 18vw; }
+  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; bottom: 0.5vw; left: 18vw; }
   #bannerWrap > .banner_box > .btn_01 { background-image: url("../img/banner/banner_left.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 2px; }
   #bannerWrap > .banner_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 6%; }
-  #bannerWrap > .banner_box > .stop_wrap { width: 2rem; height: 2rem; background-image: url("../img/banner/index_banner_ctr_bt_stop.png"); background-repeat: no-repeat; cursor: pointer; float: left; margin-left: 9.4vw; margin-top: 1.8vw; }
   #bannerWrap > .banner_box > ol { width: 7.5rem; height: 1.25rem; position: absolute; bottom: 1.225rem; left: 32%; z-index: 20; float: left; }
   #bannerWrap > .banner_box > ol > li { width: 0.9375rem; height: 0.9375rem; float: left; margin-right: 0.3125rem; }
-  #bannerWrap > .banner_box > ol > .stop_wrap { width: 1.25rem; height: 1.25rem; background-image: url("../img/banner/index_banner_ctr_bt_stop.png"); background-repeat: no-repeat; cursor: pointer; }
+  #bannerWrap > .banner_box > ol > li > .indWidth { width: 1.2rem; background-color: #e8c28d; box-shadow: 2px 2px 2px #515151; }
   #bannerWrap > .banner_box > ol > .indicator_1 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_2 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_3 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_4 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
-  #bannerWrap > .banner_box > ol > .indicator_1:hover, #bannerWrap > .banner_box > ol .indicator_2:hover, #bannerWrap > .banner_box > ol .indicator_3:hover, #bannerWrap > .banner_box > ol .indicator_4:hover { background-color: #e8c28d; }
-  #bannerWrap > .banner_box > ul { width: 400%; height: 100%; margin-left: -100%; }
-  #bannerWrap > .banner_box > ul > li { width: calc(100% / 4); height: 100%; float: left; }
+  #bannerWrap > .banner_box > ul { width: 500%; height: 100%; margin-left: -100%; }
+  #bannerWrap > .banner_box > ul > li { width: calc(100% / 5); height: 100%; float: left; }
   #bannerWrap > .banner_box > ul > li > img { height: 62vw; width: 100%; }
   /*---------article--------------*/
   #article_bg { width: 100%; height: auto; background-image: url(../img/article/bg.png); }
@@ -715,19 +708,18 @@
   /*---------banner--------------*/
   #bannerWrap { width: 100%; height: 54rem; overflow: hidden; background-color: #e8c28d; }
   #bannerWrap > .banner_box { width: 100%; height: 100%; overflow: hidden; position: relative; }
-  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; top: 39.7vw; left: 22vw; }
+  #bannerWrap > .banner_box > button { width: 2rem; height: 4rem; background-color: transparent; position: absolute; bottom: 2vw; left: 25vw; }
   #bannerWrap > .banner_box > .btn_01 { background-image: url("../img/banner/banner_left.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 2px; }
   #bannerWrap > .banner_box > .btn_02 { background-image: url("../img/banner/banner_right.png"); background-repeat: no-repeat; background-position: center; float: left; cursor: pointer; background-size: 80%; margin-left: 3%; }
-  #bannerWrap > .banner_box > .stop_wrap { width: 2rem; height: 2rem; background-image: url("../img/banner/index_banner_ctr_bt_stop.png"); background-repeat: no-repeat; background-size: 100%; cursor: pointer; float: left; margin-left: 6vw; margin-top: 1vw; }
-  #bannerWrap > .banner_box > ol { width: 7.5rem; height: 1.25rem; position: absolute; bottom: 3.525rem; left: 32%; z-index: 20; float: left; }
+  #bannerWrap > .banner_box > ol { width: 10rem; height: 1.25rem; position: absolute; bottom: 3.525rem; left: 32%; z-index: 20; float: left; /*>.indicator_1:hover,.indicator_2:hover,.indicator_3:hover,.indicator_4:hover{} */ }
   #bannerWrap > .banner_box > ol > li { width: 0.9375rem; height: 0.9375rem; float: left; margin-right: 0.3125rem; }
+  #bannerWrap > .banner_box > ol > li > .indWidth { width: 1.2rem; background-color: #e8c28d; box-shadow: 2px 2px 2px #515151; }
   #bannerWrap > .banner_box > ol > .indicator_1 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_2 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_3 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
   #bannerWrap > .banner_box > ol > .indicator_4 { width: 0.9375rem; height: 0.9375rem; background-color: #555; cursor: pointer; border-radius: 50%; }
-  #bannerWrap > .banner_box > ol > .indicator_1:hover, #bannerWrap > .banner_box > ol .indicator_2:hover, #bannerWrap > .banner_box > ol .indicator_3:hover, #bannerWrap > .banner_box > ol .indicator_4:hover { background-color: #e8c28d; }
-  #bannerWrap > .banner_box > ul { width: 400%; height: 100%; margin-left: -100%; }
-  #bannerWrap > .banner_box > ul > li { width: calc(100% / 4); height: 100%; float: left; }
+  #bannerWrap > .banner_box > ul { width: 500%; height: 100%; margin-left: -100%; }
+  #bannerWrap > .banner_box > ul > li { width: calc(100% / 5); height: 100%; float: left; }
   #bannerWrap > .banner_box > ul > li > img { height: 100%; width: 100%; }
   /*---------article--------------*/
   #article_bg { width: 100%; height: auto; background-image: url(../img/article/bg.png); }
@@ -776,12 +768,12 @@
   #article_bg #articleWrap > #etc > ul > #membership_store > ul { width: 100%; height: 100%; margin: 1.875rem 1.875rem 3.75rem; }
   #article_bg #articleWrap > #etc > ul > #membership_store > ul > li { width: 50%; height: 100%; float: left; margin-top: 0.3125rem; margin-left: 1rem; }
   #article_bg #articleWrap > #etc > ul > #membership_store > ul > li > a { width: inherit; height: inherit; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card { width: 11.375rem; height: 10.375rem; background-image: url("../img/article/card.png"); }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card { width: 11.375rem; height: 10.375rem; background-image: url("../img/article/membership_off.png"); }
   #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card > button { width: 8.125rem; height: 1.75rem; cursor: pointer; box-shadow: .0625rem 0 .125rem; margin-top: 6.75rem; margin-left: 1.5rem; background-image: url("../img/article/button_1.png"); background-repeat: no-repeat; background-position: center; float: left; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card:hover { background-image: url(../img/article/membership_bg.png); background-repeat: no-repeat; transition: .5s ease-in-out; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store { width: 11.375rem; height: 10.375rem; background-image: url("../img/article/store.png"); }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .membership_card:hover { background-image: url(../img/article/membership_on.png); background-repeat: no-repeat; transition: .5s ease-in-out; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store { width: 11.375rem; height: 10.375rem; background-image: url("../img/article/store_off.png"); }
   #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store > button { width: 8.125rem; height: 1.75rem; cursor: pointer; box-shadow: .0625rem 0 .125rem; margin-top: 6.75rem; margin-left: 1.5rem; background-image: url("../img/article/button_2.png"); background-repeat: no-repeat; background-position: center; float: left; }
-  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store:hover { background-image: url(../img/article/store_bg.png); background-repeat: no-repeat; transition: .5s ease-in-out; }
+  #article_bg #articleWrap > #etc > ul > #membership_store > ul > .store:hover { background-image: url(../img/article/sotore_on.png); background-repeat: no-repeat; transition: .5s ease-in-out; }
   /*---------footer--------------*/
   #footerWrap_box { width: 100%; height: 18.5rem; background-color: #e8c28d; }
   #footerWrap_box > #footerWrap { width: 59.25rem; height: 100%; background-color: #e8c28d; margin: 0 auto; }
