@@ -9,22 +9,22 @@ html{height:100%;}
 #wrap{width: 100%;height: auto;}
 #wrap>div{margin: 0 auto;}
 *{transition: all 0.5s ease-out;}
-  #menu>.menuclose_btn{width: 48px;height:2.4rem;background-image: url(../img/header/cancel.png);background-repeat: no-repeat;background-size: 80%;margin-top: 0.325rem;top: 0;cursor: pointer;background-color: transparent;}
+   #menu>.menuclose_btn{width: 48px;height:2.4rem;background-image: url(../img/header/cancel.png);background-repeat: no-repeat;background-size: 80%;margin-top: 0.325rem;float: right;top: 60px; right: 15px;   cursor: pointer;background-color: transparent;position: absolute;margin-top: -36px;}
  /*---------header--------------*/
     #header_bgbox{width: 100%;height:5.555rem;background-color:rgba(253,208,158,0.4);overflow:visible;
         >#headerWrap{width: 100%;height: calc(100% - 1rem);padding: 1rem .375rem 0;margin: 0 auto;background-color:rgba(253,208,158,0);
             >h1{width: 7.25rem;height: 2.975rem;float: left;margin-left: 45%;
                 >a{width: 100%;height: 100%;display: block;background-image: url("../img/header/header_logo.png");background-repeat: no-repeat;background-position: left;}
             }//h1
-             >#menu{width: auto;height:auto;float: right;margin-right: 7%;position: relative;
-                 >.menu_btn{width: 48px;height:2.4rem;background-image: url(../img/header/menu.png);background-repeat: no-repeat;background-size: 80%;margin-top: 0.325rem;top: 0;cursor: pointer;background-color: transparent;}
-                 >dl{width: 96.5vw;height: 0;margin-left:-81vw;position: absolute;z-index: 60;overflow: hidden;top: 166%;
-                    >dt{width: 100%;height: 10vw;background-color: #ccc;text-align: center;line-height: 3rem;font-size: 1rem;font-weight: bold;color: $white;border: 1px solid #fff;transition:  all 0.3s;cursor: pointer;
-                        &:hover{background-color: #ccc;}
+             >#menu{width: 100%;height:auto;
+                 >.menu_btn{width: 48px;height:2.4rem;background-image: url(../img/header/menu.png);background-repeat: no-repeat;background-size: 80%;float: right;top:60px; right: 15px;  cursor: pointer;background-color: transparent;position: absolute;margin-top: -36px;}
+                 >dl{width: 100%;height: 0;position: absolute;z-index: 600;overflow: hidden;right: 0;top:80px;
+                    >dt{width: 100%;height: auto;background-color: #ccc;text-align: center;line-height: 10vw;font-size: 1rem;font-weight: bold;color: $white;border: 1px solid #fff;transition:  all 0.3s;cursor: pointer;
+                        &:hover{background-color: #ccc;color: #595959;}
                     }//dt
                     >dd{width: 100%;height: 0;background-color: #595959;/*transition: height .5s;*/ overflow:hidden;cursor: pointer;
                         >ul{
-                            >li{text-align: center;line-height: 3rem;font-size: 1rem;font-weight: bold;color: $white;border: 1px solid #fff;
+                            >li{text-align: center;line-height: auto;font-size: 1rem;font-weight: bold;color: $white;border: 1px solid #fff;
                             &:hover{background-color: #ffe;color: #595959;}
                             }//li
                         }//ul
@@ -71,24 +71,25 @@ html{height:100%;}
 
 
  /*---------banner--------------*/
-    #bannerWrap{width:100%;height:62vw;min-height:100% ; min-width: 100%;overflow: hidden;position: relative;background-color: $main;
-        >.banner_box{width: 100%;height: 100%;
-            >div{width: 60rem;height: 9.375rem; position: absolute;top: 80%;margin-top: 0.625rem;z-index: 100;left: 45%;margin-left: -16.875rem;
-                >button{width: 3.75rem;height:6.375rem;background-color:transparent;}
-                >.btn_01{background-image:  url("../img/banner/banner_left.png");background-repeat: no-repeat;background-position: center; float: left;cursor: pointer;}
-                >.btn_02{background-image:  url("../img/banner/banner_right.png");background-repeat: no-repeat;background-position: center;float: left;cursor: pointer;}
-            }//div
+    #bannerWrap{width:100%;height:62vw;min-height:100% ; min-width: 100%;overflow: hidden;background-color: $main;
+        >.banner_box{width:100%;height: 100%;overflow: hidden;position: relative;
+                >button{width: 2rem;height:4rem;background-color:transparent; position: absolute;bottom: 0.5vw;left:18vw;}
+                >.btn_01{background-image:  url("../img/banner/banner_left.png");background-repeat: no-repeat;background-position: center; float: left;cursor: pointer;background-size: 80%;margin-left: 2px;}
+                >.btn_02{background-image:  url("../img/banner/banner_right.png");background-repeat: no-repeat;background-position: center;float: left;cursor: pointer;background-size: 80%;margin-left: 6%;}
+                
             
             >ol{width: 7.5rem;height: 1.25rem;position: absolute;bottom: 1.225rem;left: 32%; z-index: 20;float: left;
-                >li{width: 0.9375rem;height: 0.9375rem;float: left;margin-right: 0.3125rem;}//li
-                >.stop_wrap{width: 1.25rem;height: 1.25rem;background-image:  url("../img/banner/index_banner_ctr_bt_stop.png");background-repeat: no-repeat;cursor: pointer;}
+                >li{width: 0.9375rem;height: 0.9375rem;float: left;margin-right: 0.3125rem;
+               
+                }//li
+               
                 >.indicator_1{width: 0.9375rem;height: 0.9375rem;background-color: #555;cursor: pointer;border-radius: 50%;}
                 >.indicator_2{width: 0.9375rem;height: 0.9375rem;background-color: #555;cursor: pointer;border-radius: 50%;}
                 >.indicator_3{width: 0.9375rem;height: 0.9375rem;background-color: #555;cursor: pointer;border-radius: 50%;}
-                >.indicator_4{width: 0.9375rem;height: 0.9375rem;background-color: #555;cursor: pointer;border-radius: 50%;} >.indicator_1:hover,.indicator_2:hover,.indicator_3:hover,.indicator_4:hover{background-color: #e8c28d;} 
+                >.indicator_4{width: 0.9375rem;height: 0.9375rem;background-color: #555;cursor: pointer;border-radius: 50%;} 
             }//ol
-            >ul{width: 400%;height: 100%;margin-left: -100%;
-                >li{width: calc(100% / 4);height:100%;float: left;
+            >ul{width: 500%;height: 100%;margin-left: -100%;
+                >li{width: calc(100% / 5);height:100%;float: left;
                     >img{height: 62vw;width: 100%;} 
                 }//li
             }//ul
@@ -135,11 +136,20 @@ html{height:100%;}
                         }//ul
                     }//#movie_box
                 }//#movie_bg
+                 >.popup1{width: 100%;height: 100%;background-color: rgba(#333,0.5);position: fixed;z-index: 500;top: 0;left: 0;display: none;
+                .popupBox{width: 60%;height: auto;background-color: #fff;border: 3px solid  $sub;position: absolute;left: 20%;top: 20%;border-radius: 10px;box-sizing: border-box;box-shadow: 1px 1px 1px #333;
+                >iframe{width: 100%;height:30vw;}
+        
+                }//.popupBox
+                .close{width: 2rem;height: 2rem;background-color: #333;color: #fff;font-weight: bold;position: absolute;right: calc(20% - 1rem);top: calc(20% - 1rem);z-index: 700;border-radius: 50%;transition: all .5s;font-size: 1rem;box-shadow: 2px 2px 2px #333;border: 2px solid #fff;
+                &:hover{transform: rotate(20deg);}
+        }
+    }//.popup1
             }//#movie
              >#etc{width: 100%;height: 22rem;padding-bottom:1.625rem;
                 >ul{width: 100%;height: 100%;
                     >li{float: left;width: 50%;}
-                    >#news{width: 38vw;height: 100%;margin-top: 3vw;
+                    >#news{width: 38vw;height: 100%;margin-top: 3vw;margin-left: 3vw;
                         >#news_title{width: 100%;height: 1.625rem;background-position: left; background-image: url(../img/article/index_title_news.png);background-repeat: no-repeat;margin-bottom: 0.625rem;}
                         >#news_content{width: 27.8125rem;height:9.625rem;
                             >ul{width: 100%;height: 100%;
@@ -153,16 +163,16 @@ html{height:100%;}
                             }//ul
                         }//.news_content 
                     }//#news
-                    >#membership_store{width: 40%;height: 17.625rem;position: relative;margin-top: -3vw;
+                    >#membership_store{width: 40%;height: 17.625rem;position: relative;margin-left: 8vw;
                         >ul{width: 100%;height: 100%;
-                            >li{width: 100%;height: 50%;
+                            >li{width: 100%;height: 50%;margin-bottom: 10px;
                                 >a{width: inherit;height: inherit;}
                             }//li
-                            >.membership_card{width: 100%;height: 17vw;background-image: url(../img/article/tab/membership_tab_off.png);background-repeat: no-repeat;background-position: center bottom;
+                            >.membership_card{width: 100%;height: 17vw;background-image: url(../img/article/tab/membership_tab_off.png);background-repeat: no-repeat;background-position: center;
                                 >button{width: 8.125rem;height:1.75rem;cursor: pointer;box-shadow: .0625rem 0 .125rem;margin-top: 12vw;  margin-left: 12vw;background-image:  url(../img/article/button_1.png);background-repeat: no-repeat;background-position: center; float: left;}
                                 &:hover{background-image: url(../img/article/tab/membership_tab_on.png);background-repeat: no-repeat;transition: .5s ease-in-out;background-position: center;}
                             }
-                            >.store{width:100%;height: 17vw;background-image: url(../img/article/tab/store_tab_off.png);background-repeat: no-repeat;background-position: center bottom;
+                            >.store{width:100%;height: 17vw;background-image: url(../img/article/tab/store_tab_off.png);background-repeat: no-repeat;background-position: center ;
                                  >button{width: 8.125rem;height:1.75rem;cursor: pointer;box-shadow: .0625rem 0 .125rem;margin-top: 12vw;  margin-left: 12vw; background-image:  url(../img/article/button_2.png);background-repeat: no-repeat;background-position: center; float: left;}
                                 &:hover{background-image: url(../img/article/tab/store_tab_on.png);background-repeat: no-repeat;background-position: center;transition: .5s ease-in-out;}
                             }
@@ -180,7 +190,7 @@ html{height:100%;}
         >#footerWrap{width: calc(100% - 2rem);height:100%;background-color: $main;margin: 0 auto;
             >ul{width: 100%;height: 100%;
              >.sns{width:100%;height:5rem;
-                 >h3{width: 10vw;height: 1.875rem;background-image: url(../img/footer/sns.png);background-repeat: no-repeat;background-size:contain;margin-left: 23rem;}
+                 >h3{width: 10vw;height: 1.875rem;background-image: url(../img/footer/sns.png);background-repeat: no-repeat;background-size:100%;margin-left: 30vw;margin-right: 10vw; float: left;margin-top: 2rem;}
                  >ul{width: 100%;height: 100%;min-height: 5rem;margin-right: 1.25rem;background-color: rgba(200,200,200,0.1);box-shadow: .03125rem .03125rem .125rem;
                      >li{width: 25%;height: 100%;float: left;margin-right: 0.9375rem;margin-top: 1.125rem;}//li
                      >.kakao{width: 2.875rem;height: 2.75rem; background-image: url("../img/footer/icon_kakao.png");
@@ -197,11 +207,12 @@ html{height:100%;}
                      }
                  }//ul
                 }//.sns
-             >.footer_box{width:calc(100% - 2rem);;height:3.4375rem;padding: 2.1875rem 0.025rem 1.875rem; margin: 0 auto;
-                 >h3{width: 7.0625rem;height: 2.8125rem;float: left;background-image: url(../img/footer/able_logo.png);background-repeat: no-repeat;}//h3
-                 >#addBox{height: 11.375rem;width:35.3125rem;margin-left: 2.8125rem;float: left;
+             >.footer_box{width:calc(100% - 2rem);height:3.4375rem;padding: 2.1875rem 2rem 1.875rem; margin: 0 auto;
+                 >h3{width: 15vw;height: 2.8125rem;float: left;background-image: url(../img/footer/able_logo.png);background-repeat: no-repeat;background-size: 100%;margin-left: 2.1rem;}//h3
+                 >#addBox{height: 15vw;width:35.3125rem;margin-left: 2.8125rem;float: left;
                      >ul{width: 100%;height: 100%;
-                         >li{margin-bottom: 1.1875rem;}
+                         >li{margin-bottom: 1rem;}
+                         >li:last-child{margin-bottom: 0;}
                      }
                  }//#addBox
              }//.footer_box
