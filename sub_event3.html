@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/sub_event2.css">
+    <link rel="stylesheet" href="./css/sub_event3.css">
       <!--[if lte IE 9]>
     <script src="./js/dist/html5shiv.min.js"></script>
     <script src="./js/dist/ie9.min.js"></script>
@@ -18,22 +18,30 @@
     <script src="./js/jquery/jquery-ui.min.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/top_btn.js"></script>
-    <script src="./js/popupmovie.js"></script>
     <title>어퓨</title>
     <style type="text/css">
 
     
     </style>
-     <script type="text/javascript">
+     <script type="text/javascript"> 
          $(function(){
                 menu();
                 top_btn();
-              /*------이벤트 메뉴 전체보기-------------*/
+            /*------광고 더보기 버튼-------------*/
+             var event_morebtn = $('.more_btn'),
+             event_li4= $('#event3_sub_title').find('.event_con4');
+             event_li4.hide();
+            event_morebtn.on('click',function(){
+                event_li4.fadeIn(2000);
+                event_morebtn.fadeOut();
+            });
+         /*------이벤트 메뉴 전체보기-------------*/
            var sub_menubar = $('#event_submenu').find('h4');
             var sub_menu = $('#event_submenu').find('ul');  
             sub_menubar.on('click',function(){
                 sub_menu.toggle(10);
-            }) 
+            });
+             
     });
     </script>
 </head>
@@ -56,7 +64,7 @@
 	            <dt>Event</dt>
 	            <dd>
                     <ul>
-                        <li>이벤트</li>
+	                    <li>이벤트</li>
 	                    <li>진행중인 이벤트</li>
 	                    <li>당첨자 발표</li>
 	                </ul>
@@ -96,7 +104,7 @@
      <h2>어퓨 본문영역</h2>
      <div id="sub_head">
          <h3>서브메뉴영역</h3>
-         <div id="announce_maintitle"><span class="me_hidden">이벤트_당첨자게시판</span></div>
+         <div id="event3_maintitle"><span class="me_hidden">이벤트_진행중인 이벤트</span></div>
          <div id="event_submenu">
              <h4>
                  <a href="#"><span class="me_hidden">메뉴전체보기</span></a>
@@ -109,130 +117,20 @@
          </div>
      </div>
      
-      <div id="event_announce" class="item">
-          <h3 class="announce_title"><span class="me_hidden">event 당첨자발표 영역</span></h3>
-          <div id="announce_sub_title">
-             <h4 class="announce_sub_title2"><span class="me_hidden">event 당첨자발표 타이틀</span></h4>
-              <div class="announce_sub_img"><span class="me_hidden">event 당첨자발표 이미지영역</span></div>
-          </div> 
-      </div><!--//#event_announce-->
-      
-      <div id="announce_table" class="item">
-          <h3><span class="me_hidden">당첨자발표게시판 타이틀</span></h3>
-           <div class="conBox">
-					<table class="tableList01" summary="당첨자발표 리스트">
-                        <caption><span class="me_hidden">당첨자발표</span></caption>
-						<thead>
-							<tr>
-								<th scope="col"><img src="./img/article/sub_event/sub2/table_num.png" alt="번호" /></th>
-								<th scope="col"><img src="./img/article/sub_event/sub2/table_title.png" alt="제목" /></th>
-								<th scope="col"><img src="./img/article/sub_event/sub2/table_data.png" alt="작성일자" /></th>
-							</tr>
-						</thead>
-						<tbody>
-				           <tr>
-				           	<td>8</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			106번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.06.03</td>
-				           </tr>
-				           
-				           <tr>
-				           	<td>7</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			105번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.05.03</td>
-				           </tr>
-				           
-				           <tr>
-				           	<td>6</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			104번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.04.03</td>
-				           </tr>
-				              
-				           <tr>
-				           	<td>5</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			103번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.03.02</td>
-				           </tr>
-				              
-				           <tr>
-				           	<td>4</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			102번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.02.01</td>
-				           </tr>
-				              
-				           <tr>
-				           	<td>3</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			101번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.01.03</td>
-				           </tr>
-				              
-				           <tr>
-				           	<td>2</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			100번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2015.12.02</td>
-				           </tr>
-				           
-				           <tr>
-				           	<td>1</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			99번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2015.11.02</td>
-				           </tr>		
-						</tbody>
-					</table>
-					<div class="page_num"><a href="#">1</a></div>
-				</div>
-      </div><!--//#recruit_announce-->
-      
-      
-     
+      <div id="event3" class="item">
+          <h3 class="event3_title"><span class="me_hidden">event 진행중인이벤트 영역</span></h3>
+          <div id="event3_sub_title">
+             <h4 class="event3_sub_title2"><span class="me_hidden">event 진행중인이벤트 타이틀</span></h4>
+             <ul class="me_link">
+                 <li class="event_con1"><a href="#"><span>진행중인이벤트_1</span></a></li>
+                 <li class="event_con2"><a href="#"><span>진행중인이벤트_2</span></a></li>
+                 <li class="event_con3"><a href="#"><span>진행중인이벤트_3</span></a></li>
+                 <li class="event_con4"><a href="#"><span>진행중인이벤트_4</span></a></li>
+             </ul>
+             <button type="button" class="more_btn"><span class="me_hidden">더보기버튼</span></button>
+          </div> <!--#event3_sub_title-->
+      </div><!--//#event3-->
+   
       <div id="top_box">
       <div class="top_btn">
           <a href="#" roll="button"><span class="me_link">TOP Button</span></a>

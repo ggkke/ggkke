@@ -18,7 +18,6 @@
     <script src="./js/jquery/jquery-ui.min.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/top_btn.js"></script>
-    <script src="./js/popupmovie.js"></script>
     <title>어퓨</title>
     <style type="text/css">
 
@@ -28,6 +27,12 @@
          $(function(){
                 menu();
                 top_btn();
+              /*------이벤트 메뉴 전체보기-------------*/
+           var sub_menubar = $('#event_submenu').find('h4');
+            var sub_menu = $('#event_submenu').find('ul');  
+            sub_menubar.on('click',function(){
+                sub_menu.toggle(10);
+            });
     });
     </script>
 </head>
@@ -91,7 +96,16 @@
      <div id="sub_head">
          <h3>서브메뉴영역</h3>
          <div id="event_maintitle"><span class="me_hidden">이벤트_영역</span></div>
-         <div id="event_submenu"><span class="me_hidden">메뉴전체보기</span></div>
+       <div id="event_submenu">
+             <h4>
+                 <a href="#"><span class="me_hidden">메뉴전체보기</span></a>
+             </h4>
+          <ul>
+              <li><a href="./sub_event.html">이벤트</a></li>
+              <li><a href="./sub_event3.html">진행중인 이벤트</a></li>
+              <li><a href="./sub_event2.html">당첨자발표</a></li>
+          </ul>
+         </div>
      </div>
      
       <div id="event" class="item">
