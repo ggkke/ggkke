@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sub_event.css">
+      <!--[if lte IE 9]>
+    <script src="./js/dist/html5shiv.min.js"></script>
+    <script src="./js/dist/ie9.min.js"></script>
+    <script src="./js/dist/PIE.js"></script> 
+    <script src="./js/dist/responsive.min.js"></script>
+    <![endif]-->
+    
+    <script src="./js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="./js/jquery/jquery-ui.min.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/top_btn.js"></script>
+    <script src="./js/popupmovie.js"></script>
+    <title>어퓨</title>
+    <style type="text/css">
+
+    
+    </style>
+     <script type="text/javascript">
+         $(function(){
+                menu();
+                top_btn();
+    });
+    </script>
+</head>
+
+<body>
+  <div id="wrap">
+  <div id="header_bgbox">
+   <div class="box" id="headerWrap">
+       <h1 class="me_link"><a href="layout.html"><span>어퓨</span></a></h1>
+       <h2>어퓨 전체 메뉴영역</h2> 
+          <div id="menu">
+          <button class="menu_btn"><span class="me_hidden">메뉴</span> </button>
+           <button class="menuclose_btn"><span class="me_hidden">닫기</span>
+          </button>
+           <dl>
+	            <dt>Brand</dt>
+	       
+	            <dt>Shopping</dt>
+	           
+	            <dt>Event</dt>
+	            <dd>
+                    <ul>
+	                    <li>진행중인 이벤트</li>
+	                    <li>당첨자 발표</li>
+	                    <li>체험단 모집</li>
+	                </ul>
+	            </dd>
+	            <dt>Community</dt>
+	            <dd>
+                    <ul>
+	                    <li>리뷰</li>
+	                    <li>뷰티팁</li>
+	                </ul>
+	            </dd>
+	            <dt>Customer Service</dt>
+	        </dl>
+          </div>
+           <div id="sitemap">
+                <h3>어퓨 전체확인요소</h3>
+                   <ul class="me_link">
+                        <li class="site01"><a href="#" title="로그인">로그인</a></li>
+                        <li class="site02"><a href="#" title="회원가입">회원가입</a></li>
+                        <li class="site03"><a href="#" title="장바구니">장바구니</a></li>
+                    </ul>
+            </div><!--//#sitemap-->
+            <div id="gnb">
+                <h3>어퓨 종합네비게이션 메뉴</h3>
+                    <ul class="me_link">
+                        <li class="gnb_01"><a href="./sub_brand.html"><span>브랜드</span></a></li>
+                        <li class="gnb_02"><a href="#"><span>쇼핑</span></a></li>
+                        <li class="gnb_03"><a href="./sub_event.html"><span>이벤트</span></a></li>
+                        <li class="gnb_04"><a href="#"><span>커뮤니티</span></a></li>
+                        <li class="gnb_05"><a href="#"><span>고객센터</span></a></li>
+                    </ul>
+            </div><!--//#gnb-->
+    </div><!--//#headerWrap-->
+   </div><!--//#header_bgbox-->
+    <div id="article_bg">
+   <div class="box" id="articleWrap">
+     <h2>어퓨 본문영역</h2>
+     <div id="sub_head">
+         <h3>서브메뉴영역</h3>
+         <div id="event_maintitle"><span class="me_hidden">이벤트_영역</span></div>
+         <div id="event_submenu"><span class="me_hidden">메뉴전체보기</span></div>
+     </div>
+     
+      <div id="event" class="item">
+          <h3 class="event_title"><span class="me_hidden">event 영역</span></h3>
+          <div id="event_sub_title"><span class="me_hidden">event과즙상으로 변신 타이틀</span>
+              <div class="event_sub_img"><span class="me_hidden">event 과즙상으로 변신 이미지영역</span></div>
+          </div> 
+      </div><!--//#event-->
+      <div id="recruit_announce">
+          <div class="recruit">
+              <h3 class="recruit_title"><span class="me_hidden">체험단 모집타이틀</span></h3>
+              <div class="recruit_img">
+              </div>
+              <button type="button"><span class="me_hidden">참여하기</span></button>
+          </div>
+          <div class="announce">
+              <h3 class="announce_title"><span class="me_hidden">당첨자발표 게시판 타이틀</span></h3>
+              <div class="announce_more">
+              <a href="./sub_event2.html"><span class="me_hidden">more</span></a>
+              </div>
+            <div id="announce_content">
+                <ul>
+                    <li>106번째 과즙상 당첨자발표   2016.06.03</li>
+                    <li>105번째 과즙상 당첨자발표   2016.05.03</li>
+                    <li>104번째 과즙상 당첨자발표   2016.04.03</li>
+                    <li>103번째 과즙상 당첨자발표   2016.03.02</li>
+                    <li>102번째 과즙상 당첨자발표   2016.01.03</li>
+                </ul>
+            </div>
+          </div>
+      </div><!--//#recruit_announce-->
+     <div id="letter">
+        <h3><span class="me_hidden">땡큐레터 타이틀</span></h3>
+        <div id="letter_box">
+           <div class="letter_img1"><span class="me_hidden">땡큐레터 이미지 첫번째</span></div> 
+           <div class="letter_img2"><span class="me_hidden">땡큐레터 이미지 두번째타이틀</span></div>
+           <div id="letter_formbox">
+               <form action="" method="post">
+                   <fieldset> 
+                   <legend><span class="me_hidden">응모번호를 입력해주세요.</span></legend>    
+                    <ul>
+                        <li><input type="text" id="num_01" name="" value="" required placeholder="4자리번호" /></li>
+                        <li><input type="text" id="num_02" name="" value="" required placeholder="4자리번호" /></li>
+                        <li><input type="text" id="num_03" name="" value="" required placeholder="4자리번호" /></li>
+                        <li><input type="text" id="num_04" name="" value="" required placeholder="4자리번호" /></li>
+                    </ul>
+                    <div>
+                        <button type="reset" class="reset_btn"><span class="me_hidden">초기화</span></button>
+                        <button type="submit" class="submit_btn"><span class="me_hidden">응모하기</span></button>
+                        
+                    </div>
+                    
+                    
+                     
+                    </fieldset>
+               </form>
+           </div>
+        </div><!--#letter_box-->
+     </div> <!--#letter-->
+      
+      
+     
+      <div id="top_box">
+      <div class="top_btn">
+          <a href="#" roll="button"><span class="me_link">TOP Button</span></a>
+      </div>
+      </div>
+   </div><!--//#articleWrap-->
+   </div>
+   <div id="footerWrap_box">
+       <div class="box" id="footerWrap">
+          <h2>어퓨 정보란</h2>
+           <ul>
+               <li class="sns">
+                  <h3><span class="me_hidden">어퓨 SNS</span></h3>
+                      <ul class="me_link">
+                           <li class ="kakao"><a href="#"><span>카카오</span></a></li>
+                           <li class ="twitter"><a href="#"><span>트위터</span></a></li>
+                           <li class ="facebook"><a href="#"><span>페이스북</span></a></li>
+                           <li class ="instagram"><a href="#"><span>인스타</span></a></li>
+                       </ul>  
+               </li>
+               <li class="footer_box">
+                    <h3><span class="me_hidden">어퓨 푸터 로고</span></h3>
+                        <div id="addBox">
+                            <ul>
+                                <li>
+                                <address>
+                                <p>
+                                주소 : 서울 특별시 금천구 가산디지털 1로 119 sk트윈테크타워 A동 3층
+                                </p>
+                                <p>
+                                대표 : 서영필 / 사업자등록번호 :  119 - 81 - 34685
+                                </p>
+                                <p>
+                                통신판매 신고번호 : 제2002-00018호 /  개인정보 보호책임자 : 이광열
+                                </p>
+                                <p>
+                                문의전화 : 080 - 080 - 4936 / FAX : 02 - 6292-6894
+                                </p>
+                                메일 : cs@beautynet.co.kr  /  webmaster@beautynet.co.kr
+                                </address>
+                                </li>
+                                <li>
+                                    COPYRIGHT(C) ABLIC&amp;C, ALL RIGHT RESERVED.
+                                </li>
+                            </ul>
+                        </div><!--#addBox-->
+               </li><!--.footer_box-->
+           </ul>
+       </div>
+   </div>
+   </div><!--//#wrap-->
+</body>
+</html>
