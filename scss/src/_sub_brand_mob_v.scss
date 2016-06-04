@@ -72,31 +72,6 @@ html{height:100%;overflow-x: hidden;}
     }//#header_bgbox
 
 
- /*---------banner--------------*/
-    #bannerWrap{width:100%;height:62vw;min-height:100% ; min-width: 100%;overflow: hidden;position: relative;background-color: $main;
-        >.banner_box{width: 100%;height: 100%;
-            >#btn_box{width: 200px;height: 9.375rem; position: absolute;top: 60%;margin-top: 0.625rem;z-index: 10;left: 42%;margin-left: -43.66vw;
-                >button{width: 3.75rem;height:6.375rem;background-color:transparent;}
-                >.btn_01{background-image:  url("../img/banner/banner_left.png");background-repeat: no-repeat;background-position: center; float: left;cursor: pointer;background-size: 38%;}
-                >.btn_02{background-image:  url("../img/banner/banner_right.png");background-repeat: no-repeat;background-position: center;float: left;cursor: pointer;background-size: 38%;}
-            }//div
-            
-            >ol{width: 7.5rem;height: 1.25rem;position: absolute;bottom: 0.225rem;left: 32%; z-index: 20;float: left;
-                >li{width: 0.9375rem;height: 0.9375rem;float: left;margin-right: 0.3125rem;}//li
-                >.stop_wrap{width: 1.25rem;height: 1.25rem;background-image:  url("../img/banner/index_banner_ctr_bt_stop.png");background-repeat: no-repeat;cursor: pointer;}
-                >.indicator_1{width: 0.9375rem;height: 0.9375rem;background-color: #555;cursor: pointer;border-radius: 50%;}
-                >.indicator_2{width: 0.9375rem;height: 0.9375rem;background-color: #555;cursor: pointer;border-radius: 50%;}
-                >.indicator_3{width: 0.9375rem;height: 0.9375rem;background-color: #555;cursor: pointer;border-radius: 50%;}
-                >.indicator_4{width: 0.9375rem;height: 0.9375rem;background-color: #555;cursor: pointer;border-radius: 50%;} >.indicator_1:hover,.indicator_2:hover,.indicator_3:hover,.indicator_4:hover{background-color: #e8c28d;} 
-            }//ol
-            >ul{width: 400%;height: 100%;margin-left: -100%;
-                >li{width: calc(100% / 4);height:100%;float: left;
-                    >img{height: 62vw;width: 100%;} 
-                }//li
-            }//ul
-        }//.banner_box
-    }//#bannerWrap
-
 
  /*---------article--------------*/
     #article_bg{width:100%;height:auto; background-image: url(../img/article/bg.png);
@@ -121,11 +96,11 @@ html{height:100%;overflow-x: hidden;}
             .brand_title_img>div>dl{width: 100%; height: 100%;}
             .brand_title_img>div>dl>dt{width:10vw; height: 100%; float:left;color:#fff;}
             .brand_title_img>div>dl>dd{/* width:calc(100% - 70px); */width:0; overflow: hidden; height: 100%; float:left; transition:all 0.3s;}
-            .brand_title_img>div>dl>dd.brand_img_1{background-image:url(../img/article/sub_brand/apieu_1.png);background-position: center;background-size: 160%;background-repeat: no-repeat;}
-            .brand_title_img>div>dl>dd.brand_img_2{background-image:url(../img/article/sub_brand/apieu_2.png);background-position: center;background-size: 160%;background-repeat: no-repeat;}
-            .brand_title_img>div>dl>dd.brand_img_3{background-image:url(../img/article/sub_brand/apieu_3.png);background-position: center;background-size: 160%;background-repeat: no-repeat;}
+            .brand_title_img>div>dl>dd.brand_img_1{background-image:url(../img/article/sub_brand/apieu_1.png);background-position: center;background-size: 130%;background-repeat: no-repeat;}
+            .brand_title_img>div>dl>dd.brand_img_2{background-image:url(../img/article/sub_brand/apieu_2.png);background-position: center;background-size: 130%;background-repeat: no-repeat;}
+            .brand_title_img>div>dl>dd.brand_img_3{background-image:url(../img/article/sub_brand/apieu_3.png);background-position: center;background-size: 130%;background-repeat: no-repeat;}
             
-        .brand_title_img>div>dl>dd.widthView{width: 58.437vw;}
+        .brand_title_img>div>dl>dd.widthView{width: 57vw;}
 
             
             #story{width: 100%; height:auto;}
@@ -137,16 +112,16 @@ html{height:100%;overflow-x: hidden;}
                 >ul{ min-width: 100%; width:auto; height:inherit;
                     a{width: 100%; height: 100%; display: block;}
                     >li.bs_bi{width: 25%;  height: 100%; float:left; 
-                    background-image: url(../img/article/sub_brand/brandstory_menu_off_bi.png); background-position: center;background-repeat: no-repeat;  box-shadow: 1px 1px 1px 1px #ccc; 
+                    background-image: url(../img/article/sub_brand/m_bs_menu_off_bi.png); background-position: center;background-repeat: no-repeat;  box-shadow: 1px 1px 1px 1px #ccc; 
                     } // li.bs_bi
                     >li.bs_mark{width: 25%;  height: 100%; float:left; 
-                    background-image: url(../img/article/sub_brand/brandstory_menu_off_mark.png); background-position: center;background-repeat: no-repeat; box-shadow: 1px 1px 1px 1px #ccc;
+                    background-image: url(../img/article/sub_brand/m_bs_menu_off_mark.png); background-position: center;background-repeat: no-repeat; box-shadow: 1px 1px 1px 1px #ccc;
                     } // li.bs_mark
                     >li.bs_slogan{width: 25%;  height: 100%; float:left; 
-                    background-image: url(../img/article/sub_brand/brandstory_menu_off_slogan.png); background-position: center;background-repeat: no-repeat;box-shadow: 1px 1px 1px 1px #ccc;
+                    background-image: url(../img/article/sub_brand/m_bs_menu_off_slogan.png); background-position: center;background-repeat: no-repeat;box-shadow: 1px 1px 1px 1px #ccc;
                     } // li.bs_slogan
                     >li.bs_concept{width: 25%;  height: 100%; float:left; 
-                    background-image: url(../img/article/sub_brand/brandstory_menu_off_concept.png); background-position: center;background-repeat: no-repeat;box-shadow: 1px 1px 1px 1px #ccc;
+                    background-image: url(../img/article/sub_brand/m_bs_menu_off_concept.png); background-position: center;background-repeat: no-repeat;box-shadow: 1px 1px 1px 1px #ccc;
                     } // li.bs_slogan
                 } // ul
                 } //.bs_menubar
