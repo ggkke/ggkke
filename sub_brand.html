@@ -17,6 +17,7 @@
     <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
     <script src="./js/jquery/jquery-ui.min.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="js/sub_brand_mob_v.js"></script>
     <title>어퓨</title>
     <style type="text/css"></style>
      <script type="text/javascript">
@@ -36,8 +37,21 @@
                 
                 
              });
-              menu();
+
+             
+            var acc = $('.brand_title_img'),
+			acc_btn =	acc.find('dl');
+
+		  acc_btn.on('click', function(){
+		 	var $this = $(this);
+		 		acc.find('dd').removeClass('widthView');
+		 		$this.find('dd').addClass('widthView');
+
+		 });
+                story();
+        
          });
+         
     </script>
 </head>
 
@@ -72,6 +86,7 @@
    <div id="article_bg">
    <div class="box" id="articleWrap">
      <h2>어퓨 본문영역</h2>
+     
      <div id="sub_head">
          <h3>서브메뉴영역</h3>
          <div id="brand_maintitle"><span class="me_hidden">브랜드</span></div>
@@ -81,32 +96,47 @@
       <div id="brand" class="item">
           <h3>브랜드 소개</h3>
           <div class="brand_title"></div>
-          <div id="brand_title_image">
-              <ul>
-                  <li class="brand_apieu1"><span class="me_hidden">어퓨매장이미지_1</span></li>
-                  <li class="brand_apieu2"><span class="me_hidden">어퓨매장이미지_2</span></li>
-                  <li class="brand_apieu3"><span class="me_hidden">어퓨매장이미지_3</span></li>
-                
-              </ul>
+          <div class="brand_title_img">
+              <div class="apuieu_img1">
+                  <dl>
+                    <span class="me_hidden">어퓨매장이미지_1</span>
+                     <dt class="brand_apieu1"></dt>
+                      <dd class="brand_img_1 widthView"></dd>
+                  </dl>
+              </div>
+                 <div class="apuieu_img2">
+                     <dl>
+                        <span class="me_hidden">어퓨매장이미지_2</span>
+                        <dt class="brand_apieu2"></dt>
+                        <dd class="brand_img_2"></dd>
+                     </dl>
+                 </div>
+                <div class="apuieu_img3">
+                     <dl>
+                        <span class="me_hidden">어퓨매장이미지_3</span>
+                        <dt class="brand_apieu3"></dt>
+                        <dd class="brand_img_3"></dd>
+                    </dl>
+              </div>
           </div>
       </div><!--//#brand-->
+      
       <div id="story" class="item">
          <h3>브랜드 스토리영역</h3>
          <div class="brandstory_title">   
           </div>
           <div id="bs_box">
-              <div class="brandstory_menubar">
-                             <ul class="me_link">
-                             <li class="bs_bi"><a href="javascript:void(0);"><span>bs_bi</span></a></li>
-                             <li class="bs_mark"><a href="javascript:void(0);"><span>bs_mark</span></a></li>
-                             <li class="bs_slogan"><a href="javascript:void(0);"><span>bs_slogan</span></a></li>
-                             <li class="bs_si"><a href="javascript:void(0);"><span>bs_si</span></a></li>
+              <div class="bs_menubar">
+                             <ul>
+                             <li class="bs_bi"><a href="#" data-img="./img/article/sub_brand/brandstory_bi.png"><span>bs_bi</span></a></li>
+                             <li class="bs_mark"><a href="#" data-img="./img/article/sub_brand/brandstory_mark.png"><span>bs_mark</span></a></li>
+                             <li class="bs_slogan"><a href="#" data-img="./img/article/sub_brand/brandstory_slogan.png"><span>bs_slogan</span></a></li>
+                             <li class="bs_concept"><a href="#" data-img="./img/article/sub_brand/brandstory_si_concept.png"><span>bs_concept</span></a></li>
                              </ul>
                          </div>
-                  <div id="brandstory_box">
-                        <img src="./img/article/sub_brand/brandstory_bi.png" alt="어퓨 브랜드스토리 이미지입니다." />
-                       
-                  </div>
+            <div class="story_imgbox">
+<!--                <img src="#" alt="">-->
+            </div>
           </div>
       </div><!--//#story-->
       <div id="etc"  class="item">
@@ -121,6 +151,7 @@
                       <legend><span class="me_hidden">지역으로 찾기</span></legend>
                      <ul>
                          <li>
+
                             <select name="" id="store_city">
                                   <option> -- 지역선택 -- </option>
                                   <option value="서울">서울</option>
@@ -131,6 +162,7 @@
                                   <option value="강원도">강원도</option>
                                   <option value="제주도">제주도</option>
                               </select>
+
                         </li>
                          <li><button type="button"><span class="me_hidden">검색</span></button></li>
                      </ul>
@@ -145,14 +177,21 @@
                  </form> 
                  </div>
             </div>
-            <div id="membership_box">
+           <div id="membership_box">
         <h4><span class="me_hidden">멤버쉽</span></h4>
             <div class="membership_card">
             <button class="btn_01"></button>
             </div>
             </div>
+
           </div><!--//#membership_store-->
       </div> <!--//#etc-->
+               <div id="top_box">
+      <div class="top_btn">
+          <a href="#"><span class="me_link">TOP Button</span></a>
+      </div>
+      </div>
+      
    </div><!--//#articleWrap-->
    </div>
    <div id="footerWrap_box">
