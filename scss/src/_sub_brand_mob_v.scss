@@ -8,7 +8,7 @@
 html{height:100%;overflow-x: hidden;}
 #wrap{width: 100%;height: auto;overflow: hidden;}
 #wrap>div{margin: 0 auto;}
-*{transition: all 0.5s ease-out;}
+
   
   #menu>.menuclose_btn{width: 48px;height:2.4rem;background-image: url(../img/header/cancel.png);background-repeat: no-repeat;background-size: 80%;margin-top: 0.325rem;top: 0;cursor: pointer;background-color: transparent;}
  
@@ -200,7 +200,11 @@ html{height:100%;overflow-x: hidden;}
                  >h3{width: 15vw;height: 2.8125rem;float: left;background-image: url(../img/footer/able_logo.png);background-repeat: no-repeat;background-size: 100%;margin-left: 2.1rem;}//h3
                  >#addBox{height: 10vw;width:58.8541vw;margin-left: 2.8125rem;float: left;
                      >ul{width: 100%;height: 100%;
-                         >li{display: none;}
+                         >li{display: none;
+                         address>p{color: #555;margin-bottom: 0.2rem;
+                                 >strong{font-weight: bold;color: #555;}
+                             }
+                         }
                          >li:last-child{margin-bottom: 0;display: block;font-size: 0.825rem;}
                      }
                  }//#addBox
