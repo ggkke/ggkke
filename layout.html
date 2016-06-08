@@ -19,10 +19,11 @@
     <script src="./js/menu.js"></script>
     <script src="./js/top_btn.js"></script>
     <script src="./js/popupmovie.js"></script>
-
+    <script src="./js/bestitem.js"></script>
+   
     <title>어퓨</title>
     <style type="text/css">
-#indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:#e8c28d !important; width: 1.2rem !important;}
+    #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:#e8c28d !important; width: 1.2rem !important;}
 
     </style>
      <script type="text/javascript">
@@ -30,7 +31,7 @@
                 menu();
                 top_btn();
                 popupmovie();
-             
+                bestitem();
          var banner = $('.banner_box_page'),
           banLi = banner.find('li'),
           banLiFirst = banner.find('li').first(),
@@ -164,7 +165,7 @@
             <div id="gnb">
                 <h3>어퓨 종합네비게이션 메뉴</h3>
                     <ul class="me_link">
-                        <li class="gnb_01"><a href="./sub_brand.html"><span>브랜드</span></a></li>
+                        <li class="gnb_01"><a href="#"><span>브랜드</span></a></li>
                         <li class="gnb_02"><a href="#"><span>쇼핑</span></a></li>
                         <li class="gnb_03"><a href="./sub_event.html"><span>이벤트</span></a></li>
                         <li class="gnb_04"><a href="#"><span>커뮤니티</span></a></li>
@@ -210,7 +211,11 @@
                       <li class="best_01"><a href="#"><span>상품1</span></a></li>
                       <li class="best_02"><a href="#"><span>상품2</span></a></li>
                       <li class="best_03"><a href="#"><span>상품3</span></a></li>
+                      <li class="best_04"><a href="#"><span>상품4</span></a></li>
+                      <li class="best_05"><a href="#"><span>상품5</span></a></li>
                   </ul>
+                  <button class="bestbtn_l"><span class="me_hidden">left_btn</span></button>
+                  <button class="bestbtn_r"><span class="me_hidden">right_btn</span></button>
               </div>
       </div><!--//#best_item-->
       <div id="movie" class="item">
@@ -220,12 +225,14 @@
           <div id="movie_bg">
               <div id="movie_box">
                   <ul>
-                      <li class="movie_box_img"></li>
+                      <li class="movie_box_img">
+                          <button class="movie_btn"></button>
+                      </li>
+                    
                       <li class="movie_box_content">
                           <ul>
                               <li class="movie_con_txt">
                                    <h4><span class="me_hidden">movie 영역 제목</span></h4>
-                                   <button class="movie_btn"></button>
                               </li>
                               <li class="movie_con_img"></li>
                           </ul>
@@ -305,18 +312,20 @@
                                 <li>
                                 <address>
                                 <p>
-                                주소 : 서울 특별시 금천구 가산디지털 1로 119 sk트윈테크타워 A동 3층
+                                <strong>주   소 : </strong>서울 특별시 금천구 가산디지털 1로 119 sk트윈테크타워 A동 3층
                                 </p>
                                 <p>
-                                대표 : 서영필 / 사업자등록번호 :  119 - 81 - 34685
+                                <strong>대   표 : </strong> 서영필 &nbsp;/ &nbsp;<strong> 사업자등록번호 :</strong>  119 - 81 - 34685
                                 </p>
                                 <p>
-                                통신판매 신고번호 : 제2002-00018호 /  개인정보 보호책임자 : 이광열
+                                <strong>통신판매 신고번호 : </strong> 제2002-00018호
                                 </p>
                                 <p>
-                                문의전화 : 080 - 080 - 4936 / FAX : 02 - 6292-6894
+                               <strong> 문의전화 : </strong> 080 - 080 - 4936 &nbsp;/ &nbsp;<strong>FAX : </strong> 02 - 6292-6894
                                 </p>
-                                메일 : cs@beautynet.co.kr  /  webmaster@beautynet.co.kr
+                                 <p>
+                                   <strong>메 일 : </strong> cs@beautynet.co.kr  &nbsp;/  &nbsp;webmaster@beautynet.co.kr
+                                 </p>
                                 </address>
                                 </li>
                                 <li>
