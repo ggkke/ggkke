@@ -8,8 +8,6 @@ html { height: 100%; }
 
 #wrap > div { margin: 0 auto; }
 
-* { transition: all 0.5s ease-out; }
-
 #menu > .menuclose_btn { display: none; }
 
 /*---------header--------------*/
@@ -44,7 +42,7 @@ html { height: 100%; }
 /*---------article--------------*/
 #article_bg { width: 100%; height: auto; background-image: url(../img/article/bg.png); }
 #article_bg #articleWrap { width: 948px; height: calc(100% - 1.5625vw); padding-top: 0; margin: 0 auto; box-shadow: .03125rem 0 .125rem; background-color: #fff; }
-#article_bg #articleWrap > #sub_head { width: calc(100% - 7.5rem); height: 1.25rem; background-color: rgba(232, 194, 141, 0.3); padding: 1.125rem 3.75rem; }
+#article_bg #articleWrap > #sub_head { width: calc(100% - 7.5rem); height: 1.25rem; background-color: rgba(253, 208, 158, 0.4); padding: 1.125rem 3.75rem; }
 #article_bg #articleWrap > #sub_head > #event3_maintitle { height: 20px; width: 276px; background-image: url(../img/article/sub_event/sub3/event3_txt.png); background-repeat: no-repeat; float: left; margin-left: 4%; background-position: 80%; }
 #article_bg #articleWrap > #sub_head > #event_submenu { width: 8.9375rem; height: auto; float: right; }
 #article_bg #articleWrap > #sub_head > #event_submenu > h4 { width: 8.9375rem; height: 20px; background-image: url(../img/article/sub_brand/brand_plus.png); background-size: 100%; background-repeat: no-repeat; cursor: pointer; float: right; }
@@ -87,5 +85,7 @@ html { height: 100%; }
 #footerWrap_box > #footerWrap > ul > .footer_box > #addBox { height: 11.375rem; width: 35.3125rem; margin-left: 2.8125rem; float: left; }
 #footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul { width: 100%; height: 100%; }
 #footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul > li { margin-bottom: 1.1875rem; }
+#footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul > li address > p { color: #555; margin-bottom: 0.2rem; }
+#footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul > li address > p > strong { font-weight: bold; color: #555; }
 
 /*# sourceMappingURL=sub_event3.css.map */
