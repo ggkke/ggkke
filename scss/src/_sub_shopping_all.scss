@@ -87,21 +87,25 @@ html{height:100%;}
                 >.product_1{width: 100%;height: 250px;float: left;
                     >h3{width: 100%;height: 58px; background-image: url(../img/article/sub_shopping/makeup/title_makeup.png);margin-bottom:30px;background-size: 100%; background-repeat: no-repeat;}
                     >ul{width: 100%;height: 100%;
-                        >li{width: 24%;height: 100%;float: left;margin-left: 10px;position: relative;
-                            >a{width: 100%;height: 100%; display: block;background-repeat: no-repeat;background-position: center;background-size: 100%; box-shadow: 2px 2px 12px #888;
-                            }
-                            >span{position: absolute;bottom:0;/*background-color: #333;width: 100%;height: 20px;*/ }
-                       }
+                        >li{width: 24%;height: 100%;float: left;margin-left: 10px;position: relative; box-shadow: 2px 2px 12px #888;
+                            >a{width: 100%;height: 100%; display: block;background-repeat: no-repeat;background-position: center;background-size: 100%;
+                            }//a
+                            >span{width: 100%;height: 152px;position: absolute;bottom:0;}
+                       }//li
                         
                         >.product1_1{margin-left: 0;overflow: hidden;
                             >a{background-image: url(../img/article/sub_shopping/makeup/makeup_img1.png);
-                                &:hover .productpop1_1{height: 152px;bottom:0;}
-                            >.productpop1_1{position: absolute;bottom:0;width: 100%;height: 152px;background-image:url(../img/article/sub_shopping/makeup/makeup_img1_pop.png);background-repeat: no-repeat;background-size: 100%;position: absolute;bottom:-128px; }
+                                &:hover .productpop1_1{width: 100%;height: 152px;bottom:0;}
+                            >.productpop1_1{width: 100%;height: 152px;background-image:url(../img/article/sub_shopping/makeup/makeup_img1_pop.png);background-repeat: no-repeat;background-size: 100%;position: absolute;bottom:-128px;transition: all .5s ease-in; }//.productpop1_1
+                            }//a
+                        }//.product1_1
+                        
+                        >.product1_2{overflow: hidden;
+                              >a{background-image: url(../img/article/sub_shopping/makeup/makeup_img2.png);
+                            &:hover .productpop1_2{width: 100%;height: 152px;bottom:0;}
+                                  
+                            >.productpop1_2{width: 100%;height: 152px;background-image:url(../img/article/sub_shopping/makeup/makeup_img2_pop.png);background-repeat: no-repeat;background-size: 100%;position: absolute;bottom:-128px;transition: all .5s ease-in; }//.productpop1_1
                             }
-                           
-                        }
-                        >.product1_2{
-                              >a{background-image: url(../img/article/sub_shopping/makeup/makeup_img2.png);}
                         }
                         >.product1_3{
                               >a{background-image: url(../img/article/sub_shopping/makeup/makeup_img3.png);}
