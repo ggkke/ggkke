@@ -1,0 +1,198 @@
+
+*{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
+//*:focus{outline: 2px solid $sub2;}
+.item{margin:3.8rem 0;}
+.item2{margin:5rem 0;}
+html{height:100%;}
+#wrap{width: 100%;height: auto;}
+#wrap>div{margin: 0 auto;}
+
+  #menu>.menuclose_btn{display: none;}
+  /*---------header--------------*/
+  #header_bgbox{width: 100%;height:5.555rem;background-color:rgba(253,208,158,0.4);overflow: hidden;
+        >#headerWrap{width: 59.25rem;height: calc(100% - 1rem);padding: 1rem .375rem 0;margin: 0 auto;background-color:rgba(253,208,158,0);
+            >h1{width: 7.25rem;height: 2.975rem;float: left;margin-left:1.875rem;
+                >a{width: 100%;height: 100%;display: block;background-image: url("../img/header/header_logo.png");background-repeat: no-repeat;background-position: left;}
+            }//h1
+            >#menu{display: none;}//#menu
+            >#sitemap{width: 14.125rem;height: 0.9375rem;float: right;margin-bottom: 0.73rem;
+                >ul{width: 100%;height: 100%;margin-left: 1.875rem;
+                    >li{height:45%;float: left;margin-top: -0.625rem;margin-left:0.1875rem; border-right:  0.0625px solid #ccc;padding:0.3125rem 0.5rem;  
+                        >a{width: 100%;height: 100%;font-size: 0.875rem;font-size: 0.875rem;text-decoration: none;}
+                    } //li
+                    .site01{width:2.75rem;height:100%;}//.site01
+                    .site02{width:3.75rem;height:100%;}//.site02
+                    .site03{width:3.75rem;height:100%;border-right:0;}//.site03
+                }//ul
+            }//#sitemap
+      >#gnb{width: 49.375rem;height: 2.125rem;float: right;
+                >ul{width: 88%;height: inherit;margin-left: 7.8125rem;
+                    >li{height: inherit;margin-right: 3.2rem;float: left;
+                       
+                    }//li
+                    .gnb_01{width: 3.25rem;height: 1.5rem;
+                        >a{width: 3rem;height: 1.5rem;background-image: url("../img/header/header_brand.png");background-position: center;background-repeat: no-repeat;transition: all .3s;
+                            &:hover{background-image: url("../img/header/header_brand_on.png");background-position: center;background-repeat: no-repeat;border-bottom: 6px solid #573a2c;padding-top: 20px;}
+                        }
+                    }
+                    .gnb_02{width: 4.875rem;height: 1.5rem;
+                        >a{width: 4.625rem;height: 1.5rem;background-image: url("../img/header/header_shopping.png");background-position: center;background-repeat: no-repeat;transition: all .3s;
+                            &:hover{background-image: url("../img/header/header_shopping_on.png");background-position: center;background-repeat: no-repeat;border-bottom: 6px solid #573a2c;padding-top: 20px;}
+                        }
+                    }
+                    .gnb_03{width: 3.0625rem;height: 1.5rem;
+                        >a{width: 2.8125rem;height: 1.5rem;background-image: url("../img/header/header_event.png");background-position: center;background-repeat: no-repeat;transition: all .3s;
+                            &:hover{background-image: url("../img/header/header_event_on.png");background-position: center;background-repeat: no-repeat;border-bottom: 6px solid #573a2c;padding-top: 20px;}
+                        }
+                    }
+                    .gnb_04{width: 5.875rem;height: 1.5rem;
+                        >a{width: 5.625rem;height: 1.5rem;background-image: url("../img/header/header_community.png");background-position: center;background-repeat: no-repeat;transition: all .3s;
+                            &:hover{background-image: url("../img/header/header_community_on.png");background-position: center;background-repeat: no-repeat;border-bottom: 6px solid #573a2c;padding-top: 20px;}
+                        }
+                    }
+                    .gnb_05{width: 8.5rem;height: 1.5rem;
+                        >a{width: 8.25rem;height: 1.5rem;background-image: url("../img/header/header_customer.png");background-position: center;background-repeat: no-repeat;transition: all .3s;
+                            &:hover{background-image: url("../img/header/header_customer_on.png");background-position: center;background-repeat: no-repeat;border-bottom: 6px solid #573a2c;padding-top: 20px;}
+                        }
+                    }
+                }//ul
+            }//#gnb
+        }//#headerWrap
+    }//#header_bgbox
+
+
+ 
+
+ /*---------article--------------*/
+    #article_bg{width:100%;height:auto; background-image: url(../img/article/bg.png);
+        #articleWrap{width: 948px;height:calc(100% - 1.5625vw);padding-top: 0; margin: 0 auto; box-shadow: .03125rem 0 .125rem;background-color: #fff;
+        
+            >#sub_head{width: calc(100% - 7.5rem);height:1.25rem;background-color:rgba(253,208,158,0.4); padding: 1.125rem 3.75rem; }
+            #shopping_maintitle{height:20px;width:165px;background-image: url(../img/article/sub_shopping/shopping_txt.png);background-repeat: no-repeat;float: left;margin-left: 4%;}
+           
+                       
+            #shopping{width: 95%; height:auto;padding-left: 5%;}
+            .shopping_title{width:  200px;height: 50px;background-position: center; background-image: url(../img/article/sub_shopping/shopping_title.png);background-repeat: no-repeat;margin-bottom: 40px;background-size: 100%;}
+            
+            
+            /* ----------------- 동영상 ------------------*/
+            
+            .shopping_sub_img{width: 760px;height: 595px; background-position: center; background-image: url(../img/article/sub_shopping/movie_box.png);background-repeat: no-repeat;margin-bottom: 2.5rem;background-size: 100%;background-position: center;margin: 0 auto;position: relative;
+                >iframe{position: absolute; bottom: 0;}
+            }
+            
+            
+             /* ----------- 쇼핑 상품영역 -------------*/
+            #product_con{width: 90%; height:1450px;padding: 0 5% ;
+                >.product_1{width: 100%;height: 250px;float: left;
+                    >h3{width: 100%;height: 58px; background-image: url(../img/article/sub_shopping/makeup/title_makeup.png);margin-bottom:30px;background-size: 100%; background-repeat: no-repeat;}
+                    >ul{width: 100%;height: 100%;
+                        >li{width: 24%;height: 100%;float: left;margin-left: 10px;position: relative;
+                            >a{width: 100%;height: 100%; display: block;background-repeat: no-repeat;background-position: center;background-size: 100%; box-shadow: 2px 2px 12px #888;
+                            }
+                            >span{position: absolute;bottom:0;/*background-color: #333;width: 100%;height: 20px;*/ }
+                       }
+                        
+                        >.product1_1{margin-left: 0;overflow: hidden;
+                            >a{background-image: url(../img/article/sub_shopping/makeup/makeup_img1.png);
+                                &:hover .productpop1_1{height: 152px;bottom:0;}
+                            >.productpop1_1{position: absolute;bottom:0;width: 100%;height: 152px;background-image:url(../img/article/sub_shopping/makeup/makeup_img1_pop.png);background-repeat: no-repeat;background-size: 100%;position: absolute;bottom:-128px; }
+                            }
+                           
+                        }
+                        >.product1_2{
+                              >a{background-image: url(../img/article/sub_shopping/makeup/makeup_img2.png);}
+                        }
+                        >.product1_3{
+                              >a{background-image: url(../img/article/sub_shopping/makeup/makeup_img3.png);}
+                        }
+                        >.product1_4{
+                              >a{background-image: url(../img/article/sub_shopping/makeup/makeup_img4.png);}
+                        }
+                    }//ul
+                  }//.product_1
+                
+                >.product_2{width: 100%;height: 300px;float: left;
+                    >h3{width: 100%;height: 58px; background-image: url(../img/article/sub_shopping/skin/title_skin.png);margin-bottom:30px;background-size: 100%; background-repeat: no-repeat;}
+                    >ul{width: 100%;height: 100%;
+                        >li{width: 24%;height: 100%;float: left;margin-left: 10px;
+                             >a{width: 100%;height: 100%; display: block;background-repeat: no-repeat;background-position: center;background-size: 100%; box-shadow: 2px 2px 12px #888;}
+                       }
+                        >.product2_1{margin-left: 0;
+                         >a{background-image: url(../img/article/sub_shopping/skin/skin_img1.png);}
+                        }
+                        >.product2_2{
+                             >a{background-image: url(../img/article/sub_shopping/skin/skin_img2.png);}
+                        }
+                        >.product2_3{
+                             >a{background-image: url(../img/article/sub_shopping/skin/skin_img3.png);}
+                        }
+                        >.product2_4{
+                             >a{background-image: url(../img/article/sub_shopping/skin/skin_img4.png);}
+                        }
+                    }//ul
+                  }//.product_2
+                
+                >.product_3{width: 100%;height: 300px;float: left;
+                    >h3{width: 100%;height: 58px; background-image: url(../img/article/sub_shopping/nail/title_nail.png);margin-bottom:30px;background-size: 100%; background-repeat: no-repeat;}
+                    >ul{width: 100%;height: 100%;
+                        >li{width: 24%;height: 100%;float: left;margin-left: 10px;
+                             >a{width: 100%;height: 100%; display: block;background-repeat: no-repeat;background-position: center;background-size: 100%; box-shadow: 2px 2px 12px #888;}
+                       }
+                        >.product3_1{margin-left: 0;
+                            >a{background-image: url(../img/article/sub_shopping/nail/nail_img1.png);}
+                        }
+                        >.product3_2{
+                             >a{background-image: url(../img/article/sub_shopping/nail/nail_img2.png);}
+                        }
+                        >.product3_3{
+                             >a{background-image: url(../img/article/sub_shopping/nail/nail_img3.png);}
+                        }
+                        >.product3_4{
+                             >a{background-image: url(../img/article/sub_shopping/nail/nail_img4.png);}
+                        }
+                    }//ul
+                  }//.product_3
+                }//#product_con
+
+         }
+    }
+ 
+
+ /*---------footer--------------*/
+    #footerWrap_box{width:100%;height:18.5rem; background-color:rgba(253,208,158,0.58);
+        >#footerWrap{width:59.25rem;height:100%;background-color:rgba(253,208,158,0.0);margin: 0 auto;
+            >ul{width: 100%;height: 100%;
+             >.sns{width:100%;height:5rem;
+                 >h3{width: 6.25rem;height: 1.875rem;margin:1.875rem 1.875rem 0 31.25rem;float: left;background-image: url(../img/footer/sns.png);background-repeat: no-repeat;background-size: 90%;}
+                 >ul{width: 100%;height: 100%;min-height: 5rem;margin-right: 1.25rem;background-color: rgba(200,200,200,0.1);box-shadow: .03125rem .03125rem .125rem;
+                     >li{width: 25%;height: 100%;float: left;margin-right: 0.9375rem;margin-top: 1.125rem;}//li
+                     >.kakao{width: 2.875rem;height: 2.75rem; background-image: url("../img/footer/icon_kakao.png");
+                        &:hover{background-image: url(../img/footer/icon_kakao_on.png);transition: .4s ease-in-out;}
+                     }
+                     >.twitter{width: 2.875rem;height: 2.75rem; background-image: url("../img/footer/icon_tw.png");
+                        &:hover{background-image: url(../img/footer/icon_tw_on.png);transition: .4s ease-in-out;}
+                     }
+                     >.facebook{width: 2.875rem;height: 2.75rem; background-image: url("../img/footer/icon_face.png");
+                        &:hover{background-image: url(../img/footer/icon_face_on.png);transition: .4s ease-in-out;}
+                     }
+                     >.instagram{width: 2.875rem;height: 2.75rem; background-image: url("../img/footer/icon_insta.png");
+                        &:hover{background-image: url(../img/footer/icon_insta_on.png);transition: .4s ease-in-out;}
+                     }
+                 }//ul
+                }//.sns
+             >.footer_box{width:59.25rem;height:3.4375rem;padding: 2.1875rem 0.025rem 1.875rem; margin: 0 auto;
+                 >h3{width: 7.0625rem;height: 2.8125rem;float: left;background-image: url(../img/footer/able_logo.png);background-repeat: no-repeat;}//h3
+                 >#addBox{height: 11.375rem;width:35.3125rem;margin-left: 2.8125rem;float: left;
+                     >ul{width: 100%;height: 100%;
+                         >li{margin-bottom: 1.1875rem;
+                         address>p{color: #555;margin-bottom: 0.2rem;
+                                 >strong{font-weight: bold;color: #555;}
+                             }
+                         }
+                     }
+                 }//#addBox
+             }//.footer_box
+            }//ul
+        }//#footerWrap
+    }//#footerWrap_box
