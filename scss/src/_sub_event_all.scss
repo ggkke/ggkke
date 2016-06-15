@@ -69,7 +69,7 @@ html{height:100%;}
     #article_bg{width:100%;height:auto; background-image: url(../img/article/bg.png);
         #articleWrap{width: 948px;height:calc(100% - 1.5625vw);padding-top: 0; margin: 0 auto; box-shadow: .03125rem 0 .125rem;background-color: #fff;
         
-            >#sub_head{width: calc(100% - 7.5rem);height:1.25rem;background-color: rgba(#e496a1,.2);/*background-color:rgba(253,208,158,0.4);*/ padding: 1.125rem 3.75rem; }
+            >#sub_head{width: calc(100% - 7.5rem);height:1.25rem;background-color: rgba(#e496a1,.2); padding: 1.125rem 3.75rem; }
             #event_maintitle{height:20px;width:130px;background-image: url(../img/article/sub_event/event_txt.png);background-repeat: no-repeat;float: left;margin-left: 4%;}
            #event_submenu{width:8.9375rem;height:auto;float: right;
                     >h4{width:8.9375rem;height:20px;background-image: url(../img/article/sub_brand/brand_plus.png);background-size: 100%; background-repeat: no-repeat;cursor: pointer;float: right;
@@ -84,7 +84,7 @@ html{height:100%;}
                 }//#event_submenu
                        
             #event{width: 90%; height:434px;padding-left: 5%;}
-            .event_title{width:  200px;;height: 50px;background-position: center; background-image: url(../img/article/sub_event/title.png);background-repeat: no-repeat;margin-bottom: 40px;background-size: 90%;}
+            .event_title{width:  208px;;height: 62px;background-position: center; background-image: url(../img/article/sub_event/title.png);background-repeat: no-repeat;margin-bottom: 56px;background-size: 100%;}
             
             /* ----------------- 과즙상으로 변신 ------------------*/
              #event_sub_title{width: 100%;height: 60px;background-position: center; background-image: url(../img/article/sub_event/event_title.png);background-repeat: no-repeat;}
