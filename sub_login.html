@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/sub_event2.css">
+    <link rel="stylesheet" href="./css/sub_login.css" />
       <!--[if lte IE 9]>
     <script src="./js/dist/html5shiv.min.js"></script>
     <script src="./js/dist/ie9.min.js"></script>
@@ -16,9 +16,8 @@
     <script src="./js/jquery/jquery-1.12.3.min.js"></script>
     <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
     <script src="./js/jquery/jquery-ui.min.js"></script>
-    <script src="./js/menu.js"></script>
+
     <script src="./js/top_btn.js"></script>
-    <script src="./js/popupmovie.js"></script>
     <title>어퓨</title>
     <style type="text/css">
 
@@ -26,22 +25,15 @@
     </style>
      <script type="text/javascript">
          $(function(){
-                menu();
+               
                 top_btn();
-              /*------이벤트 메뉴 전체보기-------------*/
-           var sub_menubar = $('#event_submenu').find('h4');
-            var sub_menu = $('#event_submenu').find('ul');  
-            sub_menubar.on('click',function(){
-                sub_menu.toggle(10);
-            });
-             
+            
     });
     </script>
 </head>
 
 <body>
   <div id="wrap">
-  
   <div id="header_bgbox">
    <div class="box" id="headerWrap">
        <h1 class="me_link"><a href="layout.html"><span>어퓨</span></a></h1>
@@ -58,9 +50,9 @@
 	            <dt>Event</dt>
 	            <dd>
                     <ul>
-                        <li>이벤트</li>
 	                    <li>진행중인 이벤트</li>
 	                    <li>당첨자 발표</li>
+	                    <li>체험단 모집</li>
 	                </ul>
 	            </dd>
 	            <dt>Community</dt>
@@ -73,7 +65,7 @@
 	            <dt>Customer Service</dt>
 	        </dl>
           </div>
-           <div id="sitemap">
+          <div id="sitemap">
                 <h3>어퓨 전체확인요소</h3>
                    <ul class="me_link">
                         <li class="site01"><a href="./sub_login.html"><span class="me_hidden">로그인</span></a></li>
@@ -87,154 +79,86 @@
                         <li class="gnb_01"><a href="./sub_brand.html"><span>브랜드</span></a></li>
                         <li class="gnb_02"><a href="./sub_shopping.html"><span>쇼핑</span></a></li>
                         <li class="gnb_03"><a href="./sub_event.html"><span>이벤트</span></a></li>
-                        <li class="gnb_04"><a href="#"><span>커뮤니티</span></a></li>
+                        <li class="gnb_04"><a href="./sub_community.html"><span>커뮤니티</span></a></li>
                         <li class="gnb_05"><a href="./sub_customer_service.html"><span>고객센터</span></a></li>
                     </ul>
             </div><!--//#gnb-->
     </div><!--//#headerWrap-->
    </div><!--//#header_bgbox-->
     <div id="article_bg">
-    
    <div class="box" id="articleWrap">
      <h2>어퓨 본문영역</h2>
      <div id="sub_head">
          <h3>서브메뉴영역</h3>
-         <div id="announce_maintitle"><span class="me_hidden">이벤트_당첨자게시판</span></div>
-         <div id="event_submenu">
-             <h4>
-                 <a href="#"><span class="me_hidden">메뉴전체보기</span></a>
-             </h4>
-          <ul>
-              <li><a href="./sub_event.html">이벤트</a></li>
-              <li><a href="./sub_event3.html">진행중인 이벤트</a></li>
-              <li><a href="./sub_event2.html">당첨자발표</a></li>
-          </ul>
-         </div>
+         <div id="login_maintitle"><span class="me_hidden">로그인_영역</span></div>
      </div>
      
-      <div id="event_announce" class="item">
-          <h3 class="announce_title"><span class="me_hidden">event 당첨자발표 영역</span></h3>
-          <div id="announce_sub_title">
-             <h4 class="announce_sub_title2"><span class="me_hidden">event 당첨자발표 타이틀</span></h4>
-              <div class="announce_sub_img"><span class="me_hidden">event 당첨자발표 이미지영역</span></div>
-          </div> 
-      </div><!--//#event_announce-->
-      
-      <div id="announce_table" class="item">
-          <h3><span class="me_hidden">당첨자발표게시판 타이틀</span></h3>
-           <div class="conBox">
-					<table class="tableList01" summary="당첨자발표 리스트">
-                        <caption><span class="me_hidden">당첨자발표</span></caption>
-						<thead>
-							<tr>
-								<th scope="col"><img src="./img/article/sub_event/sub2/table_num.png" alt="번호" /></th>
-								<th scope="col"><img src="./img/article/sub_event/sub2/table_title.png" alt="제목" /></th>
-								<th scope="col"><img src="./img/article/sub_event/sub2/table_data.png" alt="작성일자" /></th>
-							</tr>
-						</thead>
-						<tbody>
-				           <tr>
-				           	<td>8</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			106번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.06.03</td>
-				           </tr>
-				           
-				           <tr>
-				           	<td>7</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			105번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.05.03</td>
-				           </tr>
-				           
-				           <tr>
-				           	<td>6</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			104번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.04.03</td>
-				           </tr>
-				              
-				           <tr>
-				           	<td>5</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			103번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.03.02</td>
-				           </tr>
-				              
-				           <tr>
-				           	<td>4</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			102번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.02.01</td>
-				           </tr>
-				              
-				           <tr>
-				           	<td>3</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			101번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2016.01.03</td>
-				           </tr>
-				              
-				           <tr>
-				           	<td>2</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			100번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2015.12.02</td>
-				           </tr>
-				           
-				           <tr>
-				           	<td>1</td>
-				           	<td class="tit">
-				           		<a href="#">
-				           				<strong>
-				           			99번째 과즙상 당첨자발표
-				           				</strong>
-				           		</a>
-				           	</td>
-				           	<td>2015.11.02</td>
-				           </tr>		
-						</tbody>
-					</table>
-					<div class="page_num"><a href="#">1</a></div>
-				</div>
-      </div><!--//#recruit_announce-->
-      
-      
+      <div id="login">
+          <h3 class="login_title item"><span class="me_hidden">고객센터_타이틀 영역</span></h3>
+         
+      </div><!--//#customer-->
+      <div id="login_box">
+        <h3>로그인영역</h3>
+        <ul>
+            <li class="login_1">
+                <h4><span class="me_hidden">회원로그인 영역</span></h4>
+                <form action="" method="post">
+                          <fieldset class="login1">
+                          <legend class="id"><span class="me_hidden">아이디</span></legend>
+                          <input type="text" name="login_id" id="login_id" value="" required placeholder="아이디를 입력하세요."/>
+                          <label for="login_id" class="me_hidden">아이디를 입력하세요.</label>
+                          
+                          <legend class="pw"><span class="me_hidden">비밀번호</span></legend>
+                          <input type="password" name="login_pw" id="login_pw" value="" required placeholder="비밀번호를 입력하세요."/>
+                          <label for="login_pw" class="me_hidden">비밀번호를 입력하세요.</label>
+                         
+                          <button type="button" class="login_btn"><span class="me_hidden">로그인</span></button>
+                          
+                          
+                          <div class="login_helpbox">
+                               <div class="login_help1">
+                                   <p><span class="me_hidden">아이디/비밀번호를 잊어버리셨나요?회원님의 아이디/비밀번호를 찾아드립니다.</span></p>
+                                    <button type="button" class="login_help_btn"><span class="me_hidden">아이디/비밀찾기</span></button>
+                               </div>
+                                <div class="login_help2">
+                                   <p><span class="me_hidden">회원이 아니신가요?회원가입하시고 편하게 이용하세요.</span></p>
+                                    <button type="button" class="login_help_btn"><span class="me_hidden">회원가입하기</span></button>
+                               </div>
+                          </div>
+                          </fieldset>
+                         </form>    
+            </li>
+            <li class="login_2">
+                 <h4><span class="me_hidden">비회원주문 영역</span></h4>
+                 <form action="" method="post">
+                          <fieldset class="login2">
+                          <legend class="id"><span class="me_hidden">아이디</span></legend>
+                          <input type="text" name="login_id" id="login2_id" value="" required placeholder="주문자명을 입력하세요."/>
+                          <label for="login2_id" class="me_hidden">주문자명을 입력하세요.</label>
+                          
+                          <legend class="pw2"><span class="me_hidden">비밀번호</span></legend>
+                          <input type="password" name="login_pw" id="login2_pw" value="" required placeholder="주문번호를 입력하세요."/>
+                          <label for="login2_pw" class="me_hidden">주문번호를 입력하세요.</label>
+                         
+                          <button type="button" class="login2_btn"><span class="me_hidden">주문조회</span></button>
+                          
+                          
+                          <div class="login2_helpbox">
+                               <div class="login_help">
+                                   <p><span class="me_hidden">주문번호를 모르실 경우에는 주문시 등록한 메일로 주문번호가 이
+미 전송 되었으니 확인하시기 바랍니다.</span></p>
+                                    
+                               </div>
+                               
+                          </div>
+                          </fieldset>
+                         </form>    
+            </li>
+        </ul>
+       
+         
+      </div><!--//#login_box-->
+    
      
       <div id="top_box">
       <div class="top_btn">
