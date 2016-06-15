@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-header_brand {
+    width: 48px;
+    height: 24px;
+    background-position: -5px -5px;
+}
+
+.sprite-header_community {
+    width: 90px;
+    height: 24px;
+    background-position: -5px -39px;
+}
+
+.sprite-header_customer {
+    width: 132px;
+    height: 24px;
+    background-position: -5px -73px;
+}
+
+.sprite-header_event {
+    width: 45px;
+    height: 24px;
+    background-position: -5px -107px;
+}
+
+.sprite-header_shopping {
+    width: 74px;
+    height: 24px;
+    background-position: -5px -141px;
+}

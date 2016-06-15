@@ -1,0 +1,23 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-header_basket {
+    width: 55px;
+    height: 15px;
+    background-position: -5px -5px;
+}
+
+.sprite-header_join {
+    width: 58px;
+    height: 15px;
+    background-position: -5px -30px;
+}
+
+.sprite-header_login {
+    width: 44px;
+    height: 15px;
+    background-position: -5px -55px;
+}
