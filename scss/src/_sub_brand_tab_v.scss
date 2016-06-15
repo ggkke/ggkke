@@ -32,14 +32,18 @@ html{height:100%;}
                      }//dd
                 }//dl
             }//#menu
-            >#sitemap{display: none;width: 14.125rem;height: 0.9375rem;float: right;margin-bottom: 0.73rem;
-                >ul{width: 100%;height: 100%;margin-left: 1vw;
-                    >li{height:45%;float: left;margin-top: -0.625rem;margin-left:0.1875rem; border-right:  0.0625px solid #ccc;padding:0.3125rem 0.5rem;  
-                        >a{width: 100%;height: 100%;font-size: 0.875rem;font-size: 0.875rem;text-decoration: none;}
+           >#sitemap{width: 14.125rem;height: 0.9375rem;float: right;margin-bottom: 0.73rem;
+                >ul{width: 100%;height: 100%;margin-left: 3rem;
+                    >li{height:45%;float: left;margin-top: -0.625rem;margin-left:0.4rem; 
+                          >a{width: 100%;height: 100%;text-decoration: none;background-repeat: no-repeat;}
                     } //li
-                    .site01{width:2.75rem;height:100%;}//.site01
-                    .site02{width:3.75rem;height:100%;}//.site02
-                    .site03{width:3.75rem;height:100%;border-right:0;}//.site03
+                    .site01{width:2.75rem;height:100%;
+                        >a{background-image: url(../img/header/header_login.png);}
+                    }//.site01
+                    .site02{width:3.75rem;height:100%;
+                         >a{background-image: url(../img/header/header_join.png);}
+                    }//.site02
+                    
                 }//ul
             }//#sitemap
             >#gnb{display: none;width: 49.375rem;height: 2.125rem;float: right;

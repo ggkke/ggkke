@@ -1,7 +1,8 @@
 
 *{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
 //*:focus{outline: 2px solid $sub2;}
-.item{margin:3.5rem 0;}
+.item{margin:3.8rem 0;}
+.item2{margin:5rem 0;}
 html{height:100%;}
 #wrap{width: 100%;height: auto;}
 #wrap>div{margin: 0 auto;}
@@ -58,7 +59,7 @@ html{height:100%;}
                             &:hover{background-image: url("../img/header/header_customer_on.png");background-position: center;background-repeat: no-repeat;border-bottom: 6px solid #573a2c;padding-top: 20px;}
                         }
                     }
-                }//ul
+                }//ul 
             }//#gnb
         }//#headerWrap
     }//#header_bgbox
@@ -67,69 +68,57 @@ html{height:100%;}
     #article_bg{width:100%;height:auto; background-image: url(../img/article/bg.png);
         #articleWrap{width: 948px;height:calc(100% - 1.5625vw);padding-top: 0; margin: 0 auto; box-shadow: .03125rem 0 .125rem;background-color: #fff;
         
-           
             >#sub_head{width: calc(100% - 7.5rem);height:1.25rem;background-color: rgba(#e496a1,.2);padding: 1.125rem 3.75rem; }
-            #announce_maintitle{height:20px;width:240px;background-image: url(../img/article/sub_event/sub2/event2_txt.png);background-repeat: no-repeat;float: left;margin-left: 4%;background-position: 90%;}
-           #event_submenu{width:8.9375rem;height:auto;float: right;
-                    >h4{width:8.9375rem;height:20px;background-image: url(../img/article/sub_brand/brand_plus.png);background-size: 100%; background-repeat: no-repeat;cursor: pointer;float: right;
-                    }
-                    >ul{width: 203px; height: auto;display: none;padding-top: 20px;margin-top: 17px;
-                        >li{width: 100%;height: 40px;background-color: rgba(#e496a1,.4);/*background-color:rgba(253,208,158,0.5);*/
-                            >a{width: 100%;height: 100%;display: block; color: $black;text-decoration: none;font-weight: bold;line-height: 40px;text-indent: 15px;font-size: 0.875rem;
-                                &:hover{color: #fff;background-color: #583B2C;}
-                            }
-                        }
-                    }
-                }//#event_submenu
+            #customer_maintitle{height:20px;width:220px;background-image: url(../img/article/sub_customer/customer_txt.png);background-repeat: no-repeat;background-size: 100%; float: left;margin-left: 4%;}
+           
                        
-            #event_announce{width: 90%; height:auto;padding-left: 5%;}
-            .announce_title{width: 350px;height: 50px;background-position: center; background-image: url(../img/article/sub_event/sub2/announce_title.png);background-repeat: no-repeat;margin-bottom: 40px;background-size: 85%;}
+            #customer{width: 95%; height:auto;padding-left: 5%;}
+            .customer_title{width:  398px;height: 62px;background-position: center; background-image: url(../img/article/sub_customer/customer_title.png);background-repeat: no-repeat;margin-bottom: 40px;background-size: 100%;}
             
-            /* ----------------- 당첨자발표 img ------------------*/
-             
-             //#event_sub_title{width: 100%;height: 500px;}
-             .announce_sub_title2{width: 100%;height: 60px;background-position: center; background-image: url(../img/article/sub_event/sub2/announce_title2.png);background-repeat: no-repeat;}
-                .announce_sub_img{width: 100%;height: 348px;padding: 20px 0; background-position: center; background-image: url(../img/article/sub_event/sub2/event_recruit_bg.png);background-repeat: no-repeat;margin-bottom: 2.5rem;background-size: 100%;background-position: center;}
             
-             
-             /* ----------------- 당첨자발표 게시판------------------*/
-            #announce_table{width: 100%;height: auto;
-                >h3{width: 90%;height: 60px;background-position: center; background-image: url(../img/article/sub_event/sub2/announce_subtitle2.png);background-repeat: no-repeat;margin: 0 auto;margin-bottom: 35px;}
-                >.conBox{width: 100%;height: auto;padding-top:  10px;
-                    >.tableList01{width: 80%;height: auto;margin: 0 auto;box-shadow: 2px 1px 10px #555;
-                        >thead{background-color: #eee;
-                          >tr{height: 45px;border: 1px solid #fff;
-                              >th{border-style: none;border-bottom: 2px solid #c32d5a;box-sizing: border-box;}
-                            }
-                        }//thead
-                        >tbody{text-align: center;
-                          >tr{height: 40px;border: 1px solid #fff;
-                              >td{border-style: none;border-bottom: 2px solid #ddd;color:#555;
-                                  >a{width: 100%;height: 100%;display: block; text-decoration: none;transition: all .2s;
-                                      &:hover{width: 98%;}
-                                      >strong{font-weight: bold;color:#666; }
-                                  }
-                              }
-                            }
-                        }//thead
-                    }//table
-                    .page_num{padding: 20px 0; width: 5px;height: 5px;margin: 0 auto;
-                        >a{text-decoration: none;color: $sub2;font-weight: bold;
+             /* ----------- 고객센터 자주묻는질문 영역 -------------*/
+            #customer_con{width: 90%; height:900px;padding: 0 5%;
+                
+                >.customer_faq{width: 100%;height: 420px;
+                    >h4{width: 100%;height: 58px; background-image: url(../img/article/sub_customer/faq_title.png);margin-bottom:30px;background-size: 100%; background-repeat: no-repeat;}
+                    >.customer_faqbox{width: 100%;height: 320px;background-image: url(../img/article/sub_customer/faq_mainbg.png);background-repeat: no-repeat;padding-top: 45px;
+                    >ul{width: 744px;height: 240px;margin: 0 auto;
+                        >li{width: 228px;height: 240px;float: left;box-shadow: 2px 2px 12px #888;overflow: hidden;margin-left: 26px;
+                            >a{width: 100%;height: 100%; display: block;background-repeat: no-repeat;background-position: center;background-size: 100%;
+                            }//a
+                       }//li
+                        .delivery_faq{width: 228px;height: 240px;margin-left: 0;
+                            >a{background-image: url(../img/article/sub_customer/delivery_faq.png);}
                         }
-                    }
-                }//.conBox
-            }//#announce_table
-            
-            
-            
-            
-            
-            
-      
-         }//#articleWrap
-     }//#article_bg
-    
- 
+                        .product_faq{width: 228px;height: 240px;
+                         >a{background-image: url(../img/article/sub_customer/product_faq.png);}
+                        }
+                        .membership_faq{width: 228px;height: 240px;
+                         >a{background-image: url(../img/article/sub_customer/membership_faq.png);}
+                        }
+                    }//ul   
+                }//.customer_faqbox
+         }//.customer_faq
+                
+                >.customer_consultation{width: 100%;height: 360px;
+                    >h4{width: 100%;height: 58px; background-image: url(../img/article/sub_customer/consultation_title.png);margin-bottom:30px;background-size: 100%; background-repeat: no-repeat;}
+                    >.customer_consultationbox{width: 100%;height: 320px;padding-top: 45px;
+                    >ul{width: 908px;height: 208px;margin: 0 auto;
+                        >li{width: 196px;height: 196px;float: left;/*box-shadow: 2px 2px 12px #888;*/overflow: hidden;margin-left: 20px;background-repeat: no-repeat;background-position: center;background-size: 100%;
+                            
+                       }//li
+                        .shopping_mall{width:196px;height:196px;margin-left: 5px;background-image: url(../img/article/sub_customer/shoppingmall_img.png);}
+                        .shop{width:196px;height:196px;background-image: url(../img/article/sub_customer/shop_img.png);}
+                        .fax{width:196px;height:196px;background-image: url(../img/article/sub_customer/fax_img.png);}
+                        .emil{width:196px;height:196px;background-image: url(../img/article/sub_customer/email_img.png);}
+                      
+                    }//ul   
+                }//.customer_faqbox
+         }//.customer_faq
+                
+    }//#customer_con
+  }
+}
 
   /*---------footer--------------*/
     #footerWrap_box{width:100%;height:18.5rem;background-color: rgba(#e496a1,.6);

@@ -19,12 +19,12 @@ html{height:100%;}
              >#menu{width: 100%;height:auto;
                  >.menu_btn{width: 48px;height:2.4rem;background-image: url(../img/header/menu.png);background-repeat: no-repeat;background-size: 80%;float: right;top:60px; right: 15px;  cursor: pointer;background-color: transparent;position: absolute;margin-top: -36px;}
                  >dl{width: 100%;height: 0;position: absolute;z-index: 600;overflow: hidden;right: 0;top:80px;
-                    >dt{width: 100%;height: auto;background-color: #ccc;text-align: center;line-height: 10vw;font-size: 1rem;font-weight: bold;color: $white;border: 1px solid #fff;transition:  all 0.3s;cursor: pointer;
-                        &:hover{background-color: #ccc;color: #595959;}
+                    >dt{width: 100%;height: auto;background-color:rgb(253,208,158);text-align: center;line-height: 7vw;font-size: 1rem;font-weight: bold;color: #555;border: 1px solid #fff;transition:  all 0.3s;cursor: pointer;
+                        &:hover{background-color: #583B2C;color: #fff;}
                     }//dt
-                    >dd{width: 100%;height: 0;background-color: #595959;/*transition: height .5s;*/ overflow:hidden;cursor: pointer;
+                    >dd{width: 100%;height: 0;background-color:rgba($main,0.7);/*transition: height .5s;*/ overflow:hidden;cursor: pointer;
                         >ul{
-                            >li{text-align: center;line-height: auto;font-size: 1rem;font-weight: bold;color: $white;border: 1px solid #fff;
+                            >li{text-align: center;line-height: 5vw;font-size: 1rem;font-weight: bold;color: #222;border: 1px solid #fff;
                             &:hover{background-color: #ffe;color: #595959;}
                             }//li
                         }//ul
@@ -33,12 +33,12 @@ html{height:100%;}
             }//#menu
             >#sitemap{display: none;width: 14.125rem;height: 0.9375rem;float: right;margin-bottom: 0.73rem;
                 >ul{width: 100%;height: 100%;margin-left: 1vw;
-                    >li{height:45%;float: left;margin-top: -0.625rem;margin-left:0.1875rem; border-right:  0.0625px solid #ccc;padding:0.3125rem 0.5rem;  
+                    >li{height:45%;float: left;margin-top: -0.625rem;margin-left:0.1875rem; 
                         >a{width: 100%;height: 100%;font-size: 0.875rem;font-size: 0.875rem;text-decoration: none;}
                     } //li
                     .site01{width:2.75rem;height:100%;}//.site01
                     .site02{width:3.75rem;height:100%;}//.site02
-                    .site03{width:3.75rem;height:100%;border-right:0;}//.site03
+                   
                 }//ul
             }//#sitemap
             >#gnb{display: none;width: 49.375rem;height: 2.125rem;float: right;
