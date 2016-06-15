@@ -52,11 +52,11 @@ html { height: 100%; }
 #article_bg #articleWrap #event_submenu { width: 8.9375rem; height: auto; float: right; }
 #article_bg #articleWrap #event_submenu > h4 { width: 8.9375rem; height: 20px; background-image: url(../img/article/sub_brand/brand_plus.png); background-size: 100%; background-repeat: no-repeat; cursor: pointer; float: right; }
 #article_bg #articleWrap #event_submenu > ul { width: 203px; height: auto; display: none; padding-top: 20px; margin-top: 17px; }
-#article_bg #articleWrap #event_submenu > ul > li { width: 100%; height: 40px; background-color: rgba(228, 150, 161, 0.4); /*background-color:rgba(253,208,158,0.5);*/ }
+#article_bg #articleWrap #event_submenu > ul > li { width: 100%; height: 40px; background-color: rgba(228, 150, 161, 0.4); }
 #article_bg #articleWrap #event_submenu > ul > li > a { width: 100%; height: 100%; display: block; color: #555; text-decoration: none; font-weight: bold; line-height: 40px; text-indent: 15px; font-size: 0.875rem; }
 #article_bg #articleWrap #event_submenu > ul > li > a:hover { color: #fff; background-color: #583B2C; }
 #article_bg #articleWrap #event_announce { width: 90%; height: auto; padding-left: 5%; }
-#article_bg #articleWrap .announce_title { width: 350px; height: 50px; background-position: center; background-image: url(../img/article/sub_event/sub2/announce_title.png); background-repeat: no-repeat; margin-bottom: 40px; background-size: 85%; }
+#article_bg #articleWrap .announce_title { width: 308px; height: 62px; background-position: center; background-image: url(../img/article/sub_event/sub2/announce_title.png); background-repeat: no-repeat; margin-bottom: 56px; background-size: 100%; }
 #article_bg #articleWrap .announce_sub_title2 { width: 100%; height: 60px; background-position: center; background-image: url(../img/article/sub_event/sub2/announce_title2.png); background-repeat: no-repeat; }
 #article_bg #articleWrap .announce_sub_img { width: 100%; height: 348px; padding: 20px 0; background-position: center; background-image: url(../img/article/sub_event/sub2/event_recruit_bg.png); background-repeat: no-repeat; margin-bottom: 2.5rem; background-size: 100%; background-position: center; }
 #article_bg #articleWrap #announce_table { width: 100%; height: auto; }

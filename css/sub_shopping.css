@@ -52,7 +52,8 @@ html { height: 100%; }
 #article_bg #articleWrap > #sub_head { width: calc(100% - 7.5rem); height: 1.25rem; background-color: rgba(228, 150, 161, 0.2); padding: 1.125rem 3.75rem; }
 #article_bg #articleWrap #shopping_maintitle { height: 20px; width: 165px; background-image: url(../img/article/sub_shopping/shopping_txt.png); background-repeat: no-repeat; float: left; margin-left: 4%; }
 #article_bg #articleWrap #shopping { width: 95%; height: auto; padding-left: 5%; }
-#article_bg #articleWrap .shopping_title { width: 200px; height: 50px; background-position: center; background-image: url(../img/article/sub_shopping/shopping_title.png); background-repeat: no-repeat; margin-bottom: 40px; background-size: 100%; }
+#article_bg #articleWrap #shopping > .shopping_title { width: 243px; height: 62px; background-position: center; background-image: url(../img/article/sub_shopping/shopping_title.png); background-repeat: no-repeat; margin-bottom: 58px; }
+#article_bg #articleWrap #shopping > h4 { width: 94%; height: 60px; background-image: url(../img/article/sub_shopping/tip_title.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
 #article_bg #articleWrap .shopping_sub_img { width: 760px; height: 595px; background-position: center; background-image: url(../img/article/sub_shopping/movie_box.png); background-repeat: no-repeat; margin-bottom: 2.5rem; background-size: 100%; background-position: center; margin: 0 auto; position: relative; }
 #article_bg #articleWrap .shopping_sub_img > iframe { position: absolute; bottom: 0; }
 #article_bg #articleWrap #product_con { width: 90%; height: 1450px; padding: 0 5%; }
