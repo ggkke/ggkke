@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sub_join.css" />
+      <!--[if lte IE 9]>
+    <script src="./js/dist/html5shiv.min.js"></script>
+    <script src="./js/dist/ie9.min.js"></script>
+    <script src="./js/dist/PIE.js"></script> 
+    <script src="./js/dist/responsive.min.js"></script>
+    <![endif]-->
+    
+    <script src="./js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="./js/jquery/jquery-ui.min.js"></script>
+
+    <script src="./js/top_btn.js"></script>
+    <title>어퓨</title>
+    <style type="text/css">
+
+    
+    </style>
+     <script type="text/javascript">
+         $(function(){
+               
+                top_btn();
+           
+           for(var i=2016; i >= 1900; i--){
+            $('#question_05').append('<option>').find('option').last().val(i).text(i);
+            
+            };
+           
+           for(var j=1; 31 >= j; j++){
+            $('#question_05_2').append('<option>').find('option').last().val(j).text(j);
+            
+            };
+         });
+    </script>
+</head>
+
+<body>
+  <div id="wrap">
+  <div id="header_bgbox">
+   <div class="box" id="headerWrap">
+       <h1 class="me_link"><a href="layout.html"><span>어퓨</span></a></h1>
+       <h2>어퓨 전체 메뉴영역</h2> 
+          <div id="menu">
+          <button class="menu_btn"><span class="me_hidden">메뉴</span> </button>
+           <button class="menuclose_btn"><span class="me_hidden">닫기</span>
+          </button>
+           <dl>
+	            <dt>Brand</dt>
+	       
+	            <dt>Shopping</dt>
+	           
+	            <dt>Event</dt>
+	            <dd>
+                    <ul>
+	                    <li>진행중인 이벤트</li>
+	                    <li>당첨자 발표</li>
+	                    <li>체험단 모집</li>
+	                </ul>
+	            </dd>
+	            <dt>Community</dt>
+	            <dd>
+                    <ul>
+	                    <li>리뷰</li>
+	                    <li>뷰티팁</li>
+	                </ul>
+	            </dd>
+	            <dt>Customer Service</dt>
+	        </dl>
+          </div>
+          <div id="sitemap">
+                <h3>어퓨 전체확인요소</h3>
+                   <ul class="me_link">
+                        <li class="site01"><a href="./sub_login.html"><span class="me_hidden">로그인</span></a></li>
+                        <li class="site02"><a href="./sub_join.html"><span class="me_hidden">회원가입</span></a></li>
+                        
+                    </ul>
+            </div><!--//#sitemap-->
+            <div id="gnb">
+                <h3>어퓨 종합네비게이션 메뉴</h3>
+                    <ul class="me_link">
+                        <li class="gnb_01"><a href="./sub_brand.html"><span>브랜드</span></a></li>
+                        <li class="gnb_02"><a href="./sub_shopping.html"><span>쇼핑</span></a></li>
+                        <li class="gnb_03"><a href="./sub_event.html"><span>이벤트</span></a></li>
+                        <li class="gnb_04"><a href="./sub_community.html"><span>커뮤니티</span></a></li>
+                        <li class="gnb_05"><a href="./sub_customer_service.html"><span>고객센터</span></a></li>
+                    </ul>
+            </div><!--//#gnb-->
+    </div><!--//#headerWrap-->
+   </div><!--//#header_bgbox-->
+    
+    <div id="article_bg">
+    <div class="box" id="articleWrap">
+     <h2>어퓨 본문영역</h2>
+     <div id="sub_head">
+         <h3>서브메뉴영역</h3>
+         <div id="join_maintitle"><span class="me_hidden">로그인_영역</span></div>
+     </div>
+         
+    <div id="join">
+        <h3 class="join_title item"><span class="me_hidden">고객센터_타이틀 영역</span></h3>
+         
+      </div><!--//#join-->
+        
+       <div id="SubJoinContent" >
+       <form action="" method="post">
+        <fieldset class="question_form">
+                      <legend><span class="me_hidden">고객문의 입력 양식</span></legend>
+                       <ol class="infoBox">
+                       <h4>상세정보 입력</h4>
+                   <li class="box_1"><label for="question_01" class="me_hidden">이름</label></li>
+                   <li class="box_2"><label for="question_02" class="me_hidden">아이디</label></li>
+                   <li class="box_3"><label for="question_03" class="me_hidden">비밀번호</label></li>
+                   <li class="box_4"><label for="question_04" class="me_hidden">비밀번호 확인</label></li>
+                   <li class="box_5"><label for="question_05" class="me_hidden">생일/성별</label></li>
+                   <li class="box_6"><label for="question_06" class="me_hidden">우편번호</label></li>
+                   <li class="box_7"><label for="question_07" class="me_hidden">집주소</label></li>
+                   <li class="box_8"><label for="question_08" class="me_hidden">연락처</label></li>
+                   <li class="box_9"><label for="question_09" class="me_hidden">이메일</label></li>
+               </ol>
+               <ul class="inputBox">
+                   <li>
+                   <input type="text" id="question_01" name="" value="" required placeholder="작성자" />
+                  </li>
+                    <li><input type="text" id="question_02" name="" value="" required placeholder="아이디">
+                   <button type="button" name="" id="idCheck"></button>
+                   <label for="idCheck" class="me_hidden">중복확인</label>
+                   </li>
+                   <li><input type="password" id="question_03" name="" value="" required placeholder="비밀번호">
+                   <label for="password"><span class="me_hidden">비밀번호</span>
+                   <span class="me_hidden">5~15자리 사이의 비밀번호를 입력하세요.</span>
+                   </label></li>
+                   <li><input type="password" id="question_04" name="" value="" required placeholder="비밀번호 확인">
+                     <label for="password_confirm"><span class="me_hidden">패스워드확인</span>
+                      <span class="me_hidden">다시 한번 패스워드를 입력하세요.(비밀번호 확인용입니다)</span>
+                   </label></li>
+                    <li>
+                  <select name="" id="question_05">
+                      <option value="select">선택하세요</option>
+
+                  </select>
+                    <label for="year">년</label>
+                <select name="" id="question_05_1">
+                      <option value="select">선택하세요</option>
+                      <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+                      <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                  </select>
+                    <label for="month">월</label>
+                <select name="" id="question_05_2">
+                      <option value="select">선택하세요</option>
+                  </select>
+                    <label for="day">일</label>
+                   </li> 
+                    <li>
+                    <input type="text" name="" id="question_06" value=""/>
+                   <span><!--bar--></span>
+                   <input type="text" name="" id="question_06_1" value=""/>
+                    <button type="button" name="" id="idCheck_question_06"></button>
+                   <label for="idCheck_question_06" class="me_hidden"></label>
+                   </li>
+                   
+                   <li>
+                   <input type="text" id="question_07" name="" value="" required placeholder="주소" />
+                   </li>
+                   <li>
+                      <select name="" id="question_08">
+                      <option value="010">010</option>
+                      <option value="011">011</option>
+                      <option value="012">012</option>
+                      <option value="013">013</option>
+                      <option value="016">016</option>
+                      <option value="017">017</option>
+                      <option value="018">018</option>
+                      <option value="019">019</option>
+                      <option value="0505">0505</option>
+                  </select>
+                  <span><!--bar--></span>
+                   <input type="text" name="" id="tel_02" value="" equired placeholder="3~4자리 번호"/>
+                   <span><!--bar--></span>
+                   <input type="text" name="" id="tel_03" value="" equired placeholder="4자리 번호"/>
+                   <label for="tel_02" class="me_hidden">휴대폰번호 가운데 셋 또는 네자리를 입력하세요</label>
+                   <label for="tel_03" class="me_hidden">휴대폰번호 마지막 네자리를 입력하세요</label>
+                   <p>( * 전화상담을 원하시는 고객님께서는 전화번호를 반드시 기재해 주시기 바랍니다.)</p>
+                   </li>
+
+                <li><input type="email" id="question_09" name="" value="" equired placeholder="이메일">
+                   <span>@</span>
+                   <input type="email" id="question_09_2" name="" value="" equired  placeholder="이메일 나머지 주소 입력"/>
+                   </li>
+               </ul>
+   
+                        <div class="form_question_btn">
+                            <button type="button"></button>     
+                            <button type="reset"></button> 
+                        </div>   
+                        </fieldset> 
+        
+            </form>
+        </div>
+           </div><!--//#articleWrap-->
+   </div>
+   </div>
+      <div id="footerWrap_box">
+       <div class="box" id="footerWrap">
+          <h2>어퓨 정보란</h2>
+           <ul>
+               <li class="sns">
+                  <h3><span class="me_hidden">어퓨 SNS</span></h3>
+                      <ul class="me_link">
+                           <li class ="kakao"><a href="#"><span>카카오</span></a></li>
+                           <li class ="twitter"><a href="#"><span>트위터</span></a></li>
+                           <li class ="facebook"><a href="#"><span>페이스북</span></a></li>
+                           <li class ="instagram"><a href="#"><span>인스타</span></a></li>
+                       </ul>  
+               </li>
+               <li class="footer_box">
+                    <h3><span class="me_hidden">어퓨 푸터 로고</span></h3>
+                        <div id="addBox">
+                            <ul>
+                                <li>
+                                <address>
+                                <p>
+                                주소 : 서울 특별시 금천구 가산디지털 1로 119 sk트윈테크타워 A동 3층
+                                </p>
+                                <p>
+                                대표 : 서영필 / 사업자등록번호 :  119 - 81 - 34685
+                                </p>
+                                <p>
+                                통신판매 신고번호 : 제2002-00018호 /  개인정보 보호책임자 : 이광열
+                                </p>
+                                <p>
+                                문의전화 : 080 - 080 - 4936 / FAX : 02 - 6292-6894
+                                </p>
+                                메일 : cs@beautynet.co.kr  /  webmaster@beautynet.co.kr
+                                </address>
+                                </li>
+                                <li>
+                                    COPYRIGHT(C) ABLIC&amp;C, ALL RIGHT RESERVED.
+                                </li>
+                            </ul>
+                        </div><!--#addBox-->
+               </li><!--.footer_box-->
+           </ul>
+       </div>
+   </div><!--//#wrap-->
+   </body>
+   </html> 
