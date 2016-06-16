@@ -241,11 +241,14 @@ html {
         width: 150px;
         height: 32px;
         background-image: url(../img/article/sub_join/join_confirm_btn.png);
-        background-repeat: no-repeat; }
+        background-repeat: no-repeat;
+        cursor: pointer; }
       #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(2) > button:hover {
         width: 150px;
         height: 32px;
-        background-image: url(../img/article/sub_join/join_confirm_hover.png); }
+        background-image: url(../img/article/sub_join/join_confirm_hover.png);
+        background-repeat: no-repeat;
+        cursor: pointer; }
       #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(3) > input {
         width: 50%; }
       #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(4) > input {
@@ -262,11 +265,15 @@ html {
       #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(6) > button {
         width: 150px;
         height: 32px;
-        background-image: url(../img/article/sub_join/join_address_btn.png); }
+        background-image: url(../img/article/sub_join/join_address_btn.png);
+        background-repeat: no-repeat;
+        cursor: pointer; }
       #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(6) > button:hover {
         width: 150px;
         height: 32px;
-        background-image: url(../img/article/sub_join/join_address_hover.png); }
+        background-image: url(../img/article/sub_join/join_address_hover.png);
+        background-repeat: no-repeat;
+        cursor: pointer; }
       #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(7) > input {
         width: 50%; }
       #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(8) > input {
@@ -287,9 +294,6 @@ html {
         #article_bg #articleWrap #SubJoinContent .infoBox > h4 {
           width: 122px;
           height: 22px;
-          background-image: url(./img/article/sub_join/join_input_title.png);
-          background-repeat: no-repeat;
-          background-size: 100%;
           margin-top: -20px; }
       #article_bg #articleWrap #SubJoinContent .infoBox > li {
         width: 150px;
@@ -399,14 +403,22 @@ html {
           height: 48px; }
           #article_bg #articleWrap #SubJoinContent .form_question_btn > button:nth-child(1) {
             background-image: url(../img/article/sub_join/join_finish.png);
-            margin-right: 100px; }
+            margin-right: 100px;
+            background-repeat: no-repeat;
+            cursor: pointer; }
           #article_bg #articleWrap #SubJoinContent .form_question_btn > button:nth-child(1):hover {
             background-image: url(../img/article/sub_join/join_finish_hover.png);
-            margin-right: 100px; }
+            margin-right: 100px;
+            background-repeat: no-repeat;
+            cursor: pointer; }
           #article_bg #articleWrap #SubJoinContent .form_question_btn > button:nth-child(2) {
-            background-image: url(../img/article/sub_join/join_reset.png); }
+            background-image: url(../img/article/sub_join/join_reset.png);
+            background-repeat: no-repeat;
+            cursor: pointer; }
           #article_bg #articleWrap #SubJoinContent .form_question_btn > button:nth-child(2):hover {
-            background-image: url(../img/article/sub_join/join_reset_hover.png); }
+            background-image: url(../img/article/sub_join/join_reset_hover.png);
+            background-repeat: no-repeat;
+            cursor: pointer; }
 
 /*---------footer--------------*/
 #footerWrap_box {
