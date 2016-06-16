@@ -88,15 +88,15 @@ ul>li>button{margin-left:16px; margin-top: 10px;}
 
  
 .question_form>.inputBox>li:nth-child(2)>input{height: 25px;}
-.inputBox li:nth-child(2)>button{width: 150px; height: 32px;background-image: url(../img/article/sub_join/join_confirm_btn.png);background-repeat: no-repeat;}
-.inputBox li:nth-child(2)>button:hover{width: 150px; height: 32px;background-image: url(../img/article/sub_join/join_confirm_hover.png);}
+.inputBox li:nth-child(2)>button{width: 150px; height: 32px;background-image: url(../img/article/sub_join/join_confirm_btn.png);background-repeat: no-repeat;cursor: pointer;}
+.inputBox li:nth-child(2)>button:hover{width: 150px; height: 32px;background-image: url(../img/article/sub_join/join_confirm_hover.png);background-repeat: no-repeat;cursor: pointer;}
 .inputBox li:nth-child(3)>input{width: 50%;}
 .inputBox li:nth-child(4)>input{width: 50%;}
 .inputBox li:nth-child(5)>input{width: 80px;}
 .inputBox li:nth-child(5)>select{width: 20%;}
 .inputBox li:nth-child(6)>span{width: 7px;height: 13px;border-bottom: 1px solid #333; display: inline-block;}
-.inputBox li:nth-child(6)>button{width: 150px; height: 32px;background-image: url(../img/article/sub_join/join_address_btn.png);}
-.inputBox li:nth-child(6)>button:hover{width: 150px; height: 32px;background-image: url(../img/article/sub_join/join_address_hover.png);}
+.inputBox li:nth-child(6)>button{width: 150px; height: 32px;background-image: url(../img/article/sub_join/join_address_btn.png);background-repeat: no-repeat;cursor: pointer;}
+.inputBox li:nth-child(6)>button:hover{width: 150px; height: 32px;background-image: url(../img/article/sub_join/join_address_hover.png);background-repeat: no-repeat;cursor: pointer;}
 .inputBox li:nth-child(7)>input{width: 50%;}                
 .inputBox li:nth-child(8){
                     >input{width: 20%;float: left;}
@@ -110,7 +110,7 @@ ul>li>button{margin-left:16px; margin-top: 10px;}
 
 #SubJoinContent>form>.question_form>ul>li,#SubJoinContent>form>.question_form>ol>li{padding-bottom: 10px;}              
 .infoBox{width: 100px;height: 100%;float: left;margin-right: 10px;
-        >h4{width: 122px; height:22px;background-image: url(./img/article/sub_join/join_input_title.png);background-repeat: no-repeat; background-size: 100%; margin-top: -20px;}
+        >h4{width: 122px; height:22px;  margin-top: -20px;}
                   }
 .infoBox>li{width: 150px;height: 50px;text-align: center;line-height: 1rem;font-weight: bold;font-size: 0.9rem;text-indent: 10px;}
 .infoBox>li:last-child{line-height: 40px;}
@@ -145,10 +145,10 @@ li.box_9{background-image: url(../img/article/sub_join/join_email.png); backgrou
 
 .form_question_btn{margin-left: 230px; 
     >button{width: 150px;height: 48px;
-        &:nth-child(1){background-image: url(../img/article/sub_join/join_finish.png);margin-right:100px; }
-        &:nth-child(1):hover{background-image: url(../img/article/sub_join/join_finish_hover.png);margin-right:100px;}
-        &:nth-child(2){background-image: url(../img/article/sub_join/join_reset.png); }
-        &:nth-child(2):hover{background-image: url(../img/article/sub_join/join_reset_hover.png); }
+        &:nth-child(1){background-image: url(../img/article/sub_join/join_finish.png);margin-right:100px;background-repeat: no-repeat;cursor: pointer; }
+        &:nth-child(1):hover{background-image: url(../img/article/sub_join/join_finish_hover.png);margin-right:100px;background-repeat: no-repeat;cursor: pointer;}
+        &:nth-child(2){background-image: url(../img/article/sub_join/join_reset.png);background-repeat: no-repeat;cursor: pointer; }
+        &:nth-child(2):hover{background-image: url(../img/article/sub_join/join_reset_hover.png);background-repeat: no-repeat;cursor: pointer; }
      }// button
 }// .form_question_btn
 
