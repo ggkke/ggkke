@@ -1,0 +1,505 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif; }
+
+.item {
+  margin: 3.8rem 0; }
+
+.item2 {
+  margin: 5rem 0; }
+
+html {
+  height: 100%; }
+
+#wrap {
+  width: 100%;
+  height: auto; }
+
+#wrap > div {
+  margin: 0 auto; }
+
+#menu > .menuclose_btn {
+  display: none; }
+
+/*---------header--------------*/
+#header_bgbox {
+  width: 100%;
+  height: 5.555rem;
+  background-color: #be7c7a;
+  overflow: hidden; }
+  #header_bgbox > #headerWrap {
+    width: 59.25rem;
+    height: calc(100% - 1rem);
+    padding: 1rem .375rem 0;
+    margin: 0 auto;
+    background-color: rgba(190, 124, 122, 0.2); }
+    #header_bgbox > #headerWrap > h1 {
+      width: 8rem;
+      height: 100%;
+      float: left; }
+      #header_bgbox > #headerWrap > h1 > a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-image: url("../img/header/header_logo.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position: center;
+        background-size: 100%; }
+    #header_bgbox > #headerWrap > #menu {
+      display: none; }
+    #header_bgbox > #headerWrap > #sitemap {
+      width: 14.125rem;
+      height: 0.9375rem;
+      float: right;
+      margin-bottom: 0.73rem; }
+      #header_bgbox > #headerWrap > #sitemap > ul {
+        width: 100%;
+        height: 100%;
+        margin-left: 3rem; }
+        #header_bgbox > #headerWrap > #sitemap > ul > li {
+          height: 45%;
+          float: left;
+          margin-top: -0.625rem;
+          margin-left: 0.4rem; }
+          #header_bgbox > #headerWrap > #sitemap > ul > li > a {
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            background-repeat: no-repeat; }
+        #header_bgbox > #headerWrap > #sitemap > ul .site01 {
+          width: 2.75rem;
+          height: 100%; }
+          #header_bgbox > #headerWrap > #sitemap > ul .site01 > a {
+            background-image: url(../img/header/header_login.png); }
+        #header_bgbox > #headerWrap > #sitemap > ul .site02 {
+          width: 3.75rem;
+          height: 100%; }
+          #header_bgbox > #headerWrap > #sitemap > ul .site02 > a {
+            background-image: url(../img/header/header_join.png); }
+    #header_bgbox > #headerWrap > #gnb {
+      width: 49.375rem;
+      height: 2.125rem;
+      float: right; }
+      #header_bgbox > #headerWrap > #gnb > ul {
+        width: 88%;
+        height: inherit;
+        margin-left: 7.8125rem; }
+        #header_bgbox > #headerWrap > #gnb > ul > li {
+          height: inherit;
+          margin-right: 3.2rem;
+          float: left; }
+        #header_bgbox > #headerWrap > #gnb > ul .gnb_01 {
+          width: 3.25rem;
+          height: 1.5rem; }
+          #header_bgbox > #headerWrap > #gnb > ul .gnb_01 > a {
+            width: 3rem;
+            height: 1.5rem;
+            background-image: url("../img/header/header_brand.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: all .3s; }
+            #header_bgbox > #headerWrap > #gnb > ul .gnb_01 > a:hover {
+              background-image: url("../img/header/header_brand_on.png");
+              background-position: center;
+              background-repeat: no-repeat;
+              border-bottom: 6px solid #573a2c;
+              padding-top: 20px; }
+        #header_bgbox > #headerWrap > #gnb > ul .gnb_02 {
+          width: 4.875rem;
+          height: 1.5rem; }
+          #header_bgbox > #headerWrap > #gnb > ul .gnb_02 > a {
+            width: 4.625rem;
+            height: 1.5rem;
+            background-image: url("../img/header/header_shopping.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: all .3s; }
+            #header_bgbox > #headerWrap > #gnb > ul .gnb_02 > a:hover {
+              background-image: url("../img/header/header_shopping_on.png");
+              background-position: center;
+              background-repeat: no-repeat;
+              border-bottom: 6px solid #573a2c;
+              padding-top: 20px; }
+        #header_bgbox > #headerWrap > #gnb > ul .gnb_03 {
+          width: 3.0625rem;
+          height: 1.5rem; }
+          #header_bgbox > #headerWrap > #gnb > ul .gnb_03 > a {
+            width: 2.8125rem;
+            height: 1.5rem;
+            background-image: url("../img/header/header_event.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: all .3s; }
+            #header_bgbox > #headerWrap > #gnb > ul .gnb_03 > a:hover {
+              background-image: url("../img/header/header_event_on.png");
+              background-position: center;
+              background-repeat: no-repeat;
+              border-bottom: 6px solid #573a2c;
+              padding-top: 20px; }
+        #header_bgbox > #headerWrap > #gnb > ul .gnb_04 {
+          width: 5.875rem;
+          height: 1.5rem; }
+          #header_bgbox > #headerWrap > #gnb > ul .gnb_04 > a {
+            width: 5.625rem;
+            height: 1.5rem;
+            background-image: url("../img/header/header_community.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: all .3s; }
+            #header_bgbox > #headerWrap > #gnb > ul .gnb_04 > a:hover {
+              background-image: url("../img/header/header_community_on.png");
+              background-position: center;
+              background-repeat: no-repeat;
+              border-bottom: 6px solid #573a2c;
+              padding-top: 20px; }
+        #header_bgbox > #headerWrap > #gnb > ul .gnb_05 {
+          width: 8.5rem;
+          height: 1.5rem; }
+          #header_bgbox > #headerWrap > #gnb > ul .gnb_05 > a {
+            width: 8.25rem;
+            height: 1.5rem;
+            background-image: url("../img/header/header_customer.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: all .1s; }
+            #header_bgbox > #headerWrap > #gnb > ul .gnb_05 > a:hover {
+              background-image: url("../img/header/header_customer_on.png");
+              background-position: center;
+              background-repeat: no-repeat;
+              border-bottom: 6px solid #573a2c;
+              padding-top: 20px; }
+
+/*---------article--------------*/
+#article_bg {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/article/bg.png); }
+  #article_bg #articleWrap {
+    width: 948px;
+    height: calc(100% - 1.5625vw);
+    padding-top: 0;
+    margin: 0 auto;
+    box-shadow: .03125rem 0 .125rem;
+    background-color: #fff;
+    /* ----------- 회원가입 page -------------*/ }
+    #article_bg #articleWrap > #sub_head {
+      width: calc(100% - 7.5rem);
+      height: 1.25rem;
+      background-color: rgba(228, 150, 161, 0.2);
+      padding: 1.125rem 3.75rem; }
+    #article_bg #articleWrap #join_maintitle {
+      height: 20px;
+      width: 128px;
+      background-image: url(../img/article/sub_join/join_subtitle.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      float: left;
+      margin-left: 4%; }
+    #article_bg #articleWrap #join {
+      width: 95%;
+      height: auto;
+      padding-left: 5%; }
+    #article_bg #articleWrap .join_title {
+      width: 216px;
+      height: 62px;
+      background-position: center;
+      background-image: url(../img/article/sub_join/join_title.png);
+      background-repeat: no-repeat;
+      margin-bottom: 40px;
+      background-size: 100%; }
+    #article_bg #articleWrap #SubJoinContent {
+      width: calc(900px - 8%);
+      height: 650px;
+      padding: 63px 4% 38px;
+      overflow: hidden;
+      background-image: url(../img/article/login/login_box.png);
+      background-repeat: no-repeat;
+      box-shadow: 2px 2px 15px #555;
+      margin: 0 auto;
+      margin-bottom: 100px; }
+      #article_bg #articleWrap #SubJoinContent #SubJoinContent > form > .question_form {
+        width: 90%;
+        height: 700px;
+        margin-top: 60px;
+        padding: 5%;
+        background-color: #eee; }
+      #article_bg #articleWrap #SubJoinContent ul > li > input, #article_bg #articleWrap #SubJoinContent ul > li > select {
+        margin-left: 16px;
+        margin-top: 15px;
+        box-shadow: 1px 1px 1px #777;
+        outline: 1px solid #ccc; }
+      #article_bg #articleWrap #SubJoinContent ul > li > button {
+        margin-left: 16px;
+        margin-top: 10px; }
+      #article_bg #articleWrap #SubJoinContent .question_form > .inputBox > li:nth-child(2) > input {
+        height: 25px; }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(2) > button {
+        width: 150px;
+        height: 32px;
+        background-image: url(../img/article/sub_join/join_confirm_btn.png);
+        background-repeat: no-repeat; }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(2) > button:hover {
+        width: 150px;
+        height: 32px;
+        background-image: url(../img/article/sub_join/join_confirm_hover.png); }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(3) > input {
+        width: 50%; }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(4) > input {
+        width: 50%; }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(5) > input {
+        width: 80px; }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(5) > select {
+        width: 20%; }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(6) > span {
+        width: 7px;
+        height: 13px;
+        border-bottom: 1px solid #333;
+        display: inline-block; }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(6) > button {
+        width: 150px;
+        height: 32px;
+        background-image: url(../img/article/sub_join/join_address_btn.png); }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(6) > button:hover {
+        width: 150px;
+        height: 32px;
+        background-image: url(../img/article/sub_join/join_address_hover.png); }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(7) > input {
+        width: 50%; }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(8) > input {
+        width: 20%;
+        float: left; }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(8) > select {
+        width: 20%;
+        float: left; }
+      #article_bg #articleWrap #SubJoinContent .inputBox li:nth-child(9) > input {
+        width: 25%; }
+      #article_bg #articleWrap #SubJoinContent #SubJoinContent > form > .question_form > ul > li, #article_bg #articleWrap #SubJoinContent #SubJoinContent > form > .question_form > ol > li {
+        padding-bottom: 10px; }
+      #article_bg #articleWrap #SubJoinContent .infoBox {
+        width: 100px;
+        height: 100%;
+        float: left;
+        margin-right: 10px; }
+        #article_bg #articleWrap #SubJoinContent .infoBox > h4 {
+          width: 122px;
+          height: 22px;
+          background-image: url(./img/article/sub_join/join_input_title.png);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          margin-top: -20px; }
+      #article_bg #articleWrap #SubJoinContent .infoBox > li {
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        line-height: 1rem;
+        font-weight: bold;
+        font-size: 0.9rem;
+        text-indent: 10px; }
+      #article_bg #articleWrap #SubJoinContent .infoBox > li:last-child {
+        line-height: 40px; }
+      #article_bg #articleWrap #SubJoinContent li.box_1 {
+        background-image: url(../img/article/sub_join/join_name.png);
+        background-repeat: no-repeat;
+        background-position: left; }
+      #article_bg #articleWrap #SubJoinContent li.box_2 {
+        background-image: url(../img/article/sub_join/join_id.png);
+        background-repeat: no-repeat;
+        background-position: left; }
+      #article_bg #articleWrap #SubJoinContent li.box_3 {
+        background-image: url(../img/article/sub_join/join_password.png);
+        background-repeat: no-repeat;
+        background-position: left; }
+      #article_bg #articleWrap #SubJoinContent li.box_4 {
+        background-image: url(../img/article/sub_join/join_password2.png);
+        background-repeat: no-repeat;
+        background-position: left; }
+      #article_bg #articleWrap #SubJoinContent li.box_5 {
+        background-image: url(../img/article/sub_join/join_birth.png);
+        background-repeat: no-repeat;
+        background-position: left; }
+      #article_bg #articleWrap #SubJoinContent li.box_6 {
+        background-image: url(../img/article/sub_join/join_add_numer.png);
+        background-repeat: no-repeat;
+        background-position: left; }
+      #article_bg #articleWrap #SubJoinContent li.box_7 {
+        background-image: url(../img/article/sub_join/join_address.png);
+        background-repeat: no-repeat;
+        background-position: left; }
+      #article_bg #articleWrap #SubJoinContent li.box_8 {
+        background-image: url(../img/article/sub_join/join_number.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        margin-top: 8px; }
+      #article_bg #articleWrap #SubJoinContent li.box_9 {
+        background-image: url(../img/article/sub_join/join_email.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        margin-top: 8px; }
+      #article_bg #articleWrap #SubJoinContent .inputBox {
+        width: calc(100% - 150px);
+        height: 100%;
+        float: left;
+        margin-bottom: 90px; }
+      #article_bg #articleWrap #SubJoinContent .inputBox p {
+        display: inline-block;
+        font-size: 0.775rem;
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #c0392b; }
+      #article_bg #articleWrap #SubJoinContent .inputBox > li {
+        height: 50px; }
+      #article_bg #articleWrap #SubJoinContent .inputBox > li:nth-child(8) {
+        height: 70px; }
+      #article_bg #articleWrap #SubJoinContent .inputBox > li > input, #article_bg #articleWrap #SubJoinContent .inputBox > li > select {
+        font-size: 0.875rem;
+        text-indent: 5px;
+        height: 20px;
+        float: left; }
+      #article_bg #articleWrap #SubJoinContent .inputBox > li > label {
+        font-size: 0.875rem;
+        text-indent: 5px;
+        height: 20px;
+        float: left;
+        margin-top: 18px; }
+      #article_bg #articleWrap #SubJoinContent .inputBox > li > span {
+        font-size: 0.875rem;
+        text-indent: 5px;
+        height: 20px;
+        float: left;
+        margin-left: 15px;
+        margin-top: 10px; }
+      #article_bg #articleWrap #SubJoinContent .inputBox > li:nth-child(8) > span {
+        font-size: 0.875rem;
+        text-indent: 5px;
+        width: 5px;
+        height: 20px;
+        float: left;
+        margin-left: 15px;
+        margin-top: 5px;
+        border-bottom: 1px solid #333; }
+      #article_bg #articleWrap #SubJoinContent .inputBox > li:nth-child(9) > span {
+        font-size: 0.875rem;
+        text-indent: 5px;
+        width: 5px;
+        height: 20px;
+        float: left;
+        margin: 16px 10px 0 10px; }
+      #article_bg #articleWrap #SubJoinContent #formBox > form > fieldset > ul > li > #tel_02,
+      #article_bg #articleWrap #SubJoinContent #formBox > form > fieldset > ul > li > #tel_03 {
+        margin-left: 0; }
+      #article_bg #articleWrap #SubJoinContent .form_question_btn {
+        margin-left: 230px; }
+        #article_bg #articleWrap #SubJoinContent .form_question_btn > button {
+          width: 150px;
+          height: 48px; }
+          #article_bg #articleWrap #SubJoinContent .form_question_btn > button:nth-child(1) {
+            background-image: url(../img/article/sub_join/join_finish.png);
+            margin-right: 100px; }
+          #article_bg #articleWrap #SubJoinContent .form_question_btn > button:nth-child(1):hover {
+            background-image: url(../img/article/sub_join/join_finish_hover.png);
+            margin-right: 100px; }
+          #article_bg #articleWrap #SubJoinContent .form_question_btn > button:nth-child(2) {
+            background-image: url(../img/article/sub_join/join_reset.png); }
+          #article_bg #articleWrap #SubJoinContent .form_question_btn > button:nth-child(2):hover {
+            background-image: url(../img/article/sub_join/join_reset_hover.png); }
+
+/*---------footer--------------*/
+#footerWrap_box {
+  width: 100%;
+  height: 18.5rem;
+  background-color: rgba(228, 150, 161, 0.6); }
+  #footerWrap_box > #footerWrap {
+    width: 59.25rem;
+    height: 100%;
+    margin: 0 auto; }
+    #footerWrap_box > #footerWrap > ul {
+      width: 100%;
+      height: 100%; }
+      #footerWrap_box > #footerWrap > ul > .sns {
+        width: 100%;
+        height: 5rem; }
+        #footerWrap_box > #footerWrap > ul > .sns > h3 {
+          width: 6.25rem;
+          height: 1.875rem;
+          margin: 1.875rem 1.875rem 0 31.25rem;
+          float: left;
+          background-image: url(../img/footer/sns.png);
+          background-repeat: no-repeat;
+          background-size: 90%; }
+        #footerWrap_box > #footerWrap > ul > .sns > ul {
+          width: 100%;
+          height: 100%;
+          min-height: 5rem;
+          margin-right: 1.25rem;
+          background-color: rgba(228, 150, 161, 0.2);
+          box-shadow: .03125rem .03125rem .125rem; }
+          #footerWrap_box > #footerWrap > ul > .sns > ul > li {
+            width: 25%;
+            height: 100%;
+            float: left;
+            margin-right: 0.9375rem;
+            margin-top: 1.125rem; }
+          #footerWrap_box > #footerWrap > ul > .sns > ul > .kakao {
+            width: 2.875rem;
+            height: 2.75rem;
+            background-image: url("../img/footer/icon_kakao.png"); }
+            #footerWrap_box > #footerWrap > ul > .sns > ul > .kakao:hover {
+              background-image: url(../img/footer/icon_kakao_on.png);
+              transition: .4s ease-in-out; }
+          #footerWrap_box > #footerWrap > ul > .sns > ul > .twitter {
+            width: 2.875rem;
+            height: 2.75rem;
+            background-image: url("../img/footer/icon_tw.png"); }
+            #footerWrap_box > #footerWrap > ul > .sns > ul > .twitter:hover {
+              background-image: url(../img/footer/icon_tw_on.png);
+              transition: .4s ease-in-out; }
+          #footerWrap_box > #footerWrap > ul > .sns > ul > .facebook {
+            width: 2.875rem;
+            height: 2.75rem;
+            background-image: url("../img/footer/icon_face.png"); }
+            #footerWrap_box > #footerWrap > ul > .sns > ul > .facebook:hover {
+              background-image: url(../img/footer/icon_face_on.png);
+              transition: .4s ease-in-out; }
+          #footerWrap_box > #footerWrap > ul > .sns > ul > .instagram {
+            width: 2.875rem;
+            height: 2.75rem;
+            background-image: url("../img/footer/icon_insta.png"); }
+            #footerWrap_box > #footerWrap > ul > .sns > ul > .instagram:hover {
+              background-image: url(../img/footer/icon_insta_on.png);
+              transition: .4s ease-in-out; }
+      #footerWrap_box > #footerWrap > ul > .footer_box {
+        width: 59.25rem;
+        height: 3.4375rem;
+        padding: 2.1875rem 0.025rem 1.875rem;
+        margin: 0 auto; }
+        #footerWrap_box > #footerWrap > ul > .footer_box > h3 {
+          width: 7.0625rem;
+          height: 2.8125rem;
+          float: left;
+          background-image: url(../img/footer/able_logo.png);
+          background-repeat: no-repeat; }
+        #footerWrap_box > #footerWrap > ul > .footer_box > #addBox {
+          height: 11.375rem;
+          width: 35.3125rem;
+          margin-left: 2.8125rem;
+          float: left; }
+          #footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul {
+            width: 100%;
+            height: 100%; }
+            #footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul > li {
+              margin-bottom: 1.1875rem;
+              color: #555;
+              font-size: 0.875rem; }
+              #footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul > li address > p {
+                color: #555;
+                margin-bottom: 0.2rem; }
+                #footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul > li address > p > strong {
+                  font-weight: bold;
+                  color: #555; }
+
+/*# sourceMappingURL=sub_join.css.map */
