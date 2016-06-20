@@ -89,7 +89,7 @@ html{height:100%;}
             .brand_apieu3{background-color: rgba(232,150,141,0.3);}
             
             .brand_title_img>div>dl{width: 100%; height: 100%;}
-            .brand_title_img>div>dl>dt{width:5.1vw; height: 100%; float:left;color:#fff;}
+            .brand_title_img>div>dl>dt{width:6.1rem; height: 100%; float:left;color:#fff;}
             .brand_title_img>div>dl>dd{width:0; overflow: hidden; height: 100%; float:left; transition:all 0.3s;}
             .brand_title_img>div>dl>dd.brand_img_1{background-image:url(../img/article/sub_brand/apieu_1.png);background-position: center;background-size: 100%;background-repeat: no-repeat;}
             .brand_title_img>div>dl>dd.brand_img_2{background-image:url(../img/article/sub_brand/apieu_2.png);background-position: center;background-size: 100%;background-repeat: no-repeat;}
@@ -130,16 +130,16 @@ html{height:100%;}
                 }
             }// #bs_box
 
-  /*---------etc--------------*/           
-             >#etc{width: 100%; height: 280px; }//#etc
+/*---------etc--------------*/           
+>#etc{width: 100%; height: 280px; }//#etc
             
-            /*----membership_store---------*/
+/*----membership_store---------*/
 #membership_store{height:300px;position: relative; }
 #store_box{width: 50%; height: 330px; float: left; margin-top: 1vw;   }
 #store_box>h4{width: 100%; height: 60px; background-image: url(../img/article/sub_brand/store.png); background-position: center; background-repeat: no-repeat; margin-top: 20px;margin-bottom: 30px;}
-.store{width: 350px; height: 90px; background-image: url(../img/article/sub_brand/store_img2.png); background-position: center;background-repeat: no-repeat; margin-left: 3.5vw;}
+.store{width: 350px; height: 90px; background-image: url(../img/article/sub_brand/store_img2.png); background-position: center;background-repeat: no-repeat; margin-left: 4rem;}
 
-#store_formbox{width: 310px;height: 108px;margin-left: 28vw;margin-top: 15px;margin-left: 4vw;}
+#store_formbox{width: 310px;height: 108px;margin-left: 28vw;margin-top: 15px;margin-left: 5.8rem;}
 .store1{width: 100%;height: 55px;}
 .store1>legend{width: 62px;height: 16px;margin-bottom: 8px; background-image: url(../img/article/sub_brand/store_text1.png);background-repeat: no-repeat;}
 #store_city{width: 242px;height: 22px;color: #b58756;border: 1px solid #b58756;float: left;}
@@ -152,16 +152,12 @@ html{height:100%;}
 
 #membership_box{ width: 50%; height: 330px; float: left; margin-top: 1vw;   }
 #membership_box>h4{width: 100%; height: 60px; background-image: url(../img/article/sub_brand/vipmembership_title.png); background-repeat: no-repeat; background-position: center; margin-top: 20px;margin-bottom: 30px;}
-.membership_card{width: 285px; height: 191px; background-image: url(../img/article/sub_brand/membership.png);background-repeat: no-repeat; margin-left: 5vw;}
+.membership_card{width: 285px; height: 191px; background-image: url(../img/article/sub_brand/membership.png);background-repeat: no-repeat; margin-right: 6rem;float: right;}
 .membership_card>.btn_01{width: 130px; height: 28px; margin-top: 128px; margin-left: 75px; background-image:  url("../img/article/button_1.png");background-repeat: no-repeat;background-position: center;float: left;cursor: pointer;}
-
 
 .store:hover{background-image: url(../img/article/sub_brand/store_img1.png);background-repeat: no-repeat;transition: .5s ease-in-out;}
 
-.membership_card:hover{background-image: url(../img/article/sub_brand/membership_hover.png);background-repeat: no-repeat;transition: .5s ease-in-out;  }
-            
-            
-            
+.membership_card:hover{background-image: url(../img/article/sub_brand/membership_hover.png);background-repeat: no-repeat;transition: .5s ease-in-out;  }   
         }//#articleWrap
      }//#article_bg   
 

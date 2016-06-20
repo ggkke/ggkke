@@ -1,34 +1,40 @@
 
 //pc
 @media screen and (min-width:1025px){
+
 *{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
 //*:focus{outline: 2px solid $sub2;}
 .item{margin:1.5625rem 0;}
 html{height:100%;}
 #wrap{width: 100%;height: auto;}
 #wrap>div{margin: 0 auto;}
+#menu>.menuclose_btn{display: none;}
 
-  #menu>.menuclose_btn{display: none;}
-
- /*---------header--------------*/
-    #header_bgbox{width: 100%;height:5.555rem;background-color: rgba(#BE7C7A,1);overflow: hidden;
+    /* topAdd */
+    #topAdd { width: 60vw; height: 3.5rem; background-color: #999; padding: 1rem 20vw; position: relative; }
+    #topAdd > p { width: 80%; height: 1.5rem; line-height: 1.6rem; color: #fff; font-size: 1.3rem; float: left; }
+    #topAdd > .addbox { width: 80%; height: 1.5rem; float: left;color: #faa;font-size: 1rem;margin-top: 5px;}
+    #topAdd > button { width: 60px; height: 60px; float: right; position: absolute; top: 0.5vw; right: 26vw;background-image: url(../img/header/cancel.png);background-repeat: no-repeat;background-size: 100%;background-position: center;background-color: transparent;}
+    
+     /*---------header--------------*/
+    #header_bgbox{width: 100%;height:5.555rem;background-color: rgba(#BE7C7A,1);overflow: hidden;position: relative;
         >#headerWrap{width: 59.25rem;height: calc(100% - 1rem);padding: 1rem .375rem 0;margin: 0 auto;background-color: rgba(#BE7C7A,.2);
-             >h1{width: 8rem;height: 100%;float: left;
+             >h1{width: 8rem;height: 100%;float: left;margin-top: -10px;
                 >a{width: 100%;height: 100%;display: block;background-image: url("../img/header/header_logo.png");background-repeat: no-repeat;background-position: left;background-position: center;background-size: 100%;}
             }//h1
             >#menu{display: none;}//#menu
             >#sitemap{width: 14.125rem;height: 0.9375rem;float: right;margin-bottom: 0.73rem;
-                >ul{width: 100%;height: 100%;margin-left: 1.875rem;
-                    >li{height:45%;float: left;margin-top: -0.625rem;margin-left:0.1875rem; border-right:  0.0625px solid #ccc;padding:0.3125rem 0.5rem;  
+                >ul{width: 100%;height: 100%;margin-left: 3rem;
+                    >li{height:45%;float: left;margin-top: -0.625rem;margin-left:0.4rem; 
                           >a{width: 100%;height: 100%;text-decoration: none;background-repeat: no-repeat;}
                     } //li
                     .site01{width:2.75rem;height:100%;
                         >a{background-image: url(../img/header/header_login.png);}
                     }//.site01
-                    .site02{width:3.75rem;height:100%;border-right:0;
+                    .site02{width:3.75rem;height:100%;
                          >a{background-image: url(../img/header/header_join.png);}
                     }//.site02
-                   
+                    
                 }//ul
             }//#sitemap
       >#gnb{width: 49.375rem;height: 2.125rem;float: right;
@@ -100,7 +106,7 @@ html{height:100%;}
     #article_bg{width:100%;height:auto; background-image: url(../img/article/bg.png);
         #articleWrap{width: 59.25rem;height:calc(100% - .9375rem);padding-top: .9375rem; margin: 0 auto;box-shadow: .03125rem 0 .125rem;background-color: #fff;
             >#best_item{width: 100%;height: 20.8125rem;overflow: hidden;
-                >.bestitem_title{width: 100%;height: 1.625rem;background-position: center; background-image: url(../img/article/index_title_bestitem.png);background-repeat: no-repeat;margin-bottom: 2.5rem;}
+                >.bestitem_title{width: 100%;height: 60px;background-position: center; background-image: url(../img/article/index_title_bestitem.png);background-repeat: no-repeat;margin-bottom: 2.5rem;}
                 >#best_item_image{width: 80%;height: 14.375rem;background-image: url(../img/article/bg2.png);background-position: center;box-shadow: 2px 2px 10px; margin: 0 auto;overflow: hidden;
                     >ul{width:  500%;height: 100%;
                         >li{width: calc(100% / 5);height: 100%;float: left;margin-top: 1rem;}//li
@@ -123,8 +129,8 @@ html{height:100%;}
                      >button{display: none;}
                 }//#best_item_image
             }//#best_item
-            >#movie{width: 100%;height: 20.8125rem;
-                >.movie_title{width: 100%;height: 1.625rem;background-position: center; background-image: url(../img/article/index_apieu_movie_title.png);background-repeat: no-repeat;margin-bottom: 2.5rem;}
+            >#movie{width: 100%;height: 25.8125rem;margin-top:3rem;
+                >.movie_title{width: 100%;height: 60px;background-position: center; background-image: url(../img/article/index_apieu_movie_title.png);background-repeat: no-repeat;margin-bottom: 2.5rem;}
                 >#movie_bg{width: 100%;height: 16.0625rem;padding-top: 1.125rem;background-image: url(../img/article/index_movie_bg.png);background-repeat: no-repeat;
                     >#movie_box{width: 40.125rem;height: 13.5rem;background-color: #fff;border: 0.25rem solid #645622;margin: 0 auto;padding: 0.375rem;
                         ul{width: 100%;height: 100%;
@@ -154,11 +160,11 @@ html{height:100%;}
         }
     }//.popup1
             }//#movie
-            >#etc{width: 59.875rem;height: 17.625rem;
+            >#etc{width: 59.875rem;height: 20.625rem;
                 >ul{width: 100%;height: 100%;
                     >li{float: left;margin-left: 0.9375rem;}
-                    >#news{width: 26rem;height: 17.625rem;margin-left:2.625rem;
-                        >#news_title{width: 100%;height: 1.625rem;background-position: left; background-image: url(../img/article/index_title_news.png);background-repeat: no-repeat;margin-bottom: 0.625rem;margin-left: 16px;}
+                    >#news{width: 26rem;height: 60px;margin-left:2.625rem;
+                        >#news_title{width: 100%;height: 60px;background-position: left; background-image: url(../img/article/index_title_news.png);background-repeat: no-repeat;margin-bottom: 0.625rem;margin-left: 16px;}
                         >#news_content{width: 27.8125rem;height:9.625rem;margin-left: 1rem;
                             >ul{width: 100%;height: 100%;
                                 >li{width: 50%;height: 100%;float: left;margin-top: 0.3125rem;}
