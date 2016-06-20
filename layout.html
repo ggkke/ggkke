@@ -20,10 +20,10 @@
     <script src="./js/top_btn.js"></script>
     <script src="./js/popupmovie.js"></script>
     <script src="./js/bestitem.js"></script>
-   
+     <script src="./js/topAdd.js"></script>
     <title>어퓨</title>
     <style type="text/css">
-    #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:#e8c28d !important; width: 1.2rem !important;}
+    #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:#faa !important; width: 1.2rem !important;}
 
     </style>
      <script type="text/javascript">
@@ -32,6 +32,7 @@
                 top_btn();
                 popupmovie();
                 bestitem();
+                topAdd($('#topAdd'));
          var banner = $('.banner_box_page'),
           banLi = banner.find('li'),
           banLiFirst = banner.find('li').first(),
@@ -102,15 +103,6 @@
       
       indLi = ind.find('li').eq(0);
       indLi.first().css({'display':'none'});
-   
-    // 자동움직임
-      // var timer;
-      // 일정한 시간간격을 두고 움직이는기능 : setInterval
-      //function startBtn(){ settingTime = setInterval('$(".btn_02").click()', 6000) };
-     // setInterval 취소시키는 기능: clearInterval
-      //function stopBtn(){	clearInterval( settingTime )};
-      //startBtn();
-      //$('.banner_box').on({mouseenter:stopBtn ,mouseleave:startBtn});
         
     });
     </script>
@@ -118,6 +110,15 @@
 
 <body>
   <div id="wrap">
+   <div id="topAdd">
+    <p>본 페이지는 영리를 목적으로 하지 않고, 개인 포트폴리오 제작을 위한 학습사이트 입니다.</p>
+    <div class="addbox">
+        이미지 출처 : http://apieu.beautynet.co.kr/main.do<br/>
+        이미지 출처 : http://www.flaticon.com/
+        
+    </div>
+    <button type="button" aria-label="팝업닫기"></button>
+</div><!--//#topAdd-->
   <div id="header_bgbox">
    <div class="box" id="headerWrap">
        <h1 class="me_link"><a href="layout.html"><span>어퓨</span></a></h1>
@@ -127,28 +128,15 @@
            <button class="menuclose_btn"><span class="me_hidden">닫기</span>
           </button>
            <dl>
-	            <dt>Brand</dt>
+	            <dt><a href="./sub_brand.html">Brand</a></dt>
 	       
-	            <dt>Shopping</dt>
+	            <dt><a href="./sub_shopping.html">Shopping</a></dt>
 	           
-	            <dt>Event</dt>
-	            <dd>
-                    <ul>
-	                    <li>진행중인 이벤트</li>
-	                    <li>당첨자 발표</li>
-	                </ul>
-	            </dd>
-	           
+	            <dt><a href="./sub_event.html">Event</a></dt>
 	            
-	            <dt>Community</dt>
-	            <dd>
-                    <ul>
-	                    <li>리뷰</li>
-	                    <li>뷰티팁</li>
-	                </ul>
-	            </dd>
-	           
-	            <dt>Customer Service</dt>
+	            <dt><a href="./sub_community.html">Community</a></dt>
+	            
+	            <dt><a href="./sub_customer_service.html">Customer Service</a></dt>
 	            
 	        </dl>
           
@@ -184,7 +172,6 @@
                   
               <!--</div> -->
                 <ol id="indicator_box">
-                       
                         <li class="indicator_1"></li>
                         <li class="indicator_2"></li>
                         <li class="indicator_3"></li>
