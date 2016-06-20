@@ -12,8 +12,9 @@ function story(){
     
         imgbox.html('<img>');
         imgbox.find('img').attr({'src': data_img });
+        imgbox.show(5000);
     });
-        imgbox.html("<img src='./img/article/sub_brand/brandstory_bi.png'>").css({'width': 100+'%', 'height': 'auto'});
+        imgbox.html("<img src='./img/article/sub_brand/brandstory_bi.png'>").css({'width': '100%', 'height': 'auto'});
 }
             
     
