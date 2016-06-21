@@ -9,10 +9,11 @@ html{height:100%;}
 #menu>.menuclose_btn{display: none;}
 
 /* topAdd */
-#topAdd { width: 60vw; height: 3.5rem; background-color: #999; padding: 1rem 20vw; position: relative; }
-#topAdd > p { width: 80%; height: 1.5rem; line-height: 1.6rem; color: #fff; font-size: 1.3rem; float: left; }
-#topAdd > .addbox { width: 80%; height: 1.5rem; float: left;color: #faa;font-size: 1rem;margin-top: 5px;}
-#topAdd > button { width: 60px; height: 60px; float: right; position: absolute; top: 0.5vw; right: 26vw;background-image: url(../img/header/cancel.png);background-repeat: no-repeat;background-size: 100%;background-position: center;background-color: transparent;}
+    #topAdd { width: 60vw; height: 3.8rem; background-color: #999; padding: 1rem 20vw; position: relative;}
+    #topAdd > p { width: 80%; height: 1.5rem; line-height: 1.2vw; color: #fff; font-size: 1.2vw; float: left; }
+    #topAdd > .addbox { width: 80%; height: 1.5rem; float: left;color: #faa;font-size: 0.92vw;margin-top: 5px;}
+    #topAdd > button { width: 60px; height: 60px; float: right; position: absolute; top: 0.5vw; right: 26vw;background-image: url(../img/header/cancel.png);background-repeat: no-repeat;background-size: 100%;background-position: center;background-color: transparent;}
+    
 
  /*---------header--------------*/
     #header_bgbox{width: 100%;height:5.555rem;background-color: rgba(#BE7C7A,1);overflow: hidden;position: relative;
