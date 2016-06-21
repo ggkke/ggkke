@@ -11,11 +11,11 @@ html { height: 100%; }
 #menu > .menuclose_btn { display: none; }
 
 /* topAdd */
-#topAdd { width: 60vw; height: 3.5rem; background-color: #999; padding: 1rem 20vw; position: relative; }
+#topAdd { width: 60vw; height: 3.8rem; background-color: #999; padding: 1rem 20vw; position: relative; }
 
-#topAdd > p { width: 80%; height: 1.5rem; line-height: 1.6rem; color: #fff; font-size: 1.3rem; float: left; }
+#topAdd > p { width: 80%; height: 1.5rem; line-height: 1.2vw; color: #fff; font-size: 1.2vw; float: left; }
 
-#topAdd > .addbox { width: 80%; height: 1.5rem; float: left; color: #faa; font-size: 1rem; margin-top: 5px; }
+#topAdd > .addbox { width: 80%; height: 1.5rem; float: left; color: #faa; font-size: 0.92vw; margin-top: 5px; }
 
 #topAdd > button { width: 60px; height: 60px; float: right; position: absolute; top: 0.5vw; right: 26vw; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 100%; background-position: center; background-color: transparent; }
 
@@ -158,9 +158,9 @@ html { height: 100%; }
   #wrap > div { margin: 0 auto; }
   #menu > .menuclose_btn { display: none; }
   /* topAdd */
-  #topAdd { width: 60vw; height: 3.5rem; background-color: #999; padding: 1rem 20vw; position: relative; }
-  #topAdd > p { width: 80%; height: 1.5rem; line-height: 1.6rem; color: #fff; font-size: 1.3rem; float: left; }
-  #topAdd > .addbox { width: 80%; height: 1.5rem; float: left; color: #faa; font-size: 1rem; margin-top: 5px; }
+  #topAdd { width: 60vw; height: 3.8rem; background-color: #999; padding: 1rem 20vw; position: relative; }
+  #topAdd > p { width: 80%; height: 1.5rem; line-height: 1.2vw; color: #fff; font-size: 1.2vw; float: left; }
+  #topAdd > .addbox { width: 80%; height: 1.5rem; float: left; color: #faa; font-size: 0.92vw; margin-top: 5px; }
   #topAdd > button { width: 60px; height: 60px; float: right; position: absolute; top: 0.5vw; right: 26vw; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 100%; background-position: center; background-color: transparent; }
   /*---------header--------------*/
   #header_bgbox { width: 100%; height: 5.555rem; background-color: #be7c7a; overflow: hidden; position: relative; }
@@ -298,8 +298,8 @@ html { height: 100%; }
   #menu > .menuclose_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; float: right; top: 60px; right: 15px; cursor: pointer; background-color: transparent; position: absolute; margin-top: -36px; }
   /* topAdd */
   #topAdd { width: 60vw; height: 3.5rem; background-color: #999; padding: 1rem 20vw; position: relative; }
-  #topAdd > p { width: 100%; height: 1.5rem; line-height: 1.6rem; color: #fff; font-size: 1rem; float: left; }
-  #topAdd > .addbox { width: 80%; height: 1.5rem; float: left; color: #faa; font-size: 0.875rem; margin-top: 5px; }
+  #topAdd > p { width: 100%; height: 1.5rem; line-height: 1.6vw; color: #fff; font-size: 1.6vw; float: left; }
+  #topAdd > .addbox { width: 80%; height: 1.5rem; float: left; color: #faa; font-size: 1.5vw; margin-top: 5px; }
   #topAdd > button { width: 40px; height: 40px; float: right; position: absolute; top: 2vw; right: 4.2vw; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 100%; background-position: center; background-color: transparent; }
   /*---------header--------------*/
   #header_bgbox { width: 100%; height: 5.555rem; background-color: #be7c7a; overflow: visible; position: relative; }
@@ -436,8 +436,8 @@ html { height: 100%; }
   #menu > .menuclose_btn { width: 48px; height: 2.4rem; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 80%; margin-top: 0.325rem; float: right; top: 7.5vw; right: 2vw; cursor: pointer; background-color: transparent; position: absolute; margin-top: -36px; }
   /* topAdd */
   #topAdd { width: 84vw; height: 3.5rem; background-color: #999; padding: 1rem 8vw; position: relative; }
-  #topAdd > p { width: 100%; height: 1.5rem; line-height: 1.6rem; color: #fff; font-size: 1rem; float: left; }
-  #topAdd > .addbox { width: 80%; height: 1.5rem; float: left; color: #faa; font-size: 0.875rem; margin-top: 5px; }
+  #topAdd > p { width: 100%; height: 1.5rem; line-height: 2.1vw; color: #fff; font-size: 2.1vw; float: left; }
+  #topAdd > .addbox { width: 80%; height: 1.5rem; float: left; color: #faa; font-size: 2vw; margin-top: 5px; }
   #topAdd > button { width: 40px; height: 40px; float: right; position: absolute; top: 2vw; right: 5vw; background-image: url(../img/header/cancel.png); background-repeat: no-repeat; background-size: 100%; background-position: center; background-color: transparent; }
   /*---------header--------------*/
   #header_bgbox { width: 100%; height: 5.555rem; background-color: #be7c7a; overflow: visible; position: relative; }
