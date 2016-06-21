@@ -6,7 +6,7 @@
 //*:focus{outline: 2px solid $sub2;}
 .item{margin:1.5625rem 0;}
 html{height:100%;}
-#wrap{width: 100%;height: auto;}
+#wrap{width: 100%;height: auto;overflow-x: hidden;}
 #wrap>div{margin: 0 auto;}
 
    #menu>.menuclose_btn{width: 48px;height:2.4rem;background-image: url(../img/header/cancel.png);background-repeat: no-repeat;background-size: 80%;margin-top: 0.325rem;float: right;top: 60px; right: 15px;   cursor: pointer;background-color: transparent;position: absolute;margin-top: -36px;}
