@@ -9,7 +9,7 @@ html{height:100%;}
 
   #menu>.menuclose_btn{display: none;}
   /*---------header--------------*/
-    #header_bgbox{width: 950px;height:5.555rem;background-color: rgba(#BE7C7A,1);overflow-x: hidden;
+    #header_bgbox{width: 100%;min-width: 60rem; height:5.555rem;background-color: rgba(#BE7C7A,1);overflow-x: hidden;
         >#headerWrap{width: 938px;height: calc(100% - 1rem);padding: 1rem .375rem 0;margin: 0 auto;background-color: rgba(#BE7C7A,.2);
              >h1{width: 8rem;height: 100%;float: left;margin-top: -10px;
                 >a{width: 100%;height: 100%;display: block;background-image: url("../img/header/header_logo.png");background-repeat: no-repeat;background-position: left;background-position: center;background-size: 100%;}
@@ -123,9 +123,7 @@ li.box_6{background-image: url(../img/article/sub_join/join_add_numer.png); back
 li.box_7{background-image: url(../img/article/sub_join/join_address.png); background-repeat:no-repeat;background-position: left;} 
 li.box_8{background-image: url(../img/article/sub_join/join_number.png); background-repeat:no-repeat;background-position: left; margin-top: 8px;} 
 li.box_9{background-image: url(../img/article/sub_join/join_email.png); background-repeat:no-repeat;background-position: left; margin-top: 8px;} 
-                
-                
-                
+                              
 .inputBox{width: calc(100% - 150px); height: 100%;float: left;margin-bottom: 90px;}
 .inputBox p{display: inline-block;font-size: 0.775rem; float: left; margin-left: 10px;margin-top: 10px; color:#c0392b;}
 .inputBox>li{height: 50px;}
@@ -136,12 +134,8 @@ li.box_9{background-image: url(../img/article/sub_join/join_email.png); backgrou
 .inputBox>li:nth-child(8)>span{font-size: 0.875rem;text-indent: 5px;width: 5px;height: 20px; float:left; margin-left: 15px; margin-top: 5px; border-bottom: 1px solid #333;}
 .inputBox>li:nth-child(9)>span{font-size: 0.875rem;text-indent: 5px;width: 5px;height: 20px; float:left; margin: 16px 10px 0 10px;}
 
-
-                           
 #formBox>form>fieldset>ul>li>#tel_02,
 #formBox>form>fieldset>ul>li>#tel_03{margin-left: 0;}
-
-
 
 .form_question_btn{margin-left: 230px; 
     >button{width: 150px;height: 48px;
@@ -151,15 +145,11 @@ li.box_9{background-image: url(../img/article/sub_join/join_email.png); backgrou
         &:nth-child(2):hover{background-image: url(../img/article/sub_join/join_reset_hover.png);background-repeat: no-repeat;cursor: pointer; }
      }// button
 }// .form_question_btn
-
-
-
-
                 
             }}}
 
   /*---------footer--------------*/
-    #footerWrap_box{width:950px;height:18.5rem;background-color: rgba(#e496a1,.6);
+    #footerWrap_box{width: 100%;min-width: 60rem; height:18.5rem;background-color: rgba(#e496a1,.6);
         >#footerWrap{width:938px;height:100%;margin: 0 auto;
             >ul{width: 100%;height: 100%;
              >.sns{width:100%;height:5rem;

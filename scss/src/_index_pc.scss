@@ -1,22 +1,23 @@
 
 //pc
 @media screen and (min-width:1025px){
-
 *{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
 //*:focus{outline: 2px solid $sub2;}
 .item{margin:1.5625rem 0;}
 html{height:100%;}
 #wrap{width: 100%;height: auto;overflow-x: hidden; }
 #wrap>div{margin: 0 auto;}
+
 #menu>.menuclose_btn{display: none;}
 
-    /* topAdd */
+/* topAdd */
     #topAdd { width: 60vw; height: 3.8rem; background-color: #999; padding: 1rem 20vw; position: relative;}
     #topAdd > p { width: 80%; height: 1.5rem; line-height: 1.2vw; color: #fff; font-size: 1.2vw; float: left; }
     #topAdd > .addbox { width: 80%; height: 1.5rem; float: left;color: #faa;font-size: 0.92vw;margin-top: 5px;}
     #topAdd > button { width: 60px; height: 60px; float: right; position: absolute; top: 0.5vw; right: 26vw;background-image: url(../img/header/cancel.png);background-repeat: no-repeat;background-size: 100%;background-position: center;background-color: transparent;}
     
-     /*---------header--------------*/
+
+ /*---------header--------------*/
     #header_bgbox{width: 100%;height:5.555rem;background-color: rgba(#BE7C7A,1);overflow: hidden;position: relative;
         >#headerWrap{width: 59.25rem;height: calc(100% - 1rem);padding: 1rem .375rem 0;margin: 0 auto;background-color: rgba(#BE7C7A,.2);
              >h1{width: 8rem;height: 100%;float: left;margin-top: -10px;
@@ -151,7 +152,7 @@ html{height:100%;}
                     }//#movie_box
                 }//#movie_bg
                  >.popup1{width: 100%;height: 100%;background-color: rgba(#333,0.5);position: fixed;z-index: 500;top: 0;left: 0;display: none;
-                .popupBox{width: 60%;height: auto;background-color:transparent;border: 3px solid  $sub;position: absolute;left: 20%;top: 20%;border-radius: 10px;box-sizing: border-box;box-shadow: 1px 1px 1px #333;
+                .popupBox{width: 60%;height: auto;background-color: transparent;border: 3px solid  $sub;position: absolute;left: 20%;top: 20%;border-radius: 10px;box-sizing: border-box;box-shadow: 1px 1px 1px #333;
                 >iframe{width: 100%;height:30vw;}
         
                 }//.popupBox
