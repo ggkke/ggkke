@@ -12,8 +12,8 @@ html { height: 100%; }
 #menu > .menuclose_btn { display: none; }
 
 /*---------header--------------*/
-#header_bgbox { width: 100%; height: 5.555rem; background-color: #be7c7a; overflow: hidden; }
-#header_bgbox > #headerWrap { width: 59.25rem; height: calc(100% - 1rem); padding: 1rem .375rem 0; margin: 0 auto; background-color: rgba(190, 124, 122, 0.2); }
+#header_bgbox { width: 100%; min-width: 60rem; height: 5.555rem; background-color: #be7c7a; overflow-x: hidden; }
+#header_bgbox > #headerWrap { width: 938px; height: calc(100% - 1rem); padding: 1rem .375rem 0; margin: 0 auto; background-color: rgba(190, 124, 122, 0.2); }
 #header_bgbox > #headerWrap > h1 { width: 8rem; height: 100%; float: left; margin-top: -10px; }
 #header_bgbox > #headerWrap > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/header/header_logo.png"); background-repeat: no-repeat; background-position: left; background-position: center; background-size: 100%; }
 #header_bgbox > #headerWrap > #menu { display: none; }
@@ -76,8 +76,8 @@ html { height: 100%; }
 #article_bg #articleWrap #announce_table > .conBox .page_num > a { text-decoration: none; color: #b58756; font-weight: bold; }
 
 /*---------footer--------------*/
-#footerWrap_box { width: 100%; height: 18.5rem; background-color: rgba(228, 150, 161, 0.6); }
-#footerWrap_box > #footerWrap { width: 59.25rem; height: 100%; margin: 0 auto; }
+#footerWrap_box { width: 100%; min-width: 60rem; height: 18.5rem; background-color: rgba(228, 150, 161, 0.6); }
+#footerWrap_box > #footerWrap { width: 938px; height: 100%; margin: 0 auto; }
 #footerWrap_box > #footerWrap > ul { width: 100%; height: 100%; }
 #footerWrap_box > #footerWrap > ul > .sns { width: 100%; height: 5rem; }
 #footerWrap_box > #footerWrap > ul > .sns > h3 { width: 6.25rem; height: 1.875rem; margin: 1.875rem 1.875rem 0 31.25rem; float: left; background-image: url(../img/footer/sns.png); background-repeat: no-repeat; background-size: 90%; }
@@ -98,5 +98,14 @@ html { height: 100%; }
 #footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul > li { margin-bottom: 1.1875rem; color: #555; font-size: 0.875rem; }
 #footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul > li address > p { color: #555; margin-bottom: 0.2rem; }
 #footerWrap_box > #footerWrap > ul > .footer_box > #addBox > ul > li address > p > strong { font-weight: bold; color: #555; }
+
+/*
+@import "./src/_sub_event2_pc.scss";
+@import "./src/_sub_event2_tab_h.scss";
+@import "./src/_sub_event2_tab_v.scss";
+@import "./src/_sub_event2_mob_h.scss";
+@import "./src/_sub_event2_mob_v.scss";
+
+*/
 
 /*# sourceMappingURL=sub_event2.css.map */
