@@ -14,7 +14,7 @@ html { height: 100%; }
 #menu > .menuclose_btn { display: none; }
 
 /*---------header--------------*/
-#header_bgbox { width: 100%; min-width: 60rem; height: 5.555rem; background-color: #be7c7a; overflow-x: hidden; }
+#header_bgbox { width: 100%; min-width: 60rem; height: 5.555rem; background-color: #be7c7a; overflow: hidden; }
 #header_bgbox > #headerWrap { width: 938px; height: calc(100% - 1rem); padding: 1rem .375rem 0; margin: 0 auto; background-color: rgba(190, 124, 122, 0.2); }
 #header_bgbox > #headerWrap > h1 { width: 8rem; height: 100%; float: left; margin-top: -10px; }
 #header_bgbox > #headerWrap > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/header/header_logo.png"); background-repeat: no-repeat; background-position: left; background-position: center; background-size: 100%; }
